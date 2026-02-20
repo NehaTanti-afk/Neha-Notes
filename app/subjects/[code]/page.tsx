@@ -214,9 +214,6 @@ function PaperRow({
               <Badge variant="outline" className="text-xs">
                 {paper.year}
               </Badge>
-              <Badge className="text-xs bg-green-100 text-green-800 border-green-200">
-                FREE
-              </Badge>
             </div>
             <CardTitle className="text-base leading-snug">{paper.title}</CardTitle>
           </div>
