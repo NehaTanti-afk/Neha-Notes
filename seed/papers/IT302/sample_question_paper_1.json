@@ -1,0 +1,636 @@
+{
+  "subject_code": "IT302",
+  "title": "Sample Question Paper 1",
+  "type": "end_sem",
+  "year": "2025-26",
+  "metadata": {
+    "difficulty": "medium",
+    "modules_covered": [
+      "Module 1",
+      "Module 2",
+      "Module 3",
+      "Module 4",
+      "Module 5",
+      "Module 6"
+    ]
+  },
+  "questions": {
+    "A1": {
+      "group": "A",
+      "number": "A1",
+      "text": "What is the decimal value of $2^{-1}$?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.25"
+        },
+        {
+          "key": "b",
+          "text": "0.05"
+        },
+        {
+          "key": "c",
+          "text": "0.5"
+        },
+        {
+          "key": "d",
+          "text": "0.1"
+        }
+      ],
+      "is_preview": true
+    },
+    "A2": {
+      "group": "A",
+      "number": "A2",
+      "text": "Which logic family uses bipolar junction transistors (BJTs) to construct gates?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "CMOS"
+        },
+        {
+          "key": "b",
+          "text": "TTL"
+        },
+        {
+          "key": "c",
+          "text": "ECL"
+        },
+        {
+          "key": "d",
+          "text": "BiCMOS"
+        }
+      ]
+    },
+    "A3": {
+      "group": "A",
+      "number": "A3",
+      "text": "Which of the following is a combinational circuit?",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Flip-flop"
+        },
+        {
+          "key": "b",
+          "text": "Multiplexer"
+        },
+        {
+          "key": "c",
+          "text": "Counter"
+        },
+        {
+          "key": "d",
+          "text": "Register"
+        }
+      ]
+    },
+    "A4": {
+      "group": "A",
+      "number": "A4",
+      "text": "If both inputs of an S-R flip-flop are low, what will happen when the clock goes HIGH?",
+      "marks": 1,
+      "co": "CO4",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "An invalid state will exist"
+        },
+        {
+          "key": "b",
+          "text": "No change will occur in the output"
+        },
+        {
+          "key": "c",
+          "text": "The output will toggle"
+        },
+        {
+          "key": "d",
+          "text": "The output will reset"
+        }
+      ]
+    },
+    "A5": {
+      "group": "A",
+      "number": "A5",
+      "text": "When both inputs of a J-K flip-flop are HIGH, the output will:",
+      "marks": 1,
+      "co": "CO4",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Be invalid"
+        },
+        {
+          "key": "b",
+          "text": "Change to SET"
+        },
+        {
+          "key": "c",
+          "text": "Not change"
+        },
+        {
+          "key": "d",
+          "text": "Toggle"
+        }
+      ]
+    },
+    "A6": {
+      "group": "A",
+      "number": "A6",
+      "text": "How many inputs are required for a 1-of-16 decoder?",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "2"
+        },
+        {
+          "key": "b",
+          "text": "16"
+        },
+        {
+          "key": "c",
+          "text": "8"
+        },
+        {
+          "key": "d",
+          "text": "4"
+        }
+      ]
+    },
+    "A7": {
+      "group": "A",
+      "number": "A7",
+      "text": "The Gray code representation of binary $1010$ is:",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "1100"
+        },
+        {
+          "key": "b",
+          "text": "1111"
+        },
+        {
+          "key": "c",
+          "text": "1011"
+        },
+        {
+          "key": "d",
+          "text": "1110"
+        }
+      ]
+    },
+    "A8": {
+      "group": "A",
+      "number": "A8",
+      "text": "What is the decimal equivalent of the binary number $1101$?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "12"
+        },
+        {
+          "key": "b",
+          "text": "13"
+        },
+        {
+          "key": "c",
+          "text": "14"
+        },
+        {
+          "key": "d",
+          "text": "15"
+        }
+      ]
+    },
+    "A9": {
+      "group": "A",
+      "number": "A9",
+      "text": "The 1's complement of the binary number $10011001$ is:",
+      "marks": 1,
+      "co": "CO3",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "01100110"
+        },
+        {
+          "key": "b",
+          "text": "01100111"
+        },
+        {
+          "key": "c",
+          "text": "11111111"
+        },
+        {
+          "key": "d",
+          "text": "01101000"
+        }
+      ]
+    },
+    "A10": {
+      "group": "A",
+      "number": "A10",
+      "text": "Which class of amplifier provides the highest efficiency?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Class A"
+        },
+        {
+          "key": "b",
+          "text": "Class B"
+        },
+        {
+          "key": "c",
+          "text": "Class AB"
+        },
+        {
+          "key": "d",
+          "text": "Class C"
+        }
+      ]
+    },
+    "A11": {
+      "group": "A",
+      "number": "A11",
+      "text": "The basic building block of a Digital-to-Analog Converter (DAC) is:",
+      "marks": 1,
+      "co": "CO3",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "R-2R Ladder"
+        },
+        {
+          "key": "b",
+          "text": "Flash ADC"
+        },
+        {
+          "key": "c",
+          "text": "Successive Approximation ADC"
+        },
+        {
+          "key": "d",
+          "text": "Sample and Hold Circuit"
+        }
+      ]
+    },
+    "A12": {
+      "group": "A",
+      "number": "A12",
+      "text": "A 4-bit ring counter will have how many states?",
+      "marks": 1,
+      "co": "CO4",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "2"
+        },
+        {
+          "key": "b",
+          "text": "4"
+        },
+        {
+          "key": "c",
+          "text": "8"
+        },
+        {
+          "key": "d",
+          "text": "16"
+        }
+      ]
+    },
+    "B1": {
+      "group": "B",
+      "number": "B1",
+      "text": "Implement $F(A,B,C,D) = \\sum m(0,1,3,4,8,9,15)$ using an 8:1 Multiplexer.",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L3",
+      "is_preview": true
+    },
+    "B2": {
+      "group": "B",
+      "number": "B2",
+      "text": "(a) Write down the differences between Combinational Circuit and Sequential Circuit.\n(b) Draw a single-bit Comparator circuit with truth table.",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L3"
+    },
+    "B3": {
+      "group": "B",
+      "number": "B3",
+      "text": "Explain a Class A amplifier with circuit diagram description.",
+      "marks": 5,
+      "co": "CO3",
+      "bl": "L2"
+    },
+    "B4": {
+      "group": "B",
+      "number": "B4",
+      "text": "Explain the concept of a demultiplexer and its function in digital circuits.",
+      "marks": 5,
+      "co": "CO4",
+      "bl": "L2"
+    },
+    "B5": {
+      "group": "B",
+      "number": "B5",
+      "text": "Explain De Morgan's laws and simplify: $Y = \\overline{A \\cdot B} + \\overline{\\bar{A} + \\bar{B}}$",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "C1": {
+      "group": "C",
+      "number": "C1",
+      "text": "(a) What is parity bit? Explain operation of even and odd parity generator and checker circuit. [5]\n(b) Explain the CMOS inverter circuit with its operation. [5]\n(c) A data stream 1011 has entered in a SISO register. Draw the output waveform of the register with input sequences. [5]",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L2",
+      "is_preview": true
+    },
+    "C2": {
+      "group": "C",
+      "number": "C2",
+      "text": "(a) Realize a full adder using two half adders and an OR gate. [5]\n(b) Design a 4-bit Gray to Binary and Binary to Gray code converter. [5]\n(c) Design and evaluate a 5-to-32 decoder using 3-to-8 decoders and a 2-to-4 decoder. [5]",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L3"
+    },
+    "C3": {
+      "group": "C",
+      "number": "C3",
+      "text": "(a) Explain the working principle of Successive Approximation Type ADC. [7]\n(b) Explain the working principle of R-2R ladder type DAC. [8]",
+      "marks": 15,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "C4": {
+      "group": "C",
+      "number": "C4",
+      "text": "(a) Explain the need of a priority encoder circuit. [3]\n(b) Simplify using Boolean algebra: [6]\n  (i) $\\bar{A}BC + A\\bar{B}C + AB\\bar{C} + ABC$\n  (ii) $AB + \\bar{A}C + A\\bar{B}C(AB + C)$\n(c) Realize the function using K-Map: $F(A,B,C,D) = \\sum m(0,1,2,3,4,5) + d(10,11,12,13,14,15)$ [6]",
+      "marks": 15,
+      "co": "CO1",
+      "bl": "L3"
+    },
+    "C5": {
+      "group": "C",
+      "number": "C5",
+      "text": "(a) Draw the state diagram of J-K flip-flop and write down its characteristic equation. Also write the excitation table of J-K flip-flop. [7]\n(b) Explain the operation of a 3-bit asynchronous (ripple) counter with its timing diagram. [8]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L3"
+    }
+  },
+  "answers": {
+    "A1": {
+      "question_number": "A1",
+      "correct_option": "c",
+      "solution": "$2^{-1}$ means $\\frac{1}{2^1} = \\frac{1}{2} = 0.5$.\n\nIn positional number systems, $2^{-1}$ represents the weight of the first bit after the binary point. This is a fundamental concept in binary number representation.\n\n- Option (a) 0.25 = $2^{-2}$ — incorrect\n- Option (b) 0.05 — not a power of 2\n- Option (c) **0.5 = $2^{-1}$** — correct\n- Option (d) 0.1 — not a power of 2",
+      "key_points": [
+        "$2^{-1} = 0.5$",
+        "Represents the weight of the first fractional binary digit"
+      ]
+    },
+    "A2": {
+      "question_number": "A2",
+      "correct_option": "b",
+      "solution": "**TTL (Transistor-Transistor Logic)** uses bipolar junction transistors as the primary switching elements for constructing logic gates.\n\n- **CMOS** uses MOSFETs (both PMOS and NMOS)\n- **TTL** uses BJTs — **correct answer**\n- **ECL** also uses BJTs but operates in non-saturating mode for high speed\n- **BiCMOS** combines both BJTs and MOSFETs\n\nWhile ECL also uses BJTs, TTL is the classic and most commonly referenced BJT-based logic family. The question specifically asks about the family that \"uses BJTs to construct gates,\" which is TTL.",
+      "key_points": [
+        "TTL uses bipolar junction transistors",
+        "CMOS uses MOSFETs",
+        "ECL also uses BJTs but in non-saturating mode"
+      ]
+    },
+    "A3": {
+      "question_number": "A3",
+      "correct_option": "b",
+      "solution": "A **combinational circuit** is one whose output depends only on the present inputs, with no memory or feedback.\n\n- **Flip-flop** — Sequential (stores state) ✗\n- **Multiplexer** — Combinational (selects one of many inputs based on select lines) ✓\n- **Counter** — Sequential (counts pulses, has memory) ✗\n- **Register** — Sequential (stores data using flip-flops) ✗\n\nA multiplexer is a pure combinational circuit: its output is determined entirely by the current values of data inputs and select lines.",
+      "key_points": [
+        "Multiplexer is a combinational circuit",
+        "Flip-flops, counters, and registers are sequential circuits",
+        "Combinational circuits have no memory"
+      ]
+    },
+    "A4": {
+      "question_number": "A4",
+      "correct_option": "b",
+      "solution": "In an S-R flip-flop, when $S = 0$ and $R = 0$:\n\n| S | R | $Q_{n+1}$ | State |\n|---|---|-----------|-------|\n| 0 | 0 | $Q_n$ | No change |\n| 0 | 1 | 0 | Reset |\n| 1 | 0 | 1 | Set |\n| 1 | 1 | Invalid | Not allowed |\n\nWhen both inputs are low ($S = 0, R = 0$), the flip-flop retains its previous state — **no change** occurs in the output regardless of the clock transition.",
+      "key_points": [
+        "S=0, R=0 means no change in SR flip-flop",
+        "S=1, R=1 is the invalid/forbidden state",
+        "Output retains previous value"
+      ]
+    },
+    "A5": {
+      "question_number": "A5",
+      "correct_option": "d",
+      "solution": "The J-K flip-flop resolves the invalid state problem of the S-R flip-flop. When $J = 1$ and $K = 1$, the output **toggles** (complemented).\n\n| J | K | $Q_{n+1}$ | State |\n|---|---|-----------|-------|\n| 0 | 0 | $Q_n$ | No change |\n| 0 | 1 | 0 | Reset |\n| 1 | 0 | 1 | Set |\n| 1 | 1 | $\\overline{Q_n}$ | Toggle |\n\nThis is the key advantage of J-K flip-flop over S-R flip-flop — it has no invalid state.",
+      "key_points": [
+        "J=1, K=1 causes toggle in JK flip-flop",
+        "JK flip-flop eliminates the invalid state of SR flip-flop",
+        "Toggle means output is complemented"
+      ]
+    },
+    "A6": {
+      "question_number": "A6",
+      "correct_option": "d",
+      "solution": "A decoder with $n$ input lines produces $2^n$ output lines. For a 1-of-16 decoder:\n\n$$2^n = 16 \\implies n = \\log_2 16 = 4$$\n\nSo **4 inputs** are required to select one of 16 outputs.\n\nGeneral rule: An $n$-to-$2^n$ decoder needs $n$ input lines.",
+      "key_points": [
+        "1-of-16 decoder requires 4 inputs",
+        "Formula: $n = \\log_2(\\text{outputs})$",
+        "A decoder converts binary input to one active output"
+      ]
+    },
+    "A7": {
+      "question_number": "A7",
+      "correct_option": "b",
+      "solution": "**Binary to Gray code conversion rule:** The MSB remains the same; each subsequent Gray bit is the XOR of the current and previous binary bits.\n\nBinary: $1 \\quad 0 \\quad 1 \\quad 0$\n\n- $G_3 = B_3 = 1$\n- $G_2 = B_3 \\oplus B_2 = 1 \\oplus 0 = 1$\n- $G_1 = B_2 \\oplus B_1 = 0 \\oplus 1 = 1$\n- $G_0 = B_1 \\oplus B_0 = 1 \\oplus 0 = 1$\n\nGray code: **$1111$**",
+      "key_points": [
+        "MSB of Gray = MSB of Binary",
+        "Each subsequent Gray bit = XOR of adjacent binary bits",
+        "Binary 1010 = Gray 1111"
+      ]
+    },
+    "A8": {
+      "question_number": "A8",
+      "correct_option": "b",
+      "solution": "Converting binary $1101_2$ to decimal:\n\n$$1 \\times 2^3 + 1 \\times 2^2 + 0 \\times 2^1 + 1 \\times 2^0 = 8 + 4 + 0 + 1 = 13_{10}$$\n\n**Result: $(1101)_2 = (13)_{10}$**",
+      "key_points": [
+        "Binary to decimal uses positional weights $2^n$",
+        "$(1101)_2 = 8 + 4 + 0 + 1 = 13$"
+      ]
+    },
+    "A9": {
+      "question_number": "A9",
+      "correct_option": "a",
+      "solution": "The **1's complement** is obtained by inverting (flipping) every bit:\n\n$$10011001 \\rightarrow 01100110$$\n\n- Each 1 becomes 0 and each 0 becomes 1\n- Option (a) $01100110$ — correct (bitwise inversion)\n- Option (b) $01100111$ — this is the 2's complement (1's complement + 1)\n- Option (c) $11111111$ — all ones, incorrect\n- Option (d) $01101000$ — incorrect",
+      "key_points": [
+        "1's complement = flip all bits",
+        "2's complement = 1's complement + 1",
+        "1's complement of 10011001 is 01100110"
+      ]
+    },
+    "A10": {
+      "question_number": "A10",
+      "correct_option": "d",
+      "solution": "**Amplifier efficiency comparison:**\n\n| Class | Conduction Angle | Max Efficiency |\n|-------|-----------------|----------------|\n| A | 360° | 25% (direct) / 50% (transformer) |\n| B | 180° | 78.5% |\n| AB | 180°–360° | 50%–78.5% |\n| C | < 180° | Up to ~90% |\n\n**Class C** amplifier provides the highest efficiency (up to ~90%) because the transistor conducts for less than 180° of the input cycle, minimizing power dissipation. However, it produces significant distortion and is used primarily in RF applications with tuned circuits.",
+      "key_points": [
+        "Class C has highest efficiency (up to ~90%)",
+        "Class A has lowest efficiency (~25-50%)",
+        "Higher efficiency comes at the cost of more distortion"
+      ]
+    },
+    "A11": {
+      "question_number": "A11",
+      "correct_option": "a",
+      "solution": "The **R-2R Ladder** network is the fundamental building block of a DAC. It uses only two resistor values ($R$ and $2R$) to produce a weighted analog output from digital input bits.\n\n- **R-2R Ladder** — basic DAC building block ✓\n- **Flash ADC** — a type of ADC (not DAC)\n- **Successive Approximation ADC** — a type of ADC (not DAC)\n- **Sample and Hold Circuit** — used in ADC front-end\n\nThe R-2R ladder is preferred because it requires only two precision resistor values regardless of the number of bits.",
+      "key_points": [
+        "R-2R Ladder is the basic DAC building block",
+        "Uses only two resistor values: R and 2R",
+        "Flash and Successive Approximation are ADC types, not DAC"
+      ]
+    },
+    "A12": {
+      "question_number": "A12",
+      "correct_option": "b",
+      "solution": "A **ring counter** with $n$ flip-flops has exactly $n$ states (not $2^n$). This is because only one flip-flop is in the SET state at any time, and this '1' circulates through all positions.\n\nFor a 4-bit ring counter:\n- States: $1000 \\to 0100 \\to 0010 \\to 0001 \\to 1000 \\to \\ldots$\n- Number of states = **4**\n\nCompare: A 4-bit Johnson (twisted ring) counter has $2n = 8$ states, and a normal 4-bit binary counter has $2^4 = 16$ states.",
+      "key_points": [
+        "Ring counter with n bits has n states",
+        "Only one flip-flop is SET at a time",
+        "Johnson counter has 2n states, binary counter has $2^n$ states"
+      ]
+    },
+    "B1": {
+      "question_number": "B1",
+      "solution": "To implement a 4-variable function using an 8:1 MUX, we take $A$, $B$, $C$ as select lines ($S_2, S_1, S_0$) and express each minterm in terms of $D$.\n\n**Step 1: Create the truth table grouped by $A$, $B$, $C$:**\n\n| $A$ | $B$ | $C$ | Minterms | $D=0$ | $D=1$ | MUX Input |\n|-----|-----|-----|----------|-------|-------|-----------|\n| 0 | 0 | 0 | $m_0, m_1$ | 1 | 1 | 1 |\n| 0 | 0 | 1 | $m_2, m_3$ | 0 | 1 | $D$ |\n| 0 | 1 | 0 | $m_4, m_5$ | 1 | 0 | $\\bar{D}$ |\n| 0 | 1 | 1 | $m_6, m_7$ | 0 | 0 | 0 |\n| 1 | 0 | 0 | $m_8, m_9$ | 1 | 1 | 1 |\n| 1 | 0 | 1 | $m_{10}, m_{11}$ | 0 | 0 | 0 |\n| 1 | 1 | 0 | $m_{12}, m_{13}$ | 0 | 0 | 0 |\n| 1 | 1 | 1 | $m_{14}, m_{15}$ | 0 | 1 | $D$ |\n\n**Step 2: MUX connections:**\n- $S_2 = A$, $S_1 = B$, $S_0 = C$\n- $I_0 = 1$, $I_1 = D$, $I_2 = \\bar{D}$, $I_3 = 0$\n- $I_4 = 1$, $I_5 = 0$, $I_6 = 0$, $I_7 = D$\n\nConnect these inputs to the corresponding data lines of the 8:1 MUX to realize the function.",
+      "key_points": [
+        "Use A, B, C as select lines for 8:1 MUX",
+        "Group minterms by select line combinations",
+        "Express each input as 0, 1, D, or D-bar",
+        "I0=1, I1=D, I2=D̄, I3=0, I4=1, I5=0, I6=0, I7=D"
+      ]
+    },
+    "B2": {
+      "question_number": "B2",
+      "solution": "**(a) Differences between Combinational and Sequential Circuits:**\n\n| Feature | Combinational Circuit | Sequential Circuit |\n|---------|----------------------|--------------------|\n| Memory | No memory elements | Has memory (flip-flops) |\n| Output depends on | Present inputs only | Present inputs + past state |\n| Feedback | No feedback path | Feedback path exists |\n| Clock | Not required | Required (usually) |\n| Examples | Adder, MUX, Decoder | Counter, Register, Flip-flop |\n| Design | Simpler | More complex |\n| Speed | Generally faster | Generally slower |\n\n**(b) Single-bit Comparator:**\n\nA 1-bit comparator compares two 1-bit inputs $A$ and $B$ and produces three outputs.\n\n**Truth Table:**\n\n| $A$ | $B$ | $A > B$ | $A < B$ | $A = B$ |\n|-----|-----|---------|---------|---------|\n| 0 | 0 | 0 | 0 | 1 |\n| 0 | 1 | 0 | 1 | 0 |\n| 1 | 0 | 1 | 0 | 0 |\n| 1 | 1 | 0 | 0 | 1 |\n\n**Boolean Expressions:**\n- $A > B = A \\cdot \\bar{B}$\n- $A < B = \\bar{A} \\cdot B$\n- $A = B = \\overline{A \\oplus B} = A \\cdot B + \\bar{A} \\cdot \\bar{B}$\n\nThe circuit uses AND gates for $A > B$ and $A < B$, and an XNOR gate for equality.",
+      "key_points": [
+        "Combinational has no memory, sequential has memory",
+        "Combinational output depends only on present inputs",
+        "1-bit comparator has 3 outputs: A>B, A<B, A=B",
+        "A>B = A·B̄, A<B = Ā·B, A=B = A⊙B"
+      ]
+    },
+    "B3": {
+      "question_number": "B3",
+      "solution": "**Class A Amplifier:**\n\nA Class A amplifier is one in which the transistor conducts for the **entire 360°** of the input signal cycle. The Q-point is set at the center of the load line.\n\n**Key characteristics:**\n\n- **Conduction angle:** 360° (full cycle)\n- **Biasing:** Q-point at center of load line\n- **Efficiency:** Maximum theoretical efficiency = **25%** (direct-coupled) or **50%** (transformer-coupled)\n- **Distortion:** Lowest among all classes\n- **Linearity:** Highest linearity\n\n**Circuit description:**\nThe basic Class A amplifier consists of:\n- A single transistor (NPN BJT) in common-emitter configuration\n- Voltage divider bias ($R_1$, $R_2$) to set Q-point at center\n- Collector resistor ($R_C$) and emitter resistor ($R_E$)\n- Coupling capacitors ($C_1$, $C_2$) at input and output\n- Bypass capacitor ($C_E$) across $R_E$\n\n**Power efficiency:**\n\n$$\\eta = \\frac{P_{\\text{out(ac)}}}{P_{\\text{in(dc)}}} \\times 100\\%$$\n\nFor direct-coupled: $\\eta_{\\max} = 25\\%$\n\n**Advantages:** Low distortion, simple design, high linearity\n**Disadvantages:** Very low efficiency, high power dissipation, transistor always ON\n\n**Applications:** High-fidelity audio preamplifiers, low-power audio stages where signal quality is critical.",
+      "key_points": [
+        "Conduction angle = 360° (full cycle)",
+        "Max efficiency: 25% (direct) or 50% (transformer-coupled)",
+        "Q-point at center of load line",
+        "Lowest distortion but poorest efficiency among all classes"
+      ]
+    },
+    "B4": {
+      "question_number": "B4",
+      "solution": "**Demultiplexer (DEMUX):**\n\nA demultiplexer is a combinational circuit that receives a **single input** and distributes it to one of $2^n$ **output lines** based on $n$ select lines. It performs the reverse operation of a multiplexer.\n\n**1:4 Demultiplexer:**\n- 1 data input ($D$)\n- 2 select lines ($S_1, S_0$)\n- 4 output lines ($Y_0, Y_1, Y_2, Y_3$)\n\n**Truth Table:**\n\n| $S_1$ | $S_0$ | $Y_0$ | $Y_1$ | $Y_2$ | $Y_3$ |\n|-------|-------|-------|-------|-------|-------|\n| 0 | 0 | $D$ | 0 | 0 | 0 |\n| 0 | 1 | 0 | $D$ | 0 | 0 |\n| 1 | 0 | 0 | 0 | $D$ | 0 |\n| 1 | 1 | 0 | 0 | 0 | $D$ |\n\n**Boolean expressions:**\n- $Y_0 = D \\cdot \\bar{S_1} \\cdot \\bar{S_0}$\n- $Y_1 = D \\cdot \\bar{S_1} \\cdot S_0$\n- $Y_2 = D \\cdot S_1 \\cdot \\bar{S_0}$\n- $Y_3 = D \\cdot S_1 \\cdot S_0$\n\n**Functions in digital circuits:**\n- **Data distribution:** Routes single data stream to multiple destinations\n- **Address decoding:** In memory systems to select specific memory locations\n- **Serial-to-parallel conversion:** Distributes serial data to parallel channels\n- **Decoder equivalent:** A DEMUX with input tied to 1 acts as a decoder",
+      "key_points": [
+        "DEMUX takes single input and routes to one of many outputs",
+        "1:4 DEMUX has 1 input, 2 select lines, 4 outputs",
+        "Reverse of multiplexer operation",
+        "Applications: data distribution, address decoding, serial-to-parallel conversion"
+      ]
+    },
+    "B5": {
+      "question_number": "B5",
+      "solution": "**De Morgan's Theorems:**\n\n**Theorem 1:** $\\overline{A \\cdot B} = \\bar{A} + \\bar{B}$\n\nThe complement of a product equals the sum of the complements.\n\n**Theorem 2:** $\\overline{A + B} = \\bar{A} \\cdot \\bar{B}$\n\nThe complement of a sum equals the product of the complements.\n\n**Simplification of $Y = \\overline{A \\cdot B} + \\overline{\\bar{A} + \\bar{B}}$:**\n\n**Step 1:** Apply De Morgan's Theorem 1 to the first term:\n$$\\overline{A \\cdot B} = \\bar{A} + \\bar{B}$$\n\n**Step 2:** Apply De Morgan's Theorem 2 to the second term:\n$$\\overline{\\bar{A} + \\bar{B}} = \\overline{\\bar{A}} \\cdot \\overline{\\bar{B}} = A \\cdot B$$\n\n**Step 3:** Combine:\n$$Y = (\\bar{A} + \\bar{B}) + (A \\cdot B)$$\n\n**Step 4:** Expand and simplify:\n$$Y = \\bar{A} + \\bar{B} + AB$$\n\nUsing the identity $\\bar{A} + AB = \\bar{A} + B$ (absorption):\nWait — let's verify by checking $\\bar{B} + AB = \\bar{B} + A$ (absorption: $\\bar{X} + XY = \\bar{X} + Y$):\n\n$$Y = \\bar{A} + (\\bar{B} + AB) = \\bar{A} + \\bar{B} + A$$\n\nSince $\\bar{A} + A = 1$:\n\n$$Y = 1 + \\bar{B} = 1$$\n\n**Result: $Y = 1$**",
+      "key_points": [
+        "De Morgan's Theorem 1: complement of product = sum of complements",
+        "De Morgan's Theorem 2: complement of sum = product of complements",
+        "The expression simplifies to Y = 1",
+        "Absorption law: Ā + A = 1"
+      ]
+    },
+    "C1": {
+      "question_number": "C1",
+      "solution": "**(a) Parity Bit and Parity Generator/Checker:**\n\nA **parity bit** is an extra bit added to a binary data word to detect single-bit errors during data transmission.\n\n**Even Parity:** The total number of 1s (including parity bit) is made **even**.\n**Odd Parity:** The total number of 1s (including parity bit) is made **odd**.\n\n**Even Parity Generator (3-bit data):**\nFor data bits $A$, $B$, $C$, the parity bit $P$ is:\n$$P = A \\oplus B \\oplus C$$\n\n| $A$ | $B$ | $C$ | $P$ (Even) | Total 1s |\n|-----|-----|-----|------------|----------|\n| 0 | 0 | 0 | 0 | 0 (even) |\n| 0 | 0 | 1 | 1 | 2 (even) |\n| 0 | 1 | 0 | 1 | 2 (even) |\n| 0 | 1 | 1 | 0 | 2 (even) |\n| 1 | 0 | 0 | 1 | 2 (even) |\n| 1 | 0 | 1 | 0 | 2 (even) |\n| 1 | 1 | 0 | 0 | 2 (even) |\n| 1 | 1 | 1 | 1 | 4 (even) |\n\n**Parity Checker:** At the receiver, all bits including parity are XORed. If result = 0, no error (even parity). If result = 1, error detected.\n\n$$\\text{Error} = A \\oplus B \\oplus C \\oplus P$$\n\nFor **odd parity**, the parity bit is: $P = \\overline{A \\oplus B \\oplus C}$ (complement of even parity).\n\n**(b) CMOS Inverter Circuit:**\n\nA **CMOS (Complementary Metal-Oxide-Semiconductor)** inverter uses a complementary pair of PMOS and NMOS transistors.\n\n**Circuit Operation:**\n- **PMOS** transistor connected between $V_{DD}$ and output\n- **NMOS** transistor connected between output and ground\n- Both gates connected to the input\n\n**When Input = 0 (LOW):**\n- PMOS turns ON ($V_{GS} = -V_{DD}$, which is < $V_{tp}$)\n- NMOS turns OFF ($V_{GS} = 0$, which is < $V_{tn}$)\n- Output is pulled to $V_{DD}$ through PMOS → **Output = 1 (HIGH)**\n\n**When Input = 1 (HIGH):**\n- PMOS turns OFF ($V_{GS} = 0$)\n- NMOS turns ON ($V_{GS} = V_{DD}$, which is > $V_{tn}$)\n- Output is pulled to ground through NMOS → **Output = 0 (LOW)**\n\n**Key advantages of CMOS:**\n- Extremely low static power dissipation (no DC path from $V_{DD}$ to ground)\n- Full voltage swing (output reaches $V_{DD}$ and ground)\n- High noise immunity\n- Symmetric switching characteristics\n\n**(c) SISO Register with Data 1011:**\n\nA **SISO (Serial-In Serial-Out)** register shifts data one bit at a time through a chain of flip-flops.\n\nFor a 4-bit SISO register with input data $1011$ (MSB first):\n\n| Clock | Input | $Q_0$ | $Q_1$ | $Q_2$ | $Q_3$ (Output) |\n|-------|-------|-------|-------|-------|----------------|\n| 0 | - | 0 | 0 | 0 | 0 |\n| 1 | 1 | 1 | 0 | 0 | 0 |\n| 2 | 0 | 0 | 1 | 0 | 0 |\n| 3 | 1 | 1 | 0 | 1 | 0 |\n| 4 | 1 | 1 | 1 | 0 | 1 |\n| 5 | 0 | 0 | 1 | 1 | 0 |\n| 6 | 0 | 0 | 0 | 1 | 1 |\n| 7 | 0 | 0 | 0 | 0 | 1 |\n\nThe output at $Q_3$ starts appearing from clock pulse 4 onwards, and the data appears as $1, 0, 1, 1$ (original data) at the output, delayed by 4 clock cycles. The data shifts serially through all flip-flops before appearing at the output.",
+      "key_points": [
+        "Parity bit detects single-bit errors using XOR operation",
+        "Even parity: P = A ⊕ B ⊕ C; Odd parity: P = complement of even",
+        "CMOS inverter uses complementary PMOS and NMOS pair with near-zero static power",
+        "SISO register shifts data serially; output appears after n clock cycles for n-bit register"
+      ]
+    },
+    "C2": {
+      "question_number": "C2",
+      "solution": "**(a) Full Adder using Two Half Adders and an OR Gate:**\n\nA **half adder** adds two single bits:\n- $S_{HA} = A \\oplus B$\n- $C_{HA} = A \\cdot B$\n\n**Full Adder** adds three bits ($A$, $B$, $C_{in}$):\n\n**Step 1:** First half adder adds $A$ and $B$:\n- $S_1 = A \\oplus B$\n- $C_1 = A \\cdot B$\n\n**Step 2:** Second half adder adds $S_1$ and $C_{in}$:\n- $S = S_1 \\oplus C_{in} = A \\oplus B \\oplus C_{in}$ (this is the Sum output)\n- $C_2 = S_1 \\cdot C_{in} = (A \\oplus B) \\cdot C_{in}$\n\n**Step 3:** OR gate combines carries:\n$$C_{out} = C_1 + C_2 = A \\cdot B + (A \\oplus B) \\cdot C_{in}$$\n\n**Verification:**\n\n| $A$ | $B$ | $C_{in}$ | $S$ | $C_{out}$ |\n|-----|-----|----------|-----|-----------|\n| 0 | 0 | 0 | 0 | 0 |\n| 0 | 0 | 1 | 1 | 0 |\n| 0 | 1 | 0 | 1 | 0 |\n| 0 | 1 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 | 0 |\n| 1 | 0 | 1 | 0 | 1 |\n| 1 | 1 | 0 | 0 | 1 |\n| 1 | 1 | 1 | 1 | 1 |\n\n**(b) 4-bit Code Converters:**\n\n**Binary to Gray Conversion:**\nFor binary bits $B_3 B_2 B_1 B_0$, Gray code $G_3 G_2 G_1 G_0$:\n- $G_3 = B_3$ (MSB remains same)\n- $G_2 = B_3 \\oplus B_2$\n- $G_1 = B_2 \\oplus B_1$\n- $G_0 = B_1 \\oplus B_0$\n\nThe circuit requires **3 XOR gates** (and a direct connection for MSB).\n\n**Gray to Binary Conversion:**\nFor Gray code $G_3 G_2 G_1 G_0$, binary $B_3 B_2 B_1 B_0$:\n- $B_3 = G_3$ (MSB remains same)\n- $B_2 = G_2 \\oplus B_3 = G_2 \\oplus G_3$\n- $B_1 = G_1 \\oplus B_2 = G_1 \\oplus G_2 \\oplus G_3$\n- $B_0 = G_0 \\oplus B_1 = G_0 \\oplus G_1 \\oplus G_2 \\oplus G_3$\n\nThe circuit also requires **3 XOR gates** but with cascaded connections.\n\n**Example:** Binary $1010$ → Gray:\n- $G_3 = 1$, $G_2 = 1 \\oplus 0 = 1$, $G_1 = 0 \\oplus 1 = 1$, $G_0 = 1 \\oplus 0 = 1$\n- Gray = $1111$ ✓\n\n**(c) 5-to-32 Decoder using 3-to-8 and 2-to-4 Decoders:**\n\nA 5-to-32 decoder has 5 inputs ($A_4 A_3 A_2 A_1 A_0$) and 32 outputs ($Y_0$ to $Y_{31}$).\n\n**Design approach:**\n\n**Step 1:** Use 2 MSBs ($A_4, A_3$) with a **2-to-4 decoder** to generate 4 enable signals ($E_0, E_1, E_2, E_3$).\n\n**Step 2:** Use 3 LSBs ($A_2, A_1, A_0$) as inputs to **four 3-to-8 decoders**.\n\n**Step 3:** Connect each output of the 2-to-4 decoder as the enable input of one 3-to-8 decoder:\n- $E_0$ enables Decoder 0 → outputs $Y_0$ to $Y_7$\n- $E_1$ enables Decoder 1 → outputs $Y_8$ to $Y_{15}$\n- $E_2$ enables Decoder 2 → outputs $Y_{16}$ to $Y_{23}$\n- $E_3$ enables Decoder 3 → outputs $Y_{24}$ to $Y_{31}$\n\n**Working:** When $A_4 A_3 = 00$, only Decoder 0 is enabled, and $A_2 A_1 A_0$ selects one of $Y_0$–$Y_7$. Similarly for other combinations.\n\n**Total components:** 1 × (2-to-4 decoder) + 4 × (3-to-8 decoders) = 5 decoders",
+      "key_points": [
+        "Full adder = 2 half adders + 1 OR gate; S = A⊕B⊕Cin, Cout = AB + (A⊕B)·Cin",
+        "Binary to Gray: MSB same, rest are XOR of adjacent binary bits",
+        "Gray to Binary: MSB same, rest are XOR of Gray bit with previous binary bit",
+        "5-to-32 decoder = 1 (2-to-4) decoder + 4 (3-to-8) decoders with enable cascading"
+      ]
+    },
+    "C3": {
+      "question_number": "C3",
+      "solution": "**(a) Successive Approximation ADC (SAR ADC):**\n\nThe Successive Approximation ADC converts an analog input voltage to a digital output by performing a **binary search** algorithm.\n\n**Components:**\n- Comparator\n- Successive Approximation Register (SAR)\n- D/A Converter (DAC)\n- Clock generator\n- Control logic\n\n**Working Principle:**\n\nThe SAR ADC works like a balance — it compares the unknown analog input against known reference values, starting from the MSB and working down to the LSB.\n\n**Step-by-step operation (for $n$-bit conversion):**\n\n1. **Initialize:** Set MSB ($D_{n-1}$) = 1, all other bits = 0\n2. **Convert:** DAC converts this digital word to analog voltage $V_{DAC}$\n3. **Compare:** Comparator checks if $V_{in} \\geq V_{DAC}$\n   - If $V_{in} \\geq V_{DAC}$: Keep the bit as 1\n   - If $V_{in} < V_{DAC}$: Reset the bit to 0\n4. **Move to next bit:** Set next bit = 1, repeat steps 2-3\n5. **Continue** until all $n$ bits are resolved\n\n**Example:** 4-bit SAR ADC with $V_{ref} = 16V$, $V_{in} = 10.5V$:\n\n| Step | Trial Value | $V_{DAC}$ | Compare | Result | Digital Output |\n|------|------------|-----------|---------|--------|----------------|\n| 1 | 1000 | 8V | 10.5 > 8 | Keep 1 | 1000 |\n| 2 | 1100 | 12V | 10.5 < 12 | Reset 0 | 1000 |\n| 3 | 1010 | 10V | 10.5 > 10 | Keep 1 | 1010 |\n| 4 | 1011 | 11V | 10.5 < 11 | Reset 0 | 1010 |\n\n**Final output:** $1010_2 = 10_{10}$ (closest to 10.5V)\n\n**Key features:**\n- Conversion time = $n$ clock cycles (for $n$-bit ADC)\n- Moderate speed and resolution\n- Most widely used ADC architecture\n\n**(b) R-2R Ladder DAC:**\n\nThe **R-2R ladder DAC** converts a digital binary input to a proportional analog output voltage using only two resistor values: $R$ and $2R$.\n\n**Circuit Structure:**\n- A ladder network of resistors with values $R$ (series) and $2R$ (shunt)\n- Digital inputs ($D_0$ to $D_{n-1}$) control switches\n- Each switch connects the $2R$ resistor to either $V_{ref}$ (for bit = 1) or ground (for bit = 0)\n- An op-amp at the output provides buffering\n\n**Working Principle:**\n\nThe R-2R ladder creates a **binary weighted current** through each branch. Due to the ladder structure, looking into any node, the equivalent resistance is always $R$.\n\nFor an $n$-bit R-2R DAC:\n\n$$V_{out} = -V_{ref} \\times \\frac{R_f}{R} \\times \\left(\\frac{D_{n-1}}{2^1} + \\frac{D_{n-2}}{2^2} + \\cdots + \\frac{D_0}{2^n}\\right)$$\n\nWith $R_f = R$:\n\n$$V_{out} = -V_{ref} \\times \\left(\\frac{D_{n-1}}{2} + \\frac{D_{n-2}}{4} + \\cdots + \\frac{D_0}{2^n}\\right)$$\n\n**Example:** 4-bit R-2R DAC with $V_{ref} = 10V$, digital input = $1010$:\n\n$$V_{out} = -10 \\times \\left(\\frac{1}{2} + \\frac{0}{4} + \\frac{1}{8} + \\frac{0}{16}\\right) = -10 \\times 0.625 = -6.25V$$\n\n**Advantages over Binary Weighted DAC:**\n- Uses only **two resistor values** ($R$ and $2R$) — easier to fabricate\n- Better precision and matching\n- Scalable to any number of bits\n- Widely used in IC implementations\n\n**Disadvantages:**\n- Requires more resistors than binary weighted DAC\n- Speed limited by settling time of ladder network",
+      "key_points": [
+        "SAR ADC performs binary search: MSB to LSB, n clock cycles for n-bit conversion",
+        "SAR compares Vin with DAC output at each step, keeping or resetting each bit",
+        "R-2R DAC uses only two resistor values (R and 2R) for any number of bits",
+        "R-2R output: Vout = -Vref × weighted sum of digital bits",
+        "R-2R advantage over binary weighted: only 2 resistor values needed"
+      ]
+    },
+    "C4": {
+      "question_number": "C4",
+      "solution": "**(a) Need for Priority Encoder:**\n\nA **priority encoder** is an encoder that handles the situation when **multiple inputs are active simultaneously**.\n\nIn a standard encoder, if more than one input is active at the same time, the output becomes **unpredictable or invalid**. A priority encoder assigns a **priority level** to each input and outputs the binary code of the **highest-priority active input**, ignoring all lower-priority inputs.\n\n**Need:**\n- In real systems, multiple interrupt requests can occur simultaneously\n- Keyboard encoders may have multiple keys pressed at once\n- Priority encoders ensure **deterministic output** regardless of how many inputs are active\n- They include a **valid output indicator** ($V$) that is HIGH when at least one input is active\n\n**(b) Boolean Algebra Simplification:**\n\n**(i) $Y = \\bar{A}BC + A\\bar{B}C + AB\\bar{C} + ABC$**\n\n**Step 1:** Group terms:\n$$Y = \\bar{A}BC + A\\bar{B}C + AB\\bar{C} + ABC$$\n\n**Step 2:** Combine last two terms (take $AB$ common):\n$$AB\\bar{C} + ABC = AB(\\bar{C} + C) = AB$$\n\n**Step 3:** Combine the $A\\bar{B}C$ and $ABC$ from the original (take $AC$ common):\nActually, let's redo. Add $ABC$ artificially (since $ABC + ABC = ABC$ by idempotent law):\n$$Y = \\bar{A}BC + A\\bar{B}C + AB\\bar{C} + ABC$$\n$$= BC(\\bar{A} + A) + AC(\\bar{B} + B) + AB\\bar{C} + ABC - AC - BC$$\n\nLet me use a cleaner approach:\n$$Y = \\bar{A}BC + A\\bar{B}C + AB\\bar{C} + ABC$$\n\nGroup 1: $\\bar{A}BC + ABC = BC(\\bar{A} + A) = BC$\nGroup 2: $A\\bar{B}C + ABC = AC(\\bar{B} + B) = AC$\nGroup 3: $AB\\bar{C} + ABC = AB(\\bar{C} + C) = AB$\n\nNote: We used $ABC$ three times, which is valid since $ABC + ABC = ABC$.\n\n$$Y = AB + AC + BC$$\n\n**Result: $Y = AB + AC + BC$** (majority function)\n\n**(ii) $Y = AB + \\bar{A}C + A\\bar{B}C(AB + C)$**\n\n**Step 1:** Simplify the bracket term:\n$$A\\bar{B}C(AB + C) = A\\bar{B}C \\cdot AB + A\\bar{B}C \\cdot C$$\n\nFor the first part: $A\\bar{B}C \\cdot AB = A \\cdot A \\cdot B \\cdot \\bar{B} \\cdot C = 0$ (since $B \\cdot \\bar{B} = 0$)\n\nFor the second part: $A\\bar{B}C \\cdot C = A\\bar{B}C$ (since $C \\cdot C = C$)\n\n**Step 2:** So:\n$$Y = AB + \\bar{A}C + A\\bar{B}C$$\n\n**Step 3:** Combine last two terms:\n$$\\bar{A}C + A\\bar{B}C = C(\\bar{A} + A\\bar{B}) = C(\\bar{A} + \\bar{B})$$ \n(using absorption: $\\bar{A} + A\\bar{B} = \\bar{A} + \\bar{B}$)\n\n$$Y = AB + C(\\bar{A} + \\bar{B}) = AB + \\bar{A}C + \\bar{B}C$$\n\nAlternatively: $Y = AB + C\\overline{AB} = AB + C(\\bar{A} + \\bar{B})$\n\n**Result: $Y = AB + \\bar{A}C + \\bar{B}C$**\n\n**(c) K-Map Simplification:**\n\n$F(A,B,C,D) = \\sum m(0,1,2,3,4,5) + d(10,11,12,13,14,15)$\n\n**4-variable K-Map:**\n\n|  | $\\bar{C}\\bar{D}$ | $\\bar{C}D$ | $CD$ | $C\\bar{D}$ |\n|--|---|---|---|---|\n| $\\bar{A}\\bar{B}$ | 1 (m0) | 1 (m1) | 1 (m3) | 1 (m2) |\n| $\\bar{A}B$ | 1 (m4) | 1 (m5) | 0 (m7) | 0 (m6) |\n| $AB$ | X (m12) | X (m13) | X (m15) | X (m14) |\n| $A\\bar{B}$ | 0 (m8) | 0 (m9) | X (m11) | X (m10) |\n\n**Groupings:**\n- **Group 1 (8-cell):** m0, m1, m2, m3, m12, m13, m14, m15 → $\\bar{B}$ (Ā rows: all 1/X)\n  Wait, let me re-check. Row $\\bar{A}\\bar{B}$: all 1s. Row $AB$: all Xs. These form $\\bar{B}$ ... no, $\\bar{A}\\bar{B}$ and $AB$ are not adjacent in K-map.\n\nLet me redo the K-map carefully.\n\nK-map with AB on rows, CD on columns (standard Gray code ordering):\n\n| AB\\CD | 00 | 01 | 11 | 10 |\n|-------|----|----|----|----|  \n| 00 | 1(m0) | 1(m1) | 1(m3) | 1(m2) |\n| 01 | 1(m4) | 1(m5) | 0(m7) | 0(m6) |\n| 11 | X(m12) | X(m13) | X(m15) | X(m14) |\n| 10 | 0(m8) | 0(m9) | X(m11) | X(m10) |\n\n**Group 1:** m0, m1, m2, m3 (entire first row) → $\\bar{A}\\bar{B}$\n\n**Group 2:** m0, m1, m4, m5, m12, m13 (+ don't cares) → cells where $\\bar{C} = 1$ (CD=00 and CD=01 columns, rows 00,01,11): m0,m1,m4,m5,m12,m13 → $\\bar{C}$... no.\n\nColumns CD=00 and CD=01:\n- Row 00: 1, 1\n- Row 01: 1, 1\n- Row 11: X, X\n- Row 10: 0, 0\n\nGrouping m0,m1,m4,m5 with m12,m13 → 6 cells but need power of 2. Take all 8 in these two columns? No, row 10 has 0s.\n\nTake m0,m1,m4,m5,m12,m13 = 6 cells. Not a valid group.\n\nLet me group:\n- **Group 1:** m0,m1,m2,m3 → $\\bar{A}\\bar{B}$\n- **Group 2:** m0,m4,m12,m8 are CD=00 column but m8=0. Try m0,m1,m4,m5 → $\\bar{A}\\bar{D}$... no. m0(00,00), m1(00,01), m4(01,00), m5(01,01) → $\\bar{A}$ and ... these share $\\bar{A}$? No, rows 00 and 01 share $\\bar{A}$? Not exactly — row 00 is $\\bar{A}\\bar{B}$, row 01 is $\\bar{A}B$. So common factor is $\\bar{A}$, and CD=00,01 means $\\bar{D}$ ... no, CD=00 and 01 differ in D. Common is $\\bar{C}$ (C=0 for both). Wait: CD=00 means C=0,D=0 and CD=01 means C=0,D=1. So common is C=0, i.e., $\\bar{C}$. And rows 00,01 mean A=0. So group = $\\bar{A}\\bar{C}$. Check: this covers m0,m1,m4,m5 ✓\n\nNow extend: can we include m12,m13 (row 11, CD=00,01)? They are don't cares. Rows 00,01,11 in K-map: 00 and 01 are adjacent, 01 and 11 are adjacent, but 00 and 11 are not adjacent. So we can't group all three rows. But we can group rows 01 and 11 (adjacent) with CD=00,01: m4,m5,m12,m13 → $B\\bar{C}$.\n\nSo:\n- **Group 1:** m0,m1,m2,m3 → $\\bar{A}\\bar{B}$ (4 cells)\n- **Group 2:** m0,m1,m4,m5 → $\\bar{A}\\bar{C}$ (4 cells)\n- **Group 3:** m4,m5,m12,m13 → $B\\bar{C}$ (4 cells, using don't cares)\n\nBut let's check coverage: m0,m1,m2,m3,m4,m5 are all covered.\n\nCombine: $\\bar{A}\\bar{B} + \\bar{A}\\bar{C} + B\\bar{C}$?\n\nActually, can we do better? Group m0,m1,m2,m3,m4,m5,m12,m13,m14,m15 using don't cares:\n\nm0,m1,m2,m3 + m12,m13,m14,m15 form an 8-cell group? Rows 00 and 11 are NOT adjacent. So no.\n\nBetter approach: \n- **Group 1:** m0,m2,m4,m12,m14,m10 ... let me think differently.\n\nOK let me just pick essential prime implicants:\n- **$\\bar{A}\\bar{B}$**: covers m0,m1,m2,m3 ✓\n- **$\\bar{A}\\bar{C}$**: covers m0,m1,m4,m5 ✓\n\nAll minterms covered: m0,m1,m2,m3,m4,m5 ✓\n\nMinimized: $F = \\bar{A}\\bar{B} + \\bar{A}\\bar{C}$\n\nFactor: $F = \\bar{A}(\\bar{B} + \\bar{C})$\n\n**Result: $F = \\bar{A}\\bar{B} + \\bar{A}\\bar{C} = \\bar{A}(\\bar{B} + \\bar{C})$**",
+      "key_points": [
+        "Priority encoder outputs binary code of highest-priority active input",
+        "Expression (i) simplifies to Y = AB + AC + BC (majority function)",
+        "Expression (ii) simplifies to Y = AB + Ā·C + B̄·C",
+        "K-Map result: F = Ā·B̄ + Ā·C̄ = Ā(B̄ + C̄)"
+      ]
+    },
+    "C5": {
+      "question_number": "C5",
+      "solution": "**(a) J-K Flip-Flop — State Diagram, Characteristic Equation, and Excitation Table:**\n\n**Characteristic Table:**\n\n| $J$ | $K$ | $Q_{n+1}$ | Operation |\n|-----|-----|-----------|----------|\n| 0 | 0 | $Q_n$ | No change |\n| 0 | 1 | 0 | Reset |\n| 1 | 0 | 1 | Set |\n| 1 | 1 | $\\overline{Q_n}$ | Toggle |\n\n**Characteristic Equation:**\n\n$$Q_{n+1} = J\\overline{Q_n} + \\bar{K}Q_n$$\n\nThis can be derived from the K-map of the characteristic table by plotting $Q_{n+1}$ as a function of $J$, $K$, and $Q_n$.\n\n**State Diagram:**\nThe J-K flip-flop has two states: $Q = 0$ and $Q = 1$\n\n- **State 0** ($Q = 0$):\n  - $JK = 00$ or $01$: Stay at 0\n  - $JK = 10$ or $11$: Go to 1\n- **State 1** ($Q = 1$):\n  - $JK = 00$ or $10$: Stay at 1\n  - $JK = 01$ or $11$: Go to 0\n\n**Excitation Table** (determines J, K inputs needed for a desired state transition):\n\n| $Q_n$ | $Q_{n+1}$ | $J$ | $K$ |\n|-------|-----------|-----|-----|\n| 0 | 0 | 0 | X |\n| 0 | 1 | 1 | X |\n| 1 | 0 | X | 1 |\n| 1 | 1 | X | 0 |\n\nWhere $X$ = don't care. The excitation table is essential for designing synchronous counters and sequential circuits.\n\n**(b) 3-bit Asynchronous (Ripple) Counter:**\n\nA 3-bit asynchronous counter uses **three T (or JK) flip-flops** connected in cascade, where each flip-flop is triggered by the output of the previous one.\n\n**Circuit Configuration:**\n- 3 negative-edge-triggered J-K flip-flops ($FF_0$, $FF_1$, $FF_2$) with $J = K = 1$ (toggle mode)\n- Clock input → $FF_0$ (LSB)\n- $Q_0$ output → Clock of $FF_1$\n- $Q_1$ output → Clock of $FF_2$\n\n**Count Sequence:**\n\n| Clock Pulse | $Q_2$ | $Q_1$ | $Q_0$ | Decimal |\n|-------------|-------|-------|-------|---------|\n| 0 | 0 | 0 | 0 | 0 |\n| 1 | 0 | 0 | 1 | 1 |\n| 2 | 0 | 1 | 0 | 2 |\n| 3 | 0 | 1 | 1 | 3 |\n| 4 | 1 | 0 | 0 | 4 |\n| 5 | 1 | 0 | 1 | 5 |\n| 6 | 1 | 1 | 0 | 6 |\n| 7 | 1 | 1 | 1 | 7 |\n| 8 | 0 | 0 | 0 | 0 (reset) |\n\nThe counter counts from 0 to $2^3 - 1 = 7$ and then resets to 0. Total states = $2^3 = 8$ → it is a **MOD-8 counter**.\n\n**Timing Diagram Description:**\n- $Q_0$ toggles at every clock edge → frequency = $f_{clk}/2$\n- $Q_1$ toggles at every falling edge of $Q_0$ → frequency = $f_{clk}/4$\n- $Q_2$ toggles at every falling edge of $Q_1$ → frequency = $f_{clk}/8$\n\n**Key characteristics:**\n- Called \"ripple\" counter because the clock signal ripples through flip-flops\n- **Propagation delay** accumulates: total delay = $n \\times t_{pd}$ for $n$ flip-flops\n- Maximum clock frequency: $f_{max} = \\frac{1}{n \\times t_{pd}}$\n- Asynchronous because not all flip-flops are triggered by the same clock\n- Simple design but **slower** than synchronous counters due to cumulative delay",
+      "key_points": [
+        "JK characteristic equation: Q(n+1) = JQ̄n + K̄Qn",
+        "Excitation table shows required J,K inputs for desired state transitions",
+        "3-bit ripple counter counts 0 to 7 (MOD-8), uses cascaded toggle flip-flops",
+        "Each flip-flop divides frequency by 2; propagation delay is cumulative",
+        "Asynchronous counters are simpler but slower than synchronous counters"
+      ]
+    }
+  }
+}
