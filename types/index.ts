@@ -1,0 +1,86 @@
+export interface Subject {
+  id: string
+  code: string
+  name: string
+  short_name: string
+  regulation: string
+  semester: number
+  department: string
+  college: string
+  exam_pattern: ExamPattern
+  featured_until: string | null
+  created_at: string
+}
+
+export interface ExamPattern {
+  groups: Group[]
+  total_marks: number
+  duration_minutes: number
+}
+
+export interface Group {
+  name: string
+  label: string
+  instructions: string
+  questions_count: number
+  attempt_count: number
+  marks_per_question: number
+  question_type: 'mcq' | 'short' | 'long'
+}
+
+export interface Paper {
+  id: string
+  subject_id: string
+  title: string
+  type: 'end_sem' | 'mid_sem_1' | 'mid_sem_2' | 'practice'
+  year: string
+  questions: Record<string, Question>
+  answers: Record<string, Answer> | null // null if user is not logged in
+  metadata: PaperMetadata
+  created_at: string
+}
+
+export interface Question {
+  group: string
+  number: string
+  text?: string // undefined for server-gated locked questions (logged-out users)
+  marks: number
+  co?: string // Course Outcome
+  bl?: string // Bloom's Level
+  options?: McqOption[] // for MCQ
+  sub_parts?: SubPart[] // for multi-part questions
+  is_preview?: boolean // show question + answer to logged-out users (default: false)
+}
+
+export interface McqOption {
+  key: string // 'a', 'b', 'c', 'd'
+  text: string
+}
+
+export interface SubPart {
+  part: string // 'i', 'ii', 'iii'
+  text: string
+  marks: number
+}
+
+export interface Answer {
+  question_number: string
+  solution: string // markdown + LaTeX
+  correct_option?: string // for MCQ: 'a', 'b', 'c', 'd'
+  key_points?: string[]
+}
+
+export interface PaperMetadata {
+  difficulty?: 'easy' | 'medium' | 'hard'
+  modules_covered?: string[]
+}
+
+export interface User {
+  id: string
+  email: string
+  name?: string
+  college?: string
+  semester?: number
+  active_device_token?: string
+  created_at: string
+}
