@@ -1,17 +1,17 @@
-# ExamPrep
+# NehaNotes
 
 Question papers and worked solutions for MAKAUT engineering students. Sample papers and past year papers with step-by-step answers, inline math rendering, and course-outcome mapping — behind a one-time paywall.
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js 16 (App Router) + TypeScript |
-| UI | shadcn/ui + Tailwind CSS v4 |
-| Math | KaTeX via remark-math + rehype-katex |
-| Backend + Auth + DB | Supabase (Postgres + RLS + Auth) |
-| Payments | Razorpay |
-| Hosting | Vercel |
+| Layer               | Technology                           |
+| ------------------- | ------------------------------------ |
+| Frontend            | Next.js 16 (App Router) + TypeScript |
+| UI                  | shadcn/ui + Tailwind CSS v4          |
+| Math                | KaTeX via remark-math + rehype-katex |
+| Backend + Auth + DB | Supabase (Postgres + RLS + Auth)     |
+| Payments            | Razorpay                             |
+| Hosting             | Vercel                               |
 
 ## Architecture
 
