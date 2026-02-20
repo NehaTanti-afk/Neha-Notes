@@ -91,7 +91,7 @@ async function seedPapersForSubject(subjectCode: string) {
 }
 
 async function main() {
-  console.log(`\nExamPrep Seed Script ${isDryRun ? '[DRY RUN]' : ''}`)
+  console.log(`\nNehaNotes Seed Script ${isDryRun ? '[DRY RUN]' : ''}`)
   console.log('='.repeat(40))
 
   const subjectsDir = path.join(__dirname, 'subjects')

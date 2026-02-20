@@ -12,7 +12,7 @@ export function OfflineBanner() {
       <WifiOff className="size-12 text-muted-foreground mb-4" />
       <h2 className="text-xl font-semibold">You're offline</h2>
       <p className="mt-2 text-sm text-muted-foreground max-w-xs">
-        ExamPrep requires an internet connection. Please check your network and try again.
+        NehaNotes requires an internet connection. Please check your network and try again.
       </p>
     </div>
   )

@@ -1,4 +1,4 @@
-# ExamPrep
+# NehaNotes
 
 Question papers and worked solutions for MAKAUT engineering students. Sample papers and past year papers with step-by-step answers, inline math rendering, and course-outcome mapping — behind a one-time paywall.
 
