@@ -21,14 +21,14 @@ export function QuestionCard({
   const { user } = useAuth()
 
   return (
-    <div className="rounded-lg border bg-card p-4 space-y-3">
+    <div className="rounded-xl border border-l-4 border-primary/20 bg-card p-5 sm:p-6 space-y-4">
       {/* Question header */}
       <div className="relative flex items-start justify-between gap-2">
         <div className="flex items-center gap-2">
-          <span className="inline-flex items-center justify-center size-7 rounded-full bg-primary text-primary-foreground text-xs font-bold shrink-0">
+          <span className="inline-flex items-center justify-center size-9 rounded-full bg-primary text-primary-foreground text-sm font-bold shrink-0">
             {question.number}
           </span>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-2">
             {question.co && (
               <Badge variant="outline" className="text-xs">
                 {question.co}
@@ -58,20 +58,20 @@ export function QuestionCard({
       </div>
 
       {/* Question text */}
-      <div className="pl-9">
+      <div className="pl-11">
         <MarkdownContent content={question.text} />
       </div>
 
       {/* MCQ options */}
       {question.options && question.options.length > 0 && (
-        <div className="pl-9">
+        <div className="pl-11">
           <McqOptions options={question.options} />
         </div>
       )}
 
       {/* Sub-parts */}
       {question.sub_parts && question.sub_parts.length > 0 && (
-        <div className="pl-9 space-y-2">
+        <div className="pl-11 space-y-2">
           {question.sub_parts.map((part) => (
             <div key={part.part} className="flex items-start gap-2 text-sm">
               <span className="shrink-0 font-semibold text-muted-foreground w-6">
@@ -89,7 +89,7 @@ export function QuestionCard({
       )}
 
       {/* Answer slot */}
-      {answerSlot && <div className="mt-2">{answerSlot}</div>}
+      {answerSlot && <div className="mt-4">{answerSlot}</div>}
     </div>
   )
 }

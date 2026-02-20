@@ -17,15 +17,15 @@ export function AnswerCard({ answer, locked }: AnswerCardProps) {
   }
 
   return (
-    <div className="rounded-lg border border-green-200 bg-green-50/50 p-4 space-y-3">
-      <p className="text-xs font-semibold uppercase tracking-wide text-green-700">
+    <div className="rounded-lg border border-amber-300/60 bg-amber-50/40 p-4 space-y-3">
+      <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">
         Answer
       </p>
 
       {/* Correct option for MCQ */}
       {answer.correct_option && (
         <div className="flex items-center gap-2">
-          <CheckCircle2 className="size-4 text-green-600 shrink-0" />
+          <CheckCircle2 className="size-4 text-amber-700 shrink-0" />
           <span className="text-sm font-medium">
             Correct option:{' '}
             <Badge variant="secondary" className="uppercase">

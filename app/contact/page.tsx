@@ -11,23 +11,23 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="mx-auto max-w-xl px-4 py-12 sm:px-6">
-      <div className="mb-10 flex flex-col items-center gap-3 text-center">
-        <div className="flex size-12 items-center justify-center rounded-full bg-primary/10">
+    <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6">
+      <div className="mb-12 space-y-4 text-center">
+        <div className="flex size-14 items-center justify-center rounded-2xl bg-primary/10 mx-auto">
           <Mail className="size-6 text-primary" />
         </div>
-        <h1 className="text-2xl font-bold">Contact Us</h1>
-        <p className="text-sm text-muted-foreground max-w-sm">
+        <h1 className="text-3xl font-bold">Contact Us</h1>
+        <p className="text-muted-foreground max-w-md mx-auto">
           Have a question, found an issue, or need help with your account?
           We&apos;re here to help.
         </p>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-5">
         {/* Primary CTA — Support Ticket */}
-        <div className="rounded-lg border bg-card p-5 space-y-3">
+        <div className="rounded-xl border bg-card p-6 space-y-4">
           <div className="flex items-center gap-3">
-            <div className="flex size-9 items-center justify-center rounded-full bg-primary/10 shrink-0">
+            <div className="flex size-10 items-center justify-center rounded-xl bg-primary/10 shrink-0">
               <MessageSquare className="size-4 text-primary" />
             </div>
             <div>
@@ -41,15 +41,15 @@ export default function ContactPage() {
             The fastest way to get help. Describe your issue and we&apos;ll get
             back to you as soon as possible.
           </p>
-          <Button asChild size="sm" className="w-full">
+          <Button asChild size="sm">
             <Link href="/support">Open Support Ticket</Link>
           </Button>
         </div>
 
         {/* Email */}
-        <div className="rounded-lg border bg-card p-5 space-y-3">
+        <div className="rounded-xl border bg-card p-6 space-y-4">
           <div className="flex items-center gap-3">
-            <div className="flex size-9 items-center justify-center rounded-full bg-primary/10 shrink-0">
+            <div className="flex size-10 items-center justify-center rounded-xl bg-primary/10 shrink-0">
               <Mail className="size-4 text-primary" />
             </div>
             <div>
@@ -68,7 +68,7 @@ export default function ContactPage() {
         </div>
 
         {/* Response time */}
-        <div className="rounded-lg border bg-muted/40 p-4 flex items-start gap-3">
+        <div className="rounded-xl border bg-secondary/50 p-5 flex items-start gap-3">
           <Clock className="size-4 text-muted-foreground mt-0.5 shrink-0" />
           <p className="text-xs text-muted-foreground leading-relaxed">
             We typically respond within{" "}
@@ -82,16 +82,16 @@ export default function ContactPage() {
           <p className="text-xs text-muted-foreground font-medium uppercase tracking-wide">
             Quick Links
           </p>
-          <div className="grid grid-cols-2 gap-2 text-xs">
+          <div className="grid grid-cols-2 gap-3">
             <Link
               href="/terms"
-              className="rounded-md border px-3 py-2 text-center hover:bg-muted/50 transition-colors text-muted-foreground hover:text-foreground"
+              className="rounded-xl border px-4 py-3 text-center hover:bg-accent/40 text-sm transition-colors text-muted-foreground hover:text-foreground"
             >
               Terms &amp; Conditions
             </Link>
             <Link
               href="/privacy"
-              className="rounded-md border px-3 py-2 text-center hover:bg-muted/50 transition-colors text-muted-foreground hover:text-foreground"
+              className="rounded-xl border px-4 py-3 text-center hover:bg-accent/40 text-sm transition-colors text-muted-foreground hover:text-foreground"
             >
               Privacy Policy
             </Link>
