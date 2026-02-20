@@ -4,14 +4,14 @@ Question papers and worked solutions for MAKAUT engineering students. Sample pap
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js 16 (App Router) + TypeScript |
-| UI | shadcn/ui + Tailwind CSS v4 |
-| Math | KaTeX via remark-math + rehype-katex |
-| Backend + Auth + DB | Supabase (Postgres + RLS + Auth) |
-| Payments | Razorpay |
-| Hosting | Vercel |
+| Layer               | Technology                           |
+| ------------------- | ------------------------------------ |
+| Frontend            | Next.js 16 (App Router) + TypeScript |
+| UI                  | shadcn/ui + Tailwind CSS v4          |
+| Math                | KaTeX via remark-math + rehype-katex |
+| Backend + Auth + DB | Supabase (Postgres + RLS + Auth)     |
+| Payments            | Razorpay                             |
+| Hosting             | Vercel                               |
 
 ## Architecture
 
