@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { createClient } from "@/lib/supabase/server";
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_APP_URL ?? "https://exam-prep-self.vercel.app";
+  process.env.NEXT_PUBLIC_APP_URL ?? "https://nehanotes.vercel.app";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static pages
