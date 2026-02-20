@@ -51,121 +51,160 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col">
-      {/* Hero */}
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8 text-center bg-gradient-to-b from-primary/5 to-background">
-        <div className="mx-auto max-w-3xl">
-          <Badge variant="secondary" className="mb-4">
-            <BookOpen className="size-3 mr-1" />
-            MAKAUT Engineering · Free Question Papers
-          </Badge>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground mb-6">
-            Ace Your Exams
-          </h1>
-          <p className="text-lg sm:text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-            Free question papers with fully worked solutions — sample papers and
-            past year papers, mapped to course outcomes with step-by-step
-            answers and inline math rendering. Built for MAKAUT students, by a
-            JISCE student.
-          </p>
-          <p className="text-sm text-muted-foreground mb-8">
-            Made by{" "}
-            <span className="font-medium text-foreground">Neha Tanti</span> ·
-            JISCE
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button asChild size="lg">
-              <Link href="/signup">Sign Up Free</Link>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <Link href="/subjects">Browse Subjects</Link>
-            </Button>
+      {/* Hero Section — Two-column split layout */}
+      <section className="relative py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary/5 via-background to-secondary/30 overflow-hidden">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* LEFT column — text content */}
+            <div>
+              <Badge variant="secondary" className="mb-6 border-primary/20">
+                MAKAUT Engineering
+              </Badge>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[0.9]">
+                Ace Your
+                <br />
+                Exams
+              </h1>
+              <p className="text-lg text-muted-foreground mt-6 max-w-lg">
+                Question papers with fully worked solutions — mapped to course
+                outcomes with step-by-step answers. Built for MAKAUT students,
+                by a JISCE student.
+              </p>
+              <p className="text-sm text-muted-foreground mt-3">
+                Made by{" "}
+                <span className="font-medium text-foreground">Neha Tanti</span>{" "}
+                · JISCE
+              </p>
+              <div className="flex gap-3 mt-8">
+                <Button asChild size="lg">
+                  <Link href="/signup">Sign Up Free</Link>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <Link href="/subjects">Browse Subjects</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* RIGHT column — decorative paper cards visual */}
+            <div className="hidden lg:block relative">
+              <div className="relative h-[400px]">
+                {/* Back card */}
+                <div className="absolute top-8 left-8 right-0 bottom-0 rounded-2xl border bg-secondary rotate-3" />
+                {/* Front card */}
+                <div className="relative rounded-2xl border bg-card p-8 shadow-lg -rotate-1">
+                  <div className="space-y-4">
+                    {/* Fake header */}
+                    <div className="flex items-center gap-3">
+                      <div className="size-3 rounded-full bg-primary/30" />
+                      <div className="h-3 w-32 rounded bg-primary/15" />
+                    </div>
+                    {/* Fake separator */}
+                    <div className="h-px bg-border" />
+                    {/* Fake question line 1 */}
+                    <div className="flex items-start gap-3">
+                      <div className="size-5 rounded-full bg-primary/10 shrink-0 mt-0.5" />
+                      <div className="space-y-2 flex-1">
+                        <div className="h-2.5 rounded bg-muted-foreground/10 w-full" />
+                        <div className="h-2.5 rounded bg-muted-foreground/10 w-3/4" />
+                      </div>
+                    </div>
+                    {/* Fake question line 2 */}
+                    <div className="flex items-start gap-3">
+                      <div className="size-5 rounded-full bg-primary/10 shrink-0 mt-0.5" />
+                      <div className="space-y-2 flex-1">
+                        <div className="h-2.5 rounded bg-muted-foreground/10 w-full" />
+                        <div className="h-2.5 rounded bg-muted-foreground/10 w-3/4" />
+                      </div>
+                    </div>
+                    {/* Fake question line 3 */}
+                    <div className="flex items-start gap-3">
+                      <div className="size-5 rounded-full bg-primary/10 shrink-0 mt-0.5" />
+                      <div className="space-y-2 flex-1">
+                        <div className="h-2.5 rounded bg-muted-foreground/10 w-full" />
+                        <div className="h-2.5 rounded bg-muted-foreground/10 w-3/4" />
+                      </div>
+                    </div>
+                    {/* Fake answer box */}
+                    <div className="mt-4 rounded-lg border border-amber-300/40 bg-amber-50/30 p-4 space-y-2">
+                      <div className="h-2 w-16 rounded bg-amber-300/40" />
+                      <div className="h-2 rounded bg-amber-200/30 w-full" />
+                      <div className="h-2 rounded bg-amber-200/30 w-2/3" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* New papers promo banner */}
+      {/* Featured Subjects — Editorial divider style */}
       {featuredSubjects.length > 0 && (
-        <section className="px-4 sm:px-6 lg:px-8 py-10">
-          <div className="mx-auto max-w-5xl">
-            <div className="mb-5 flex items-center gap-2">
-              <span className="inline-flex items-center rounded-full bg-foreground px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-widest text-background">
-                New
-              </span>
-              <span className="text-sm font-medium text-muted-foreground">
-                Question papers just added
-              </span>
-            </div>
+        <section className="py-16 px-4 sm:px-6 lg:px-8">
+          {/* Centered divider header */}
+          <div className="flex items-center gap-4 mb-10 max-w-5xl mx-auto">
+            <div className="h-px flex-1 bg-border" />
+            <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+              Just Added
+            </span>
+            <div className="h-px flex-1 bg-border" />
+          </div>
 
-            <div
-              className={`grid gap-4 ${featuredSubjects.length === 1 ? "" : "sm:grid-cols-2"}`}
-            >
-              {featuredSubjects.map((subject) => (
-                <Link
-                  key={subject.id}
-                  href={`/subjects/${subject.code}`}
-                  className="group relative overflow-hidden rounded-2xl bg-foreground p-6 sm:p-8 transition-transform hover:-translate-y-0.5"
-                >
-                  {/* Decorative gradient blob */}
-                  <div className="pointer-events-none absolute -right-8 -top-8 size-40 rounded-full bg-white/5 blur-2xl" />
-
-                  <div className="relative flex items-start justify-between gap-4">
-                    <div className="space-y-1.5">
-                      <p className="font-mono text-xs font-medium text-white/40 uppercase tracking-widest">
-                        {subject.code} · {subject.department} · Sem{" "}
-                        {subject.semester}
-                      </p>
-                      <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">
-                        {subject.name}
-                      </h3>
-                      <p className="text-sm text-white/50">
-                        {subject.college} · {subject.regulation}
-                      </p>
-                    </div>
-                    <div className="shrink-0 flex items-center justify-center size-10 rounded-full bg-white/10 text-white group-hover:bg-white/20 transition-colors mt-1">
-                      <ArrowRight className="size-4" />
-                    </div>
-                  </div>
-
-                  <div className="relative mt-5 pt-5 border-t border-white/10 flex items-center gap-2">
-                    <span className="inline-flex items-center rounded-full border border-white/20 px-2.5 py-0.5 text-xs text-white/60">
-                      Sample papers
-                    </span>
-                    <span className="inline-flex items-center rounded-full border border-white/20 px-2.5 py-0.5 text-xs text-white/60">
-                      Worked solutions
-                    </span>
-                    <span className="inline-flex items-center rounded-full border border-green-400/40 bg-green-400/10 px-2.5 py-0.5 text-xs text-green-300 font-medium">
-                      FREE
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
+          {/* Subjects list */}
+          <div className="max-w-5xl mx-auto">
+            {featuredSubjects.map((subject) => (
+              <Link
+                key={subject.id}
+                href={`/subjects/${subject.code}`}
+                className="group flex items-center justify-between gap-6 py-6 border-b border-border last:border-b-0 hover:px-4 hover:bg-accent/40 hover:-mx-4 rounded-lg transition-all"
+              >
+                <div>
+                  <p className="text-xs font-mono text-muted-foreground uppercase tracking-wider">
+                    {subject.code} · {subject.department} · Sem{" "}
+                    {subject.semester}
+                  </p>
+                  <h3 className="text-xl sm:text-2xl font-bold mt-1 group-hover:text-primary transition-colors">
+                    {subject.name}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    {subject.college} · {subject.regulation}
+                  </p>
+                </div>
+                <div className="shrink-0 flex items-center justify-center size-10 rounded-full border border-border text-muted-foreground group-hover:border-primary group-hover:text-primary transition-colors">
+                  <ArrowRight className="size-4" />
+                </div>
+              </Link>
+            ))}
           </div>
         </section>
       )}
 
-      {/* How it works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">
-            How It Works
-          </h2>
-          <div className="grid gap-8 sm:grid-cols-3">
-            {HOW_IT_WORKS.map(({ icon: Icon, step, title, description }) => (
-              <div
-                key={step}
-                className="flex flex-col items-center text-center gap-4"
-              >
-                <div className="relative flex items-center justify-center size-14 rounded-full bg-primary/10 text-primary">
-                  <Icon className="size-6" />
-                  <span className="absolute -top-1 -right-1 text-[10px] font-bold bg-primary text-primary-foreground rounded-full size-5 flex items-center justify-center">
+      {/* How It Works — Connected numbered circles */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 border-t bg-card">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-16">
+          How It Works
+        </h2>
+        <div className="max-w-4xl mx-auto">
+          <div className="relative">
+            {/* Connecting horizontal line */}
+            <div className="hidden sm:block absolute top-7 left-[16%] right-[16%] h-px bg-border" />
+            {/* Steps grid */}
+            <div className="grid sm:grid-cols-3 gap-10 sm:gap-8">
+              {HOW_IT_WORKS.map(({ step, title, description }) => (
+                <div key={step} className="relative text-center">
+                  {/* Number circle */}
+                  <div className="inline-flex items-center justify-center size-14 rounded-full bg-primary text-primary-foreground text-lg font-bold relative z-10 ring-4 ring-card">
                     {step}
-                  </span>
+                  </div>
+                  {/* Title */}
+                  <h3 className="font-semibold text-base mt-4">{title}</h3>
+                  {/* Description */}
+                  <p className="text-sm text-muted-foreground mt-2">
+                    {description}
+                  </p>
                 </div>
-                <h3 className="font-semibold text-lg">{title}</h3>
-                <p className="text-sm text-muted-foreground">{description}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>

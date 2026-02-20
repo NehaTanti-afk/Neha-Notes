@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, BookOpen } from 'lucide-react'
 import { DashboardGuard } from './DashboardGuard'
 import { Subject } from '@/types'
 
@@ -42,8 +42,8 @@ export default async function DashboardPage() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 space-y-12">
 
         {/* Welcome */}
-        <div>
-          <h1 className="text-2xl font-bold">Welcome back, {displayName} 👋</h1>
+        <div className="rounded-2xl bg-primary/5 border border-primary/10 p-8 sm:p-10">
+          <h1 className="text-3xl font-bold">Welcome back, {displayName}</h1>
           <p className="text-sm text-muted-foreground mt-1">{user.email}</p>
         </div>
 
@@ -61,30 +61,31 @@ export default async function DashboardPage() {
           {subjects.length === 0 ? (
             <p className="text-sm text-muted-foreground">No subjects available yet.</p>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="divide-y rounded-xl border bg-card overflow-hidden">
               {subjects.map((subject) => (
                 <Link
                   key={subject.id}
                   href={`/subjects/${subject.code}`}
-                  className="group rounded-xl border bg-card p-4 hover:border-primary/50 hover:bg-accent/40 transition-colors space-y-2"
+                  className="group flex items-center gap-4 p-5 hover:bg-accent/40 transition-colors"
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="flex gap-2 flex-wrap">
+                  <div className="flex items-center justify-center size-11 rounded-xl bg-primary/10 text-primary shrink-0">
+                    <BookOpen className="size-5" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-sm group-hover:text-primary transition-colors">{subject.name}</p>
+                    <div className="flex gap-2 flex-wrap mt-1">
                       <Badge variant="secondary" className="font-mono text-xs">
                         {subject.code}
                       </Badge>
                       <Badge variant="outline" className="text-xs">
                         Sem {subject.semester}
                       </Badge>
+                      <span className="text-xs text-muted-foreground">
+                        {subject.department} · {subject.regulation}
+                      </span>
                     </div>
-                    <ArrowRight className="size-4 text-muted-foreground group-hover:text-foreground transition-colors" />
                   </div>
-                  <div>
-                    <p className="font-medium text-sm leading-snug">{subject.name}</p>
-                    <p className="text-xs text-muted-foreground mt-0.5">
-                      {subject.department} · {subject.regulation}
-                    </p>
-                  </div>
+                  <ArrowRight className="size-4 text-muted-foreground group-hover:text-primary transition-colors shrink-0" />
                 </Link>
               ))}
             </div>

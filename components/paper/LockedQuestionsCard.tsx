@@ -16,14 +16,14 @@ export function LockedQuestionsCard({ questionNumbers }: LockedQuestionsCardProp
   if (count === 0) return null
 
   return (
-    <div className="rounded-lg border border-dashed bg-muted/20 p-5 space-y-4">
+    <div className="rounded-xl border-2 border-dashed border-primary/20 bg-secondary/50 p-6 space-y-5">
       {/* Header row */}
       <div className="flex items-start gap-3">
-        <div className="flex items-center justify-center size-8 rounded-full bg-primary/10 text-primary shrink-0 mt-0.5">
+        <div className="flex items-center justify-center size-10 rounded-xl bg-primary/10 text-primary shrink-0 mt-0.5">
           <Sparkles className="size-4" />
         </div>
         <div className="space-y-0.5">
-          <p className="text-sm font-semibold">
+          <p className="text-base font-semibold">
             {count} more {count === 1 ? 'question' : 'questions'} + answers inside
           </p>
           <p className="text-xs text-muted-foreground">
@@ -33,11 +33,11 @@ export function LockedQuestionsCard({ questionNumbers }: LockedQuestionsCardProp
       </div>
 
       {/* Question number chips */}
-      <div className="flex flex-wrap gap-1.5 pl-11">
+      <div className="flex flex-wrap gap-1.5 pl-13">
         {questionNumbers.map((num) => (
           <span
             key={num}
-            className="inline-flex items-center gap-1 rounded-full border bg-background px-2 py-0.5 text-xs text-muted-foreground"
+            className="inline-flex items-center gap-1 rounded-lg border bg-card px-2.5 py-1 text-xs text-muted-foreground"
           >
             {num}
           </span>
@@ -45,7 +45,7 @@ export function LockedQuestionsCard({ questionNumbers }: LockedQuestionsCardProp
       </div>
 
       {/* CTAs */}
-      <div className="pl-11 flex gap-2">
+      <div className="pl-13 flex gap-2">
         <Button asChild size="sm">
           <Link href={`/signup?next=${next}`}>Sign Up Free</Link>
         </Button>

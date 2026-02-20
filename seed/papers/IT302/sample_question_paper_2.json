@@ -1,0 +1,639 @@
+{
+  "subject_code": "IT302",
+  "title": "Sample Question Paper 2",
+  "type": "end_sem",
+  "year": "2025-26",
+  "metadata": {
+    "difficulty": "medium",
+    "modules_covered": [
+      "Module 1",
+      "Module 2",
+      "Module 3",
+      "Module 4",
+      "Module 5",
+      "Module 6"
+    ]
+  },
+  "questions": {
+    "A1": {
+      "group": "A",
+      "number": "A1",
+      "text": "In an operational amplifier, what type of feedback is typically used to stabilize the gain?",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "Negative feedback"
+        },
+        {
+          "key": "b",
+          "text": "Positive feedback"
+        },
+        {
+          "key": "c",
+          "text": "No feedback"
+        },
+        {
+          "key": "d",
+          "text": "Direct feedback"
+        }
+      ],
+      "is_preview": true
+    },
+    "A2": {
+      "group": "A",
+      "number": "A2",
+      "text": "Which of the following best describes the function of a multiplexer?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "Perform arithmetic operations"
+        },
+        {
+          "key": "b",
+          "text": "Select one of many inputs"
+        },
+        {
+          "key": "c",
+          "text": "Invert logic signals"
+        },
+        {
+          "key": "d",
+          "text": "Store multiple bits of data"
+        }
+      ]
+    },
+    "A3": {
+      "group": "A",
+      "number": "A3",
+      "text": "One application of a digital multiplexer is to facilitate:",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "Parity checking"
+        },
+        {
+          "key": "b",
+          "text": "Serial-to-parallel conversion"
+        },
+        {
+          "key": "c",
+          "text": "Data generation"
+        },
+        {
+          "key": "d",
+          "text": "Data selection"
+        }
+      ]
+    },
+    "A4": {
+      "group": "A",
+      "number": "A4",
+      "text": "How many data select lines are required for selecting eight inputs in a multiplexer?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "1"
+        },
+        {
+          "key": "b",
+          "text": "2"
+        },
+        {
+          "key": "c",
+          "text": "3"
+        },
+        {
+          "key": "d",
+          "text": "4"
+        }
+      ]
+    },
+    "A5": {
+      "group": "A",
+      "number": "A5",
+      "text": "An SR latch consists of:",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "1 input"
+        },
+        {
+          "key": "b",
+          "text": "2 inputs"
+        },
+        {
+          "key": "c",
+          "text": "3 inputs"
+        },
+        {
+          "key": "d",
+          "text": "4 inputs"
+        }
+      ]
+    },
+    "A6": {
+      "group": "A",
+      "number": "A6",
+      "text": "Which of the following is the Boolean expression for an OR gate?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$A + B$"
+        },
+        {
+          "key": "b",
+          "text": "$A \\cdot \\bar{B}$"
+        },
+        {
+          "key": "c",
+          "text": "$\\bar{A} \\cdot \\bar{B}$"
+        },
+        {
+          "key": "d",
+          "text": "$A \\cdot B$"
+        }
+      ]
+    },
+    "A7": {
+      "group": "A",
+      "number": "A7",
+      "text": "Which of the following is a property of a semiconductor?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "High resistance"
+        },
+        {
+          "key": "b",
+          "text": "Variable resistance"
+        },
+        {
+          "key": "c",
+          "text": "Zero resistance"
+        },
+        {
+          "key": "d",
+          "text": "Infinite resistance"
+        }
+      ]
+    },
+    "A8": {
+      "group": "A",
+      "number": "A8",
+      "text": "In a D flip-flop, what happens to the output when the clock signal transitions from 0 to 1?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "The output follows the input"
+        },
+        {
+          "key": "b",
+          "text": "The output is stored as it was"
+        },
+        {
+          "key": "c",
+          "text": "The output changes randomly"
+        },
+        {
+          "key": "d",
+          "text": "The output goes high"
+        }
+      ]
+    },
+    "A9": {
+      "group": "A",
+      "number": "A9",
+      "text": "How does a counter work in a sequential circuit?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "It stores data"
+        },
+        {
+          "key": "b",
+          "text": "It counts pulses"
+        },
+        {
+          "key": "c",
+          "text": "It performs logic operations"
+        },
+        {
+          "key": "d",
+          "text": "It outputs data"
+        }
+      ]
+    },
+    "A10": {
+      "group": "A",
+      "number": "A10",
+      "text": "Which logic family is known for high-speed operation?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "CMOS"
+        },
+        {
+          "key": "b",
+          "text": "TTL"
+        },
+        {
+          "key": "c",
+          "text": "ECL"
+        },
+        {
+          "key": "d",
+          "text": "DTL"
+        }
+      ]
+    },
+    "A11": {
+      "group": "A",
+      "number": "A11",
+      "text": "The output of a D flip-flop is 1 if:",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "The input is 1"
+        },
+        {
+          "key": "b",
+          "text": "The clock is high"
+        },
+        {
+          "key": "c",
+          "text": "The input and clock are both 1"
+        },
+        {
+          "key": "d",
+          "text": "The input is 0"
+        }
+      ]
+    },
+    "A12": {
+      "group": "A",
+      "number": "A12",
+      "text": "One that is NOT the outcome of a magnitude comparator is:",
+      "marks": 1,
+      "co": "CO3",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$A > B$"
+        },
+        {
+          "key": "b",
+          "text": "$A - B$"
+        },
+        {
+          "key": "c",
+          "text": "$A < B$"
+        },
+        {
+          "key": "d",
+          "text": "$A = B$"
+        }
+      ]
+    },
+    "B1": {
+      "group": "B",
+      "number": "B1",
+      "text": "List and explain the different types of logic gates with their Boolean expressions and truth tables.",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L2",
+      "is_preview": true
+    },
+    "B2": {
+      "group": "B",
+      "number": "B2",
+      "text": "What are the differences between an ADC and a DAC?",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "B3": {
+      "group": "B",
+      "number": "B3",
+      "text": "Explain the role of negative feedback in operational amplifiers.",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "B4": {
+      "group": "B",
+      "number": "B4",
+      "text": "Analyze the working principle of a binary adder used in arithmetic circuits.",
+      "marks": 5,
+      "co": "CO3",
+      "bl": "L4"
+    },
+    "B5": {
+      "group": "B",
+      "number": "B5",
+      "text": "Describe the full subtractor circuit with truth table and Boolean expressions.",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "C1": {
+      "group": "C",
+      "number": "C1",
+      "text": "(a) Design an octal-to-binary encoder using basic gates. [6]\n(b) Implement the following function using an 8:1 Multiplexer: $F(A,B,C,D) = \\sum(0,1,4,5,7,9,11,13,15)$ [6]\n(c) Differentiate between combinational and sequential circuits. [3]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L4",
+      "is_preview": true
+    },
+    "C2": {
+      "group": "C",
+      "number": "C2",
+      "text": "(a) Design a 16:1 MUX using two 8:1 MUX modules. [7]\n(b) Implement a J-K flip-flop using a D flip-flop. [8]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L5"
+    },
+    "C3": {
+      "group": "C",
+      "number": "C3",
+      "text": "(a) Using a multiplexer, simplify the following Boolean function: $F(A,B,C,D) = \\sum m(1,2,5,6,7,8,10,12,13,15)$ [8]\n(b) Explain the S-R flip-flop with circuit diagram, truth table, and characteristic equation. [7]",
+      "marks": 15,
+      "co": "CO3",
+      "bl": "L4"
+    },
+    "C4": {
+      "group": "C",
+      "number": "C4",
+      "text": "(a) Explain the principle of duality in Boolean algebra. [4]\n(b) Mention different laws of Boolean algebra with examples. [4]\n(c) Distinguish between ROM, PLA, and PAL as elements realizing Boolean functions. [7]",
+      "marks": 15,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "C5": {
+      "group": "C",
+      "number": "C5",
+      "text": "(a) With the help of a necessary circuit diagram description, explain the operation of a dual-slope ADC. [7]\n(b) Explain the working principle of a Phase Shift Oscillator and its conditions for oscillation. [8]",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L2"
+    }
+  },
+  "answers": {
+    "A1": {
+      "question_number": "A1",
+      "correct_option": "a",
+      "solution": "**Negative feedback** is used to stabilize the gain of an operational amplifier.\n\nIn negative feedback, a portion of the output is fed back to the inverting input, which:\n- **Reduces** and **stabilizes** the gain (from near-infinite open-loop to a predictable closed-loop value)\n- **Increases bandwidth**\n- **Reduces distortion**\n- **Improves input/output impedance**\n\nPositive feedback, on the other hand, drives the op-amp into saturation and is used in oscillators and Schmitt trigger circuits, not for gain stabilization.",
+      "key_points": [
+        "Negative feedback stabilizes op-amp gain",
+        "It reduces gain but increases bandwidth and reduces distortion",
+        "Positive feedback is used in oscillators, not for gain control"
+      ]
+    },
+    "A2": {
+      "question_number": "A2",
+      "correct_option": "b",
+      "solution": "A **multiplexer (MUX)** is a combinational circuit that **selects one of many input lines** and forwards it to a single output line, based on the values of the select lines.\n\nA $2^n$-to-1 MUX has:\n- $2^n$ data inputs\n- $n$ select lines\n- 1 output\n\n- Option (a) — Arithmetic operations are done by ALU/adders\n- Option (b) — **Correct**: MUX selects one of many inputs\n- Option (c) — Inverting is done by NOT gates\n- Option (d) — Storing data is done by registers/flip-flops",
+      "key_points": [
+        "MUX selects one of many inputs and forwards to single output",
+        "Also called a data selector",
+        "A 2^n-to-1 MUX needs n select lines"
+      ]
+    },
+    "A3": {
+      "question_number": "A3",
+      "correct_option": "d",
+      "solution": "A multiplexer is also known as a **data selector**. Its primary function is to select data from one of several input channels and route it to the output.\n\n- Parity checking — done by XOR trees/parity circuits\n- Serial-to-parallel conversion — done by shift registers\n- Data generation — not a standard MUX function\n- **Data selection** — the fundamental function of a MUX ✓\n\nOther MUX applications include: parallel-to-serial conversion, Boolean function implementation, and routing in communication systems.",
+      "key_points": [
+        "MUX is also called a data selector",
+        "Primary function is data selection/routing",
+        "Can also implement Boolean functions and parallel-to-serial conversion"
+      ]
+    },
+    "A4": {
+      "question_number": "A4",
+      "correct_option": "c",
+      "solution": "For a multiplexer with $N$ inputs, the number of select lines $n$ is:\n\n$$n = \\log_2 N$$\n\nFor 8 inputs: $n = \\log_2 8 = 3$ select lines.\n\nWith 3 select lines ($S_2 S_1 S_0$), we can address $2^3 = 8$ different inputs ($I_0$ through $I_7$).",
+      "key_points": [
+        "8:1 MUX requires 3 select lines",
+        "Formula: select lines = log₂(number of inputs)",
+        "3 select lines can address 2³ = 8 inputs"
+      ]
+    },
+    "A5": {
+      "question_number": "A5",
+      "correct_option": "b",
+      "solution": "An **SR latch** has **2 inputs**: $S$ (Set) and $R$ (Reset).\n\n- $S = 1, R = 0$: Output is SET ($Q = 1$)\n- $S = 0, R = 1$: Output is RESET ($Q = 0$)\n- $S = 0, R = 0$: No change (hold previous state)\n- $S = 1, R = 1$: Invalid/forbidden state\n\nThe SR latch is the most basic memory element in digital electronics, built using two cross-coupled NOR or NAND gates.",
+      "key_points": [
+        "SR latch has 2 inputs: S (Set) and R (Reset)",
+        "Built from two cross-coupled NOR or NAND gates",
+        "S=1,R=1 is the invalid/forbidden state"
+      ]
+    },
+    "A6": {
+      "question_number": "A6",
+      "correct_option": "a",
+      "solution": "The Boolean expression for an **OR gate** is $Y = A + B$.\n\nThe '+' symbol in Boolean algebra represents the OR operation (logical disjunction).\n\n- $A + B$ — OR gate ✓\n- $A \\cdot \\bar{B}$ — AND with B inverted (inhibit gate)\n- $\\bar{A} \\cdot \\bar{B}$ — NOR (output of AND with both inverted) = $\\overline{A+B}$\n- $A \\cdot B$ — AND gate\n\n**Truth table of OR gate:**\n\n| A | B | Y = A+B |\n|---|---|--------|\n| 0 | 0 | 0 |\n| 0 | 1 | 1 |\n| 1 | 0 | 1 |\n| 1 | 1 | 1 |",
+      "key_points": [
+        "OR gate: Y = A + B",
+        "Output is 1 if any input is 1",
+        "'+' represents OR in Boolean algebra"
+      ]
+    },
+    "A7": {
+      "question_number": "A7",
+      "correct_option": "b",
+      "solution": "A semiconductor has **variable resistance** — its conductivity lies between that of a conductor and an insulator, and it can be changed by:\n\n- **Temperature**: Resistance decreases as temperature increases (negative temperature coefficient)\n- **Doping**: Adding impurities to create n-type or p-type semiconductors\n- **Light**: Photoconductivity changes resistance\n- **Applied voltage**: In devices like diodes and transistors\n\nCommon semiconductors: Silicon (Si), Germanium (Ge), Gallium Arsenide (GaAs).\n\n- High resistance → insulator\n- Zero resistance → superconductor\n- Infinite resistance → perfect insulator\n- **Variable resistance** → semiconductor ✓",
+      "key_points": [
+        "Semiconductors have variable resistance",
+        "Conductivity depends on temperature, doping, light, and voltage",
+        "Silicon and Germanium are common semiconductors"
+      ]
+    },
+    "A8": {
+      "question_number": "A8",
+      "correct_option": "a",
+      "solution": "In a **positive-edge-triggered D flip-flop**, when the clock transitions from 0 to 1 (rising edge), **the output follows the input** — i.e., $Q$ takes the value of $D$ at that instant.\n\n**Characteristic table of D flip-flop:**\n\n| Clock Edge | $D$ | $Q_{n+1}$ |\n|-----------|-----|----------|\n| ↑ | 0 | 0 |\n| ↑ | 1 | 1 |\n\n**Characteristic equation:** $Q_{n+1} = D$\n\nThe D flip-flop is called a \"delay\" flip-flop because it delays the input by one clock cycle. Between clock edges, the output is held (stored).",
+      "key_points": [
+        "On rising clock edge, D flip-flop output follows input: Q = D",
+        "Called 'delay' flip-flop as it delays input by one clock cycle",
+        "Output is held between clock edges"
+      ]
+    },
+    "A9": {
+      "question_number": "A9",
+      "correct_option": "b",
+      "solution": "A **counter** in a sequential circuit **counts pulses** (clock transitions). It changes its state in a predefined sequence with each clock pulse.\n\n**Types of counters:**\n- **Asynchronous (ripple)**: Each flip-flop is triggered by the previous one\n- **Synchronous**: All flip-flops share the same clock\n- **Up counter**: Counts in ascending order (0, 1, 2, ...)\n- **Down counter**: Counts in descending order\n- **MOD-N counter**: Counts from 0 to N-1\n\nAn $n$-bit binary counter counts from 0 to $2^n - 1$ and has $2^n$ states.",
+      "key_points": [
+        "Counter counts clock pulses in a predefined sequence",
+        "Types: asynchronous, synchronous, up, down, MOD-N",
+        "n-bit counter has 2^n states"
+      ]
+    },
+    "A10": {
+      "question_number": "A10",
+      "correct_option": "c",
+      "solution": "**ECL (Emitter-Coupled Logic)** is known for the highest speed among standard logic families.\n\n**Comparison:**\n\n| Logic Family | Speed | Power | Feature |\n|-------------|-------|-------|----------|\n| DTL | Slow | Low | Oldest |\n| TTL | Medium | Medium | Most popular BJT-based |\n| ECL | **Fastest** | High | Non-saturating BJTs |\n| CMOS | Variable | Very Low | Lowest static power |\n\nECL achieves high speed because transistors operate in the **non-saturating (active) region**, avoiding the storage time delay associated with transistor saturation. The trade-off is higher power consumption.",
+      "key_points": [
+        "ECL is the fastest logic family",
+        "ECL uses non-saturating BJT operation to avoid storage time delay",
+        "Trade-off: highest power consumption"
+      ]
+    },
+    "A11": {
+      "question_number": "A11",
+      "correct_option": "c",
+      "solution": "For a **level-triggered D flip-flop (D latch)**, the output becomes 1 when **both the input ($D$) and the clock are 1**.\n\nWhen the clock is HIGH (enabled), the output transparently follows the input. When the clock goes LOW, the output is latched (held).\n\n- Input is 1 alone → not sufficient (clock must be active)\n- Clock is high alone → not sufficient (input must also be 1)\n- **Input AND clock both 1** → output = 1 ✓\n- Input is 0 → output would be 0\n\nNote: For edge-triggered D flip-flop, the output becomes 1 if D = 1 at the triggering clock edge.",
+      "key_points": [
+        "D latch output = 1 when both D input and clock are 1",
+        "When clock is active, output follows input transparently",
+        "When clock is inactive, output is latched"
+      ]
+    },
+    "A12": {
+      "question_number": "A12",
+      "correct_option": "b",
+      "solution": "A **magnitude comparator** compares two binary numbers and produces **three outputs**:\n- $A > B$\n- $A < B$\n- $A = B$\n\nIt does **not** perform subtraction ($A - B$). Subtraction is performed by a subtractor circuit (using adders with complement arithmetic).\n\nA magnitude comparator only determines the **relative magnitude** (greater, less, or equal) — it does not compute the actual difference between the numbers.",
+      "key_points": [
+        "Magnitude comparator has 3 outputs: A>B, A<B, A=B",
+        "A-B (subtraction) is NOT a comparator output",
+        "Comparator determines relative magnitude, not arithmetic difference"
+      ]
+    },
+    "B1": {
+      "question_number": "B1",
+      "solution": "**Basic Logic Gates:**\n\nThere are 7 fundamental logic gates in digital electronics:\n\n**1. AND Gate:**\n- Expression: $Y = A \\cdot B$\n- Output is HIGH only when ALL inputs are HIGH\n\n| A | B | Y |\n|---|---|---|\n| 0 | 0 | 0 |\n| 0 | 1 | 0 |\n| 1 | 0 | 0 |\n| 1 | 1 | 1 |\n\n**2. OR Gate:**\n- Expression: $Y = A + B$\n- Output is HIGH when ANY input is HIGH\n\n| A | B | Y |\n|---|---|---|\n| 0 | 0 | 0 |\n| 0 | 1 | 1 |\n| 1 | 0 | 1 |\n| 1 | 1 | 1 |\n\n**3. NOT Gate (Inverter):**\n- Expression: $Y = \\bar{A}$\n- Inverts the input\n\n**4. NAND Gate (Universal Gate):**\n- Expression: $Y = \\overline{A \\cdot B}$\n- Complement of AND; output is LOW only when ALL inputs are HIGH\n- Can implement any other gate\n\n**5. NOR Gate (Universal Gate):**\n- Expression: $Y = \\overline{A + B}$\n- Complement of OR; output is HIGH only when ALL inputs are LOW\n- Can implement any other gate\n\n**6. XOR Gate (Exclusive OR):**\n- Expression: $Y = A \\oplus B = A\\bar{B} + \\bar{A}B$\n- Output is HIGH when inputs are **different**\n\n**7. XNOR Gate (Equivalence Gate):**\n- Expression: $Y = \\overline{A \\oplus B} = AB + \\bar{A}\\bar{B}$\n- Output is HIGH when inputs are **same**\n\n**NAND and NOR** are called **universal gates** because any Boolean function can be implemented using only NAND gates or only NOR gates.",
+      "key_points": [
+        "7 basic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR",
+        "NAND and NOR are universal gates",
+        "XOR outputs HIGH when inputs differ; XNOR when inputs are same",
+        "Any Boolean function can be built using only NAND or only NOR gates"
+      ]
+    },
+    "B2": {
+      "question_number": "B2",
+      "solution": "**Differences between ADC (Analog-to-Digital Converter) and DAC (Digital-to-Analog Converter):**\n\n| Feature | ADC | DAC |\n|---------|-----|-----|\n| Full Form | Analog-to-Digital Converter | Digital-to-Analog Converter |\n| Function | Converts analog signal to digital | Converts digital signal to analog |\n| Input | Continuous analog voltage/current | Discrete digital binary data |\n| Output | Discrete digital binary code | Continuous analog voltage/current |\n| Process | Sampling → Quantization → Encoding | Decoding → Reconstruction |\n| Key Parameter | Resolution (bits), Sampling rate | Resolution (bits), Settling time |\n| Examples | Flash ADC, SAR ADC, Dual-slope ADC | R-2R Ladder, Binary Weighted DAC |\n| Applications | Sensors, audio recording, data acquisition | Audio playback, motor control, display |\n| Complexity | Generally more complex | Simpler than ADC |\n| Speed | Limited by conversion time | Generally faster than ADC |\n\n**Key concepts:**\n\n- **Resolution:** An $n$-bit converter has $2^n$ discrete levels\n- **ADC step size:** $\\Delta = \\frac{V_{ref}}{2^n}$ (also called LSB value)\n- **Quantization error:** Maximum error = $\\pm \\frac{\\Delta}{2}$\n- ADC is used at the input of digital systems (real-world → digital)\n- DAC is used at the output of digital systems (digital → real-world)",
+      "key_points": [
+        "ADC converts analog to digital; DAC converts digital to analog",
+        "ADC involves sampling, quantization, encoding; DAC involves decoding and reconstruction",
+        "Both characterized by resolution (n bits = 2^n levels)",
+        "ADC is generally more complex and slower than DAC"
+      ]
+    },
+    "B3": {
+      "question_number": "B3",
+      "solution": "**Negative Feedback in Operational Amplifiers:**\n\nNegative feedback is a technique where a portion of the output signal is fed back to the **inverting input** ($V^-$) of the op-amp, opposing the input signal.\n\n**Closed-loop gain formula:**\n\n$$A_{CL} = \\frac{A_{OL}}{1 + A_{OL} \\cdot \\beta}$$\n\nWhere $A_{OL}$ = open-loop gain (~$10^5$ to $10^6$), $\\beta$ = feedback fraction.\n\nSince $A_{OL}$ is very large: $A_{CL} \\approx \\frac{1}{\\beta}$\n\n**Effects of Negative Feedback:**\n\n**1. Gain Stabilization:**\n- Open-loop gain is extremely high and unstable\n- Negative feedback reduces gain to a **stable, predictable** value determined by external resistors\n- Gain becomes independent of op-amp parameters\n\n**2. Bandwidth Increase:**\n- Gain-bandwidth product (GBP) is constant: $\\text{GBP} = A_{CL} \\times BW$\n- Lower gain → wider bandwidth\n\n**3. Distortion Reduction:**\n- Non-linearity is reduced by the factor $(1 + A_{OL} \\cdot \\beta)$\n- Output more faithfully represents input\n\n**4. Input Impedance:**\n- Increased by the factor $(1 + A_{OL} \\cdot \\beta)$ for series feedback\n\n**5. Output Impedance:**\n- Decreased by the factor $(1 + A_{OL} \\cdot \\beta)$\n- Better voltage source behavior\n\n**6. Noise Reduction:**\n- Internal noise is attenuated by the feedback factor\n\n**Common op-amp circuits using negative feedback:**\n- Inverting amplifier: $A_{CL} = -\\frac{R_f}{R_1}$\n- Non-inverting amplifier: $A_{CL} = 1 + \\frac{R_f}{R_1}$\n- Voltage follower (unity gain buffer): $A_{CL} = 1$",
+      "key_points": [
+        "Negative feedback connects output back to inverting input",
+        "Stabilizes gain: ACL ≈ 1/β, independent of open-loop gain",
+        "Increases bandwidth, reduces distortion and output impedance",
+        "Trade-off: reduced gain for improved performance",
+        "Closed-loop gain formula: ACL = AOL/(1 + AOL·β)"
+      ]
+    },
+    "B4": {
+      "question_number": "B4",
+      "solution": "**Binary Adder — Working Principle:**\n\nA binary adder is a combinational circuit that performs the arithmetic addition of binary numbers.\n\n**Half Adder:**\n\nAdds two single-bit binary numbers ($A$ and $B$):\n\n| $A$ | $B$ | Sum ($S$) | Carry ($C$) |\n|-----|-----|-----------|-------------|\n| 0 | 0 | 0 | 0 |\n| 0 | 1 | 1 | 0 |\n| 1 | 0 | 1 | 0 |\n| 1 | 1 | 0 | 1 |\n\n$$S = A \\oplus B \\qquad C = A \\cdot B$$\n\n**Full Adder:**\n\nAdds three bits: $A$, $B$, and carry-in ($C_{in}$):\n\n$$S = A \\oplus B \\oplus C_{in}$$\n$$C_{out} = AB + (A \\oplus B) \\cdot C_{in}$$\n\n**n-bit Ripple Carry Adder:**\n\nTo add two $n$-bit numbers, we cascade $n$ full adders:\n- $FA_0$: adds $A_0 + B_0 + 0$ (initial carry = 0)\n- $FA_1$: adds $A_1 + B_1 + C_0$ (carry from $FA_0$)\n- ...\n- $FA_{n-1}$: adds $A_{n-1} + B_{n-1} + C_{n-2}$\n\n**Limitation:** The carry must **ripple** through all stages, causing propagation delay:\n$$t_{\\text{total}} = n \\times t_{\\text{carry}}$$\n\n**Carry Look-Ahead Adder (CLA):**\n\nTo overcome the ripple delay, CLA pre-computes carries using:\n- **Generate:** $G_i = A_i \\cdot B_i$ (carry generated at stage $i$)\n- **Propagate:** $P_i = A_i \\oplus B_i$ (carry propagated through stage $i$)\n- **Carry:** $C_i = G_i + P_i \\cdot C_{i-1}$\n\nExpanding: $C_1 = G_0 + P_0 C_0$, $C_2 = G_1 + P_1 G_0 + P_1 P_0 C_0$, etc.\n\nThis allows **all carries to be computed simultaneously** in $O(1)$ time instead of $O(n)$.",
+      "key_points": [
+        "Half adder: S = A⊕B, C = A·B (adds 2 bits)",
+        "Full adder: adds 3 bits (A, B, Cin) with sum and carry out",
+        "Ripple carry adder cascades n full adders but has O(n) delay",
+        "CLA uses generate/propagate logic to compute all carries simultaneously"
+      ]
+    },
+    "B5": {
+      "question_number": "B5",
+      "solution": "**Full Subtractor:**\n\nA full subtractor is a combinational circuit that performs **subtraction of three bits**: minuend ($A$), subtrahend ($B$), and borrow-in ($B_{in}$). It produces a **Difference** ($D$) and a **Borrow-out** ($B_{out}$).\n\n**Truth Table:**\n\n| $A$ | $B$ | $B_{in}$ | $D$ | $B_{out}$ |\n|-----|-----|----------|-----|-----------|\n| 0 | 0 | 0 | 0 | 0 |\n| 0 | 0 | 1 | 1 | 1 |\n| 0 | 1 | 0 | 1 | 1 |\n| 0 | 1 | 1 | 0 | 1 |\n| 1 | 0 | 0 | 1 | 0 |\n| 1 | 0 | 1 | 0 | 0 |\n| 1 | 1 | 0 | 0 | 0 |\n| 1 | 1 | 1 | 1 | 1 |\n\n**Boolean Expressions:**\n\n$$D = A \\oplus B \\oplus B_{in}$$\n\n$$B_{out} = \\bar{A} \\cdot B + (\\bar{A} \\oplus B) \\cdot B_{in} = \\bar{A}B + \\bar{A}B_{in} + BB_{in}$$\n\nAlternatively: $B_{out} = \\bar{A}B + (A \\odot B) \\cdot B_{in}$\n\nwhere $A \\odot B = \\overline{A \\oplus B}$.\n\n**Implementation:** A full subtractor can be realized using:\n- **Two half subtractors and an OR gate** (similar to full adder realization)\n- Half subtractor: $D = A \\oplus B$, $B_{out} = \\bar{A} \\cdot B$\n\n**Comparison with Full Adder:**\n\n| Feature | Full Adder | Full Subtractor |\n|---------|-----------|----------------|\n| Operation | $A + B + C_{in}$ | $A - B - B_{in}$ |\n| Output 1 | Sum = $A \\oplus B \\oplus C_{in}$ | Difference = $A \\oplus B \\oplus B_{in}$ |\n| Output 2 | $C_{out} = AB + (A \\oplus B)C_{in}$ | $B_{out} = \\bar{A}B + (\\bar{A} \\oplus B)B_{in}$ |",
+      "key_points": [
+        "Full subtractor subtracts 3 bits: A - B - Bin",
+        "Difference = A ⊕ B ⊕ Bin (same structure as sum in full adder)",
+        "Borrow = ĀB + (Ā⊕B)·Bin",
+        "Can be built using two half subtractors and an OR gate"
+      ]
+    },
+    "C1": {
+      "question_number": "C1",
+      "solution": "**(a) Octal-to-Binary Encoder:**\n\nAn octal-to-binary encoder converts 8 input lines ($D_0$ to $D_7$) to 3 output lines ($Y_2, Y_1, Y_0$) representing the binary equivalent.\n\n**Assumption:** Only one input is active (HIGH) at a time.\n\n**Truth Table:**\n\n| Active Input | $Y_2$ | $Y_1$ | $Y_0$ |\n|-------------|-------|-------|-------|\n| $D_0$ | 0 | 0 | 0 |\n| $D_1$ | 0 | 0 | 1 |\n| $D_2$ | 0 | 1 | 0 |\n| $D_3$ | 0 | 1 | 1 |\n| $D_4$ | 1 | 0 | 0 |\n| $D_5$ | 1 | 0 | 1 |\n| $D_6$ | 1 | 1 | 0 |\n| $D_7$ | 1 | 1 | 1 |\n\n**Boolean Expressions:**\n\n$$Y_0 = D_1 + D_3 + D_5 + D_7$$\n$$Y_1 = D_2 + D_3 + D_6 + D_7$$\n$$Y_2 = D_4 + D_5 + D_6 + D_7$$\n\n**Circuit:** Each output requires a 4-input OR gate:\n- $Y_0$: OR gate with inputs $D_1, D_3, D_5, D_7$ (all odd-numbered inputs)\n- $Y_1$: OR gate with inputs $D_2, D_3, D_6, D_7$\n- $Y_2$: OR gate with inputs $D_4, D_5, D_6, D_7$ (upper half inputs)\n\n**Total gates needed:** 3 four-input OR gates.\n\n**(b) Implementing $F(A,B,C,D) = \\sum(0,1,4,5,7,9,11,13,15)$ using 8:1 MUX:**\n\nTake $A$, $B$, $C$ as select lines ($S_2, S_1, S_0$) and express in terms of $D$:\n\n| $A$ | $B$ | $C$ | Select ($S_2S_1S_0$) | Minterms | $D=0$ | $D=1$ | MUX Input |\n|-----|-----|-----|---------------------|----------|-------|-------|-----------|\n| 0 | 0 | 0 | 000 | $m_0, m_1$ | 1 | 1 | 1 |\n| 0 | 0 | 1 | 001 | $m_2, m_3$ | 0 | 0 | 0 |\n| 0 | 1 | 0 | 010 | $m_4, m_5$ | 1 | 1 | 1 |\n| 0 | 1 | 1 | 011 | $m_6, m_7$ | 0 | 1 | $D$ |\n| 1 | 0 | 0 | 100 | $m_8, m_9$ | 0 | 1 | $D$ |\n| 1 | 0 | 1 | 101 | $m_{10}, m_{11}$ | 0 | 1 | $D$ |\n| 1 | 1 | 0 | 110 | $m_{12}, m_{13}$ | 0 | 1 | $D$ |\n| 1 | 1 | 1 | 111 | $m_{14}, m_{15}$ | 0 | 1 | $D$ |\n\n**MUX connections:**\n- $S_2 = A$, $S_1 = B$, $S_0 = C$\n- $I_0 = 1$, $I_1 = 0$, $I_2 = 1$, $I_3 = D$\n- $I_4 = D$, $I_5 = D$, $I_6 = D$, $I_7 = D$\n\n**(c) Differences between Combinational and Sequential Circuits:**\n\n| Feature | Combinational | Sequential |\n|---------|--------------|------------|\n| Memory | No memory elements | Contains memory (flip-flops) |\n| Output | Depends only on present inputs | Depends on present inputs + previous state |\n| Feedback | No feedback | Has feedback path |\n| Clock | Not needed | Clock signal required |\n| Complexity | Simpler design | More complex |\n| Examples | Adder, MUX, Encoder, Decoder | Counter, Register, Flip-flop |",
+      "key_points": [
+        "Octal-to-binary encoder uses 3 OR gates: Y0=D1+D3+D5+D7, Y1=D2+D3+D6+D7, Y2=D4+D5+D6+D7",
+        "8:1 MUX implementation: use ABC as select, express each input as 0, 1, D, or D̄",
+        "Combinational = no memory, output depends on present inputs only",
+        "Sequential = has memory (flip-flops), output depends on inputs + state"
+      ]
+    },
+    "C2": {
+      "question_number": "C2",
+      "solution": "**(a) 16:1 MUX using two 8:1 MUX:**\n\nA 16:1 MUX has 16 data inputs ($I_0$ to $I_{15}$), 4 select lines ($S_3, S_2, S_1, S_0$), and 1 output.\n\n**Design approach:**\n\n**Step 1:** Use two 8:1 MUX modules:\n- **MUX-1:** Handles inputs $I_0$ to $I_7$ (lower half)\n- **MUX-2:** Handles inputs $I_8$ to $I_{15}$ (upper half)\n\n**Step 2:** Connect the 3 lower select lines ($S_2, S_1, S_0$) to the select inputs of **both** MUX modules.\n\n**Step 3:** Use $S_3$ (MSB) and a **2:1 MUX** (or equivalent using an inverter, two AND gates, and one OR gate) to select between the outputs of MUX-1 and MUX-2:\n- When $S_3 = 0$: Output of MUX-1 is selected → accesses $I_0$ to $I_7$\n- When $S_3 = 1$: Output of MUX-2 is selected → accesses $I_8$ to $I_{15}$\n\n**Alternative using Enable:**\nIf the 8:1 MUX has an enable ($\\bar{E}$) pin:\n- Connect $S_3$ to $\\bar{E}$ of MUX-1 through an inverter → MUX-1 enabled when $S_3 = 0$\n- Connect $S_3$ directly to $\\bar{E}$ of MUX-2 → MUX-2 enabled when $S_3 = 1$\n- OR the outputs of both MUXes\n\n**Final output:** $Y = \\bar{S_3} \\cdot Y_1 + S_3 \\cdot Y_2$\n\nwhere $Y_1$ = output of MUX-1, $Y_2$ = output of MUX-2.\n\n**Components:** 2 × (8:1 MUX) + 1 × (2:1 MUX or equivalent logic)\n\n**(b) J-K Flip-Flop using D Flip-Flop:**\n\nThe characteristic equations are:\n- **J-K FF:** $Q_{n+1} = J\\bar{Q_n} + \\bar{K}Q_n$\n- **D FF:** $Q_{n+1} = D$\n\nTo implement J-K using D, we need: $D = J\\bar{Q_n} + \\bar{K}Q_n$\n\n**Implementation steps:**\n\n**Step 1:** We need to generate the D input from J, K, and the current output $Q_n$.\n\n**Step 2:** The logic equation is:\n$$D = J \\cdot \\bar{Q} + \\bar{K} \\cdot Q$$\n\n**Step 3:** Circuit components needed:\n- 1 NOT gate: to generate $\\bar{Q}$ (from feedback) and $\\bar{K}$\n- 2 AND gates:\n  - AND1: $J \\cdot \\bar{Q}$\n  - AND2: $\\bar{K} \\cdot Q$\n- 1 OR gate: combines AND outputs → $D = J\\bar{Q} + \\bar{K}Q$\n- 1 D flip-flop: takes $D$ as input, clock as trigger\n\n**Verification:**\n\n| $J$ | $K$ | $Q_n$ | $D = J\\bar{Q} + \\bar{K}Q$ | $Q_{n+1}$ | Expected |\n|-----|-----|-------|---------------------------|-----------|----------|\n| 0 | 0 | 0 | 0·1 + 1·0 = 0 | 0 | No change ✓ |\n| 0 | 0 | 1 | 0·0 + 1·1 = 1 | 1 | No change ✓ |\n| 0 | 1 | 0 | 0·1 + 0·0 = 0 | 0 | Reset ✓ |\n| 0 | 1 | 1 | 0·0 + 0·1 = 0 | 0 | Reset ✓ |\n| 1 | 0 | 0 | 1·1 + 1·0 = 1 | 1 | Set ✓ |\n| 1 | 0 | 1 | 1·0 + 1·1 = 1 | 1 | Set ✓ |\n| 1 | 1 | 0 | 1·1 + 0·0 = 1 | 1 | Toggle ✓ |\n| 1 | 1 | 1 | 1·0 + 0·1 = 0 | 0 | Toggle ✓ |\n\nAll 8 input combinations produce correct J-K behavior. ✓",
+      "key_points": [
+        "16:1 MUX = two 8:1 MUX + one 2:1 MUX (or enable-based selection)",
+        "MSB select line chooses between upper and lower half MUX",
+        "JK using D: D = JQ̄ + K̄Q (derived from JK characteristic equation)",
+        "Implementation needs 1 D-FF + 2 AND gates + 1 OR gate + 2 NOT gates"
+      ]
+    },
+    "C3": {
+      "question_number": "C3",
+      "solution": "**(a) Implementing $F(A,B,C,D) = \\sum m(1,2,5,6,7,8,10,12,13,15)$ using 8:1 MUX:**\n\nChoose $A$, $B$, $C$ as select lines and express each MUX input in terms of $D$:\n\n| $A$ | $B$ | $C$ | Minterms | $D=0$ | $D=1$ | MUX Input |\n|-----|-----|-----|----------|-------|-------|-----------|\n| 0 | 0 | 0 | $m_0, m_1$ | 0 | 1 | $D$ |\n| 0 | 0 | 1 | $m_2, m_3$ | 1 | 0 | $\\bar{D}$ |\n| 0 | 1 | 0 | $m_4, m_5$ | 0 | 1 | $D$ |\n| 0 | 1 | 1 | $m_6, m_7$ | 1 | 1 | 1 |\n| 1 | 0 | 0 | $m_8, m_9$ | 1 | 0 | $\\bar{D}$ |\n| 1 | 0 | 1 | $m_{10}, m_{11}$ | 1 | 0 | $\\bar{D}$ |\n| 1 | 1 | 0 | $m_{12}, m_{13}$ | 1 | 1 | 1 |\n| 1 | 1 | 1 | $m_{14}, m_{15}$ | 0 | 1 | $D$ |\n\n**MUX connections:**\n- $S_2 = A$, $S_1 = B$, $S_0 = C$\n- $I_0 = D$, $I_1 = \\bar{D}$, $I_2 = D$, $I_3 = 1$\n- $I_4 = \\bar{D}$, $I_5 = \\bar{D}$, $I_6 = 1$, $I_7 = D$\n\n**(b) S-R Flip-Flop:**\n\nThe **S-R (Set-Reset) flip-flop** is the most basic sequential storage element.\n\n**Circuit:** Constructed using two cross-coupled NOR gates (for active-high inputs) or two cross-coupled NAND gates (for active-low inputs).\n\n**NOR-based SR Flip-Flop:**\n- Two NOR gates with outputs cross-coupled to each other's inputs\n- $S$ (Set) input to one gate, $R$ (Reset) input to the other\n- Two complementary outputs: $Q$ and $\\bar{Q}$\n\n**Truth Table (Active-HIGH, NOR implementation):**\n\n| $S$ | $R$ | $Q_{n+1}$ | $\\bar{Q}_{n+1}$ | Operation |\n|-----|-----|-----------|-----------------|----------|\n| 0 | 0 | $Q_n$ | $\\bar{Q_n}$ | No change (Hold) |\n| 0 | 1 | 0 | 1 | Reset |\n| 1 | 0 | 1 | 0 | Set |\n| 1 | 1 | 0 | 0 | **Invalid** (both outputs 0) |\n\n**Characteristic Equation:**\n\n$$Q_{n+1} = S + \\bar{R} \\cdot Q_n \\quad \\text{with constraint } S \\cdot R = 0$$\n\nThe constraint $S \\cdot R = 0$ ensures the invalid state ($S = R = 1$) is not applied.\n\n**Excitation Table:**\n\n| $Q_n$ | $Q_{n+1}$ | $S$ | $R$ |\n|-------|-----------|-----|-----|\n| 0 | 0 | 0 | X |\n| 0 | 1 | 1 | 0 |\n| 1 | 0 | 0 | 1 |\n| 1 | 1 | X | 0 |\n\n**Timing considerations:**\n- The SR latch is level-sensitive (transparent when enabled)\n- A clocked SR flip-flop adds edge-triggering for synchronous operation\n- The invalid state ($S = R = 1$) is the primary limitation, resolved by the JK flip-flop",
+      "key_points": [
+        "MUX implementation: I0=D, I1=D̄, I2=D, I3=1, I4=D̄, I5=D̄, I6=1, I7=D",
+        "SR flip-flop: basic memory element using cross-coupled NOR/NAND gates",
+        "SR characteristic equation: Q(n+1) = S + R̄·Qn with constraint S·R=0",
+        "S=R=1 is the invalid/forbidden state in SR flip-flop"
+      ]
+    },
+    "C4": {
+      "question_number": "C4",
+      "solution": "**(a) Principle of Duality:**\n\nThe **principle of duality** states that every valid Boolean algebraic expression remains valid if we simultaneously:\n1. Replace every AND (·) with OR (+) and vice versa\n2. Replace every 0 with 1 and vice versa\n\nThe resulting expression is called the **dual** of the original.\n\n**Examples:**\n\n| Original Expression | Dual Expression |\n|--------------------|-----------------|\n| $A + 0 = A$ | $A \\cdot 1 = A$ |\n| $A + 1 = 1$ | $A \\cdot 0 = 0$ |\n| $A + A = A$ | $A \\cdot A = A$ |\n| $A + \\bar{A} = 1$ | $A \\cdot \\bar{A} = 0$ |\n| $A(B + C) = AB + AC$ | $A + BC = (A+B)(A+C)$ |\n| $\\overline{A+B} = \\bar{A}\\bar{B}$ | $\\overline{AB} = \\bar{A}+\\bar{B}$ |\n\n**Important:** Complementation is **not** changed during dualization. The duality principle is useful because proving one theorem automatically proves its dual.\n\n**(b) Laws of Boolean Algebra:**\n\n**1. Identity Law:**\n- $A + 0 = A$\n- $A \\cdot 1 = A$\n\n**2. Null (Annulment) Law:**\n- $A + 1 = 1$\n- $A \\cdot 0 = 0$\n\n**3. Idempotent Law:**\n- $A + A = A$\n- $A \\cdot A = A$\n\n**4. Complement Law:**\n- $A + \\bar{A} = 1$\n- $A \\cdot \\bar{A} = 0$\n\n**5. Commutative Law:**\n- $A + B = B + A$\n- $A \\cdot B = B \\cdot A$\n\n**6. Associative Law:**\n- $(A + B) + C = A + (B + C)$\n- $(A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)$\n\n**7. Distributive Law:**\n- $A(B + C) = AB + AC$\n- $A + BC = (A+B)(A+C)$\n\n**8. Absorption Law:**\n- $A + AB = A$\n- $A(A + B) = A$\n\n**9. De Morgan's Theorems:**\n- $\\overline{A + B} = \\bar{A} \\cdot \\bar{B}$\n- $\\overline{A \\cdot B} = \\bar{A} + \\bar{B}$\n\n**10. Involution (Double Complement):**\n- $\\overline{\\overline{A}} = A$\n\n**(c) ROM vs PLA vs PAL:**\n\n| Feature | ROM | PLA | PAL |\n|---------|-----|-----|-----|\n| Full Form | Read-Only Memory | Programmable Logic Array | Programmable Array Logic |\n| AND Array | **Fixed** (contains all minterms) | **Programmable** | **Programmable** |\n| OR Array | **Programmable** | **Programmable** | **Fixed** |\n| Flexibility | Least (uses full decoder) | Most flexible | Moderate |\n| Size | Largest (has all $2^n$ minterms) | Smaller than ROM | Smaller than PLA |\n| Speed | Slowest | Medium | Fastest among three |\n| Cost | Most expensive for large $n$ | Moderate | Least expensive |\n| Minimization | Not needed (all minterms available) | Required (limited AND terms) | Required (limited AND terms) |\n| Usage | Look-up tables, character generators | Complex logic with many shared terms | Simple to moderate logic |\n\n**Key differences:**\n\n- **ROM:** Every possible minterm is generated (full decoder as AND array), and the user programs which minterms to OR together. No minimization needed but wastes resources.\n- **PLA:** Both AND and OR arrays are programmable, allowing maximum flexibility. Product terms can be shared among multiple outputs. Requires minimization to fit within the available AND terms.\n- **PAL:** AND array is programmable but OR array is fixed. Simpler and faster than PLA but product terms cannot be shared between outputs.",
+      "key_points": [
+        "Duality: swap AND↔OR and 0↔1; complements unchanged",
+        "Key Boolean laws: Identity, Null, Complement, Distributive, Absorption, De Morgan's",
+        "ROM: fixed AND (all minterms) + programmable OR",
+        "PLA: programmable AND + programmable OR (most flexible)",
+        "PAL: programmable AND + fixed OR (fastest, simplest)"
+      ]
+    },
+    "C5": {
+      "question_number": "C5",
+      "solution": "**(a) Dual-Slope ADC:**\n\nThe dual-slope (or dual-ramp) ADC is a type of integrating ADC that converts an analog voltage to digital by measuring the time it takes to charge and discharge an integrator.\n\n**Components:**\n- Integrator (op-amp with capacitor feedback)\n- Comparator\n- Counter (n-bit)\n- Clock generator\n- Control logic\n- Analog switches\n- Reference voltage ($V_{ref}$)\n\n**Working Principle — Two Phases:**\n\n**Phase 1 — Integration (Ramp Up):**\n1. Switch connects the unknown input voltage $V_{in}$ to the integrator\n2. Counter starts counting from 0\n3. Integrator output ramps **linearly** (slope depends on $V_{in}$)\n4. Phase 1 ends when counter reaches its maximum count ($2^n$) and overflows to 0\n5. Time of Phase 1: $T_1 = 2^n \\times T_{clk}$ (fixed for all inputs)\n6. Integrator output at end of Phase 1:\n$$V_1 = -\\frac{V_{in}}{RC} \\times T_1$$\n\n**Phase 2 — De-integration (Ramp Down):**\n1. Switch connects the **negative reference** ($-V_{ref}$) to the integrator\n2. Counter resets and starts counting again\n3. Integrator output ramps back toward zero (opposite slope)\n4. When integrator output crosses zero, comparator triggers and stops the counter\n5. Time of Phase 2:\n$$T_2 = \\frac{V_{in}}{V_{ref}} \\times T_1$$\n6. Digital output = counter value at the end of Phase 2\n\n**Digital output:**\n$$N = 2^n \\times \\frac{V_{in}}{V_{ref}}$$\n\n**Advantages:**\n- **Excellent noise rejection** (integrates over full cycle, cancels noise)\n- Result is **independent of R, C, and clock frequency** (ratio-metric)\n- High accuracy\n- Low cost\n\n**Disadvantages:**\n- **Slow** conversion (requires $2^{n+1}$ clock cycles worst case)\n- Not suitable for fast-changing signals\n\n**Applications:** Digital voltmeters (DVMs), precision measurement instruments.\n\n**(b) Phase Shift Oscillator:**\n\nA **Phase Shift Oscillator** is an electronic oscillator that generates a sinusoidal output using a phase-shifting network and an amplifier in a positive feedback loop.\n\n**Circuit Description:**\n- An inverting amplifier (provides 180° phase shift)\n- Three RC stages connected in cascade (each providing approximately 60° phase shift)\n- Total phase shift from RC network = 180°\n- Combined with amplifier's 180° → total loop phase shift = **360° (= 0°)**\n\n**Barkhausen Criteria for Oscillation:**\n\nFor sustained oscillation, two conditions must be met simultaneously:\n\n**1. Phase condition:** Total loop phase shift = $0°$ (or $360°$)\n$$\\phi_A + \\phi_{\\beta} = 0° \\text{ (or } 360°\\text{)}$$\n\n**2. Gain condition:** Loop gain = 1\n$$|A \\cdot \\beta| = 1$$\n\nwhere $A$ = amplifier gain, $\\beta$ = feedback factor.\n\n**For a 3-stage RC phase shift oscillator:**\n\n**Frequency of oscillation:**\n$$f = \\frac{1}{2\\pi RC\\sqrt{6}}$$\n\n**Minimum gain required:**\n$$|A| \\geq 29$$\n\nThe feedback factor of the three-stage RC network at the oscillation frequency is $\\beta = \\frac{1}{29}$, so the amplifier must provide a gain of at least 29 to satisfy $|A\\beta| \\geq 1$.\n\n**Key features:**\n- Produces **pure sinusoidal** output (with proper gain setting)\n- Simple circuit with few components\n- Frequency determined by R and C values\n- Suitable for audio frequency range\n- Gain must be precisely 29 for undistorted output; if gain > 29, output clips",
+      "key_points": [
+        "Dual-slope ADC: Phase 1 integrates Vin (fixed time), Phase 2 de-integrates with Vref (variable time)",
+        "Output N = 2^n × Vin/Vref; independent of R, C, and clock frequency",
+        "Phase shift oscillator uses 3 RC stages (3×60°) + inverting amplifier (180°) = 360°",
+        "Barkhausen criteria: loop phase = 360° and loop gain = 1",
+        "Phase shift oscillator: f = 1/(2πRC√6), minimum gain = 29"
+      ]
+    }
+  }
+}

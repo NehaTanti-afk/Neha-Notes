@@ -20,11 +20,11 @@ export function StickyUnlockBar({ locked }: StickyUnlockBarProps) {
   if (!locked) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-background border-t p-4 flex items-center justify-between gap-3 md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-card border-t shadow-lg p-5 flex items-center justify-between gap-3 md:hidden">
       <div className="flex items-center gap-2 min-w-0">
-        <Sparkles className="size-4 text-primary shrink-0" />
+        <Sparkles className="size-5 text-primary shrink-0" />
         <div className="min-w-0">
-          <p className="text-sm font-semibold truncate">Unlock all answers</p>
+          <p className="text-base font-semibold truncate">Unlock all answers</p>
           <p className="text-xs text-muted-foreground">Free · just create an account</p>
         </div>
       </div>

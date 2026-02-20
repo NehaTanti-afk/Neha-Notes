@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
-import { Menu, X, BookOpen } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useAuth } from '@/hooks/useAuth'
 
@@ -13,19 +13,22 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      {/* Thin accent bar at top */}
+      <div className="h-0.5 bg-primary" />
+      
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-14 items-center justify-between">
-          {/* Logo */}
+        <div className="flex h-16 items-center justify-between">
+          {/* Logo - Two-tone text */}
           <Link
             href="/"
-            className="flex items-center gap-2 font-bold text-lg text-primary"
+            className="flex items-baseline gap-0 text-2xl tracking-tight select-none"
           >
-            <BookOpen className="size-5" />
-            NehaNotes
+            <span className="font-extrabold text-primary">Neha</span>
+            <span className="font-light text-[oklch(0.65_0.06_60)]">Notes</span>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-8">
             <Link
               href="/subjects"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
@@ -81,7 +84,7 @@ export function Navbar() {
         <div className="md:hidden border-t bg-background px-4 py-4 flex flex-col gap-3">
           <Link
             href="/subjects"
-            className="text-sm font-medium"
+            className="text-sm font-medium border-l-2 border-primary pl-3 py-1"
             onClick={() => setMenuOpen(false)}
           >
             Subjects
@@ -92,27 +95,29 @@ export function Navbar() {
                 <>
                   <Link
                     href="/dashboard"
-                    className="text-sm font-medium"
+                    className="text-sm font-medium border-l-2 border-primary pl-3 py-1"
                     onClick={() => setMenuOpen(false)}
                   >
                     Dashboard
                   </Link>
-                  <p className="text-sm text-muted-foreground truncate">
+                  <p className="text-sm text-muted-foreground truncate border-l-2 border-primary pl-3 py-1">
                     {displayName}
                   </p>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={() => {
-                      signOut()
-                      setMenuOpen(false)
-                    }}
-                  >
-                    Sign Out
-                  </Button>
+                  <div className="border-l-2 border-primary pl-3">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => {
+                        signOut()
+                        setMenuOpen(false)
+                      }}
+                    >
+                      Sign Out
+                    </Button>
+                  </div>
                 </>
               ) : (
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 border-l-2 border-primary pl-3">
                   <Button
                     asChild
                     variant="outline"
