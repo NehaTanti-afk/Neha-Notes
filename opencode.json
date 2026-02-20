@@ -74,14 +74,6 @@
     }
   },
   "mcp": {
-    "linear": {
-      "type": "remote",
-      "url": "https://mcp.linear.app/mcp"
-    },
-    "figma": {
-      "type": "remote",
-      "url": "https://mcp.figma.com/mcp"
-    },
     "chrome-devtools": {
       "type": "local",
       "command": [
@@ -89,20 +81,6 @@
         "chrome-devtools-mcp@latest",
         "--executable-path=/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
       ]
-    },
-    "github": {
-      "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-github"],
-      "environment": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
-      }
-    },
-    "nexus-context-engine": {
-      "type": "remote",
-      "url": "http://localhost:3000/mcp",
-      "headers": {
-        "Authorization": "Bearer"
-      }
     },
     "supabase": {
       "type": "remote",
