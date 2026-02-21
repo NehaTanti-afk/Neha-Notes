@@ -2,6 +2,7 @@
 alter table public.subjects enable row level security;
 alter table public.papers enable row level security;
 alter table public.users enable row level security;
+alter table public.support_tickets enable row level security;
 
 -- subjects: public read
 create policy "Anyone can read subjects"
@@ -22,6 +23,17 @@ create policy "Users can read own profile"
 create policy "Users can update own profile"
   on public.users for update
   using (auth.uid() = id);
+
+-- support_tickets: anyone can submit, authenticated users can view their own
+create policy "Anyone can submit a support ticket"
+  on public.support_tickets for insert
+  to anon, authenticated
+  with check (true);
+
+create policy "Users can view their own tickets"
+  on public.support_tickets for select
+  to authenticated
+  using (auth.uid() = user_id);
 
 -- check_email_exists
 -- Used by POST /api/auth/check-email (admin/service_role client) to distinguish

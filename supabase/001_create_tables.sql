@@ -55,7 +55,21 @@ create table public.purchases (
   unique(user_id, paper_id)
 );
 
+-- support_tickets table
+create table public.support_tickets (
+  id          uuid primary key default uuid_generate_v4(),
+  user_id     uuid references auth.users(id) on delete set null,
+  name        text not null,
+  email       text not null,
+  issue_type  text not null check (issue_type in ('access', 'account', 'content', 'other')),
+  description text not null,
+  status      text not null default 'open' check (status in ('open', 'in_progress', 'resolved', 'closed')),
+  created_at  timestamptz default now()
+);
+
 -- Indexes
 create index on public.papers(subject_id);
 create index on public.purchases(user_id);
 create index on public.purchases(paper_id);
+create index on public.support_tickets(user_id);
+create index on public.support_tickets(status);
