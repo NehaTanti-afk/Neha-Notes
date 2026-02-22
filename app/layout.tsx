@@ -5,7 +5,7 @@ import { AuthProvider } from "@/components/auth/AuthProvider";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { OfflineBanner } from "@/components/layout/OfflineBanner";
-import { Analytics } from "@vercel/analytics/next";
+import { AnalyticsWrapper } from "@/components/analytics/AnalyticsWrapper";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,15 +27,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased flex flex-col min-h-screen`}
       >
-        <Analytics 
-          beforeSend={(event) => {
-            // Exclude Vercel preview deployments
-            if (process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview') {
-              return null;
-            }
-            return event;
-          }}
-        />
+        <AnalyticsWrapper />
         <AuthProvider>
           <OfflineBanner />
           <Navbar />
