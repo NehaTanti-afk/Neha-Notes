@@ -1,0 +1,620 @@
+{
+  "subject_code": "MIT301",
+  "title": "Sample Question Paper 1",
+  "type": "end_sem",
+  "year": "2025-26",
+  "metadata": {
+    "difficulty": "medium",
+    "modules_covered": [
+      "Module 1",
+      "Module 2",
+      "Module 3"
+    ]
+  },
+  "questions": {
+    "A1": {
+      "group": "A",
+      "number": "A1",
+      "text": "Newton-Raphson method fails when",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "is_preview": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "$f'(x) = 1$"
+        },
+        {
+          "key": "b",
+          "text": "$f'(x) = -1$"
+        },
+        {
+          "key": "c",
+          "text": "$f'(x) = 0$"
+        },
+        {
+          "key": "d",
+          "text": "$f''(x) = 0$"
+        }
+      ]
+    },
+    "A2": {
+      "group": "A",
+      "number": "A2",
+      "text": "The two regression lines involving two variables $x$ and $y$ are $x + 4y + 3 = 0$ and $4x + 9y + 5 = 0$. The mean of $x$ and $y$ are",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "$(0, 1)$"
+        },
+        {
+          "key": "b",
+          "text": "$(1, -1)$"
+        },
+        {
+          "key": "c",
+          "text": "$(1, 2)$"
+        },
+        {
+          "key": "d",
+          "text": "$(-1, 1)$"
+        }
+      ]
+    },
+    "A3": {
+      "group": "A",
+      "number": "A3",
+      "text": "If the A.M. of 2, 6, $x$, 5, 7 is 4, then the value of $x$ is",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "$-20$"
+        },
+        {
+          "key": "b",
+          "text": "$5$"
+        },
+        {
+          "key": "c",
+          "text": "$4$"
+        },
+        {
+          "key": "d",
+          "text": "$0$"
+        }
+      ]
+    },
+    "A4": {
+      "group": "A",
+      "number": "A4",
+      "text": "In Gauss-elimination method, the given system $AX = B$ is converted to another system $UX = Y$, where $U$ is",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Diagonal matrix"
+        },
+        {
+          "key": "b",
+          "text": "Null matrix"
+        },
+        {
+          "key": "c",
+          "text": "Identity matrix"
+        },
+        {
+          "key": "d",
+          "text": "Upper triangular matrix"
+        }
+      ]
+    },
+    "A5": {
+      "group": "A",
+      "number": "A5",
+      "text": "An $n \\times n$ matrix $A$ is said to be diagonally dominant if",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L3",
+      "options": [
+        {
+          "key": "a",
+          "text": "$|a_{ii}| \\leq \\sum_{j=1, j \\neq i}^{n} |a_{ij}|$"
+        },
+        {
+          "key": "b",
+          "text": "$|a_{ii}| < \\sum_{j=1, j \\neq i}^{n} |a_{ij}|$"
+        },
+        {
+          "key": "c",
+          "text": "$|a_{ii}| > \\sum_{j=1, j \\neq i}^{n} |a_{ij}|$"
+        },
+        {
+          "key": "d",
+          "text": "$|a_{ii}| \\geq \\sum_{j=1, j \\neq i}^{n} |a_{ij}|$"
+        }
+      ]
+    },
+    "A6": {
+      "group": "A",
+      "number": "A6",
+      "text": "In the bisection method, the root lies between $a$ and $b$ if",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$f(a) \\cdot f(b) > 0$"
+        },
+        {
+          "key": "b",
+          "text": "$f(a) \\cdot f(b) < 0$"
+        },
+        {
+          "key": "c",
+          "text": "$f(a) \\cdot f(b) = 0$"
+        },
+        {
+          "key": "d",
+          "text": "$f(a) + f(b) = 0$"
+        }
+      ]
+    },
+    "A7": {
+      "group": "A",
+      "number": "A7",
+      "text": "The correlation coefficient $r_{xy}$ always lies between",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$(0, 1)$"
+        },
+        {
+          "key": "b",
+          "text": "$(1, 2)$"
+        },
+        {
+          "key": "c",
+          "text": "$(-\\infty, \\infty)$"
+        },
+        {
+          "key": "d",
+          "text": "$(-1, 1)$"
+        }
+      ]
+    },
+    "A8": {
+      "group": "A",
+      "number": "A8",
+      "text": "Which of the following methods is an iterative method for solving a system of linear equations?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gauss-Seidel method"
+        },
+        {
+          "key": "b",
+          "text": "Gauss Elimination method"
+        },
+        {
+          "key": "c",
+          "text": "Gauss-Jordan method"
+        },
+        {
+          "key": "d",
+          "text": "Crout's method"
+        }
+      ]
+    },
+    "A9": {
+      "group": "A",
+      "number": "A9",
+      "text": "If $b_{xy} = 0.4$ and $b_{yx} = 0.9$, then the correlation coefficient $r$ equals",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "$0.36$"
+        },
+        {
+          "key": "b",
+          "text": "$1.3$"
+        },
+        {
+          "key": "c",
+          "text": "$0.6$"
+        },
+        {
+          "key": "d",
+          "text": "$0.06$"
+        }
+      ]
+    },
+    "A10": {
+      "group": "A",
+      "number": "A10",
+      "text": "The convergence condition for the Fixed-Point Iteration method $x = g(x)$ is",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$|g'(x)| > 1$ in the interval containing the root"
+        },
+        {
+          "key": "b",
+          "text": "$|g'(x)| < 1$ in the interval containing the root"
+        },
+        {
+          "key": "c",
+          "text": "$|g'(x)| = 1$ in the interval containing the root"
+        },
+        {
+          "key": "d",
+          "text": "$g'(x) = 0$ at the root"
+        }
+      ]
+    },
+    "A11": {
+      "group": "A",
+      "number": "A11",
+      "text": "If the regression equations are $5x - 2y = 4$ and $7y - 4x = 13$, then the means of $x$ and $y$ are",
+      "marks": 1,
+      "co": "CO3",
+      "bl": "L3",
+      "options": [
+        {
+          "key": "a",
+          "text": "$(0, 1)$"
+        },
+        {
+          "key": "b",
+          "text": "$(1, 2)$"
+        },
+        {
+          "key": "c",
+          "text": "$(2, 3)$"
+        },
+        {
+          "key": "d",
+          "text": "$(3, 2)$"
+        }
+      ]
+    },
+    "A12": {
+      "group": "A",
+      "number": "A12",
+      "text": "The product of two regression coefficients $b_{xy} \\cdot b_{yx}$ equals",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "$(\\text{Correlation coefficient})^2$"
+        },
+        {
+          "key": "b",
+          "text": "$(\\text{Correlation coefficient})^3$"
+        },
+        {
+          "key": "c",
+          "text": "Correlation coefficient"
+        },
+        {
+          "key": "d",
+          "text": "None of these"
+        }
+      ]
+    },
+    "B1": {
+      "group": "B",
+      "number": "B1",
+      "text": "Find a real root of $x^3 + x - 4 = 0$ correct to three decimal places by Newton-Raphson method.",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L3",
+      "is_preview": true
+    },
+    "B2": {
+      "group": "B",
+      "number": "B2",
+      "text": "Prove that Newton-Raphson's iteration formula for finding $\\sqrt{N}$ is $x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{N}{x_n}\\right)$. Hence find $\\sqrt{29}$ correct to 4 decimal places.",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L2"
+    },
+    "B3": {
+      "group": "B",
+      "number": "B3",
+      "text": "Mean and standard deviation of 100 observations were found to be 40 and 10, respectively. If at the time of calculation two observations were wrongly taken as 30 and 70 in place of 3 and 27 respectively, find the correct standard deviation.",
+      "marks": 5,
+      "co": "CO4",
+      "bl": "L4"
+    },
+    "B4": {
+      "group": "B",
+      "number": "B4",
+      "text": "Find the equation of the line of regression of $x$ on $y$ for the following data:\n\n| $x$ | 1.0 | 1.5 | 2.0 | 2.5 | 3.0 | 3.5 | 4.0 |\n|-----|-----|-----|-----|-----|-----|-----|-----|\n| $y$ | 5.3 | 5.7 | 6.3 | 7.2 | 8.2 | 8.7 | 8.4 |",
+      "marks": 5,
+      "co": "CO3",
+      "bl": "L3"
+    },
+    "B5": {
+      "group": "B",
+      "number": "B5",
+      "text": "Perform five iterations of the bisection method to obtain a root of the equation $f(x) = x^3 - x - 4 = 0$.",
+      "marks": 5,
+      "co": "CO4",
+      "bl": "L3"
+    },
+    "C1": {
+      "group": "C",
+      "number": "C1",
+      "text": "(a) Solve the system of equations by Gauss-Seidel method correct to four significant figures: [7]\n$10x - 5y - 2z = 3$\n$4x - 10y + 3z = -3$\n$x + 6y + 10z = -3$\n\n(b) Solve the system of equations by LU factorization method: [8]\n$x_1 + x_2 - x_3 = 2$\n$2x_1 + 3x_2 + 5x_3 = -3$\n$3x_1 + 2x_2 - 3x_3 = 6$",
+      "marks": 15,
+      "co": "CO3",
+      "bl": "L3",
+      "is_preview": true
+    },
+    "C2": {
+      "group": "C",
+      "number": "C2",
+      "text": "(a) Find the solution of the system of linear equations $Ax = b$ where\n$A = \\begin{pmatrix} 4 & -2 & 1 \\\\ -1 & 5 & -2 \\\\ 1 & 1 & 3 \\end{pmatrix}$, $b = \\begin{pmatrix} 2 \\\\ 4 \\\\ 6 \\end{pmatrix}$\nby using Successive Over Relaxation (SOR) method, with relaxation parameter $\\omega = 0.5$ and initial point $x^{(0)} = (1, 2, 1)^T$. [9]\n\n(b) Find the root of the equation $x^3 - 2x - 5 = 0$ by secant method correct up to three decimal places. [6]",
+      "marks": 15,
+      "co": "CO3",
+      "bl": "L4"
+    },
+    "C3": {
+      "group": "C",
+      "number": "C3",
+      "text": "(a) You are given that the variance of $x$ is 9. The regression equations are $8x - 10y + 66 = 0$ and $40x - 18y = 214$. Find: [8]\n(i) Average values of $x$ and $y$\n(ii) Correlation coefficient between the two variables\n(iii) Standard deviation of $y$\n\n(b) Calculate mean deviation from mean for the following continuous grouped data showing the weights of 60 apples: [7]\n\n| Weights (g) | 65–84 | 85–104 | 105–124 | 125–144 | 145–164 | 165–184 | 185–204 |\n|-------------|-------|--------|---------|---------|---------|---------|--------|\n| Frequency | 9 | 10 | 17 | 10 | 5 | 4 | 5 |",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L3"
+    },
+    "C4": {
+      "group": "C",
+      "number": "C4",
+      "text": "(a) Solve the equations $x + y + 2z = 4$, $2x + 5y + 6z = 13$, $3x + 6y + 8z = 17$ using Gauss Elimination method. [8]\n\n(b) The equation $e^x - 3x = 0$ has a root between 0.5 and 0.8. Using the Regula Falsi method, find the root correct to two decimal places. [7]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L4"
+    },
+    "C5": {
+      "group": "C",
+      "number": "C5",
+      "text": "(a) Find the correlation coefficient between $x$ and $y$ where: [7]\n\n| $x$ | 1 | 3 | 4 | 6 | 8 | 9 | 11 | 14 |\n|-----|---|---|---|---|---|---|----|----|  \n| $y$ | 1 | 2 | 4 | 4 | 5 | 7 | 8 | 9 |\n\nAlso draw the scatter diagram.\n\n(b) Following is a grouped frequency distribution of expenditure of 1000 families. The mean and median of the distribution are both Rs. 87.50. Find the missing frequencies: [8]\n\n| Expenditure | 40–59 | 60–79 | 80–99 | 100–119 | 120–139 |\n|-------------|-------|-------|-------|---------|---------|\n| No. of Family | 50 | $f_1$ | 500 | $f_2$ | 50 |",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L3"
+    }
+  },
+  "answers": {
+    "A1": {
+      "question_number": "A1",
+      "correct_option": "c",
+      "solution": "The Newton-Raphson iteration formula is:\n\n$$x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$$\n\nThis formula involves division by $f'(x_n)$. When $f'(x_n) = 0$, the denominator becomes zero and the method **fails** because the next iterate is undefined.\n\nGeometrically, $f'(x) = 0$ means the tangent line at that point is horizontal, so it never intersects the x-axis, making it impossible to find the next approximation.",
+      "key_points": [
+        "Newton-Raphson requires $f'(x) \\neq 0$ at the current iterate",
+        "Division by zero occurs when the tangent is horizontal",
+        "A horizontal tangent never intersects the x-axis"
+      ]
+    },
+    "A2": {
+      "question_number": "A2",
+      "correct_option": "b",
+      "solution": "Both regression lines pass through the point $(\\bar{x}, \\bar{y})$. We solve the two equations simultaneously:\n\n**Equation 1:** $x + 4y + 3 = 0$\n**Equation 2:** $4x + 9y + 5 = 0$\n\nFrom Equation 1: $x = -4y - 3$\n\nSubstituting into Equation 2:\n$$4(-4y - 3) + 9y + 5 = 0$$\n$$-16y - 12 + 9y + 5 = 0$$\n$$-7y - 7 = 0$$\n$$y = -1$$\n\nSubstituting back: $x = -4(-1) - 3 = 4 - 3 = 1$\n\n**Result: $(\\bar{x}, \\bar{y}) = (1, -1)$**",
+      "key_points": [
+        "Both regression lines always pass through $(\\bar{x}, \\bar{y})$",
+        "Solve the system of two regression equations simultaneously to find the means"
+      ]
+    },
+    "A3": {
+      "question_number": "A3",
+      "correct_option": "d",
+      "solution": "Arithmetic Mean = $\\frac{\\text{Sum of all values}}{\\text{Number of values}}$\n\n$$4 = \\frac{2 + 6 + x + 5 + 7}{5}$$\n\n$$20 = 20 + x$$\n\n$$x = 0$$",
+      "key_points": [
+        "A.M. = Sum / Count",
+        "$x = 0$ satisfies the given condition"
+      ]
+    },
+    "A4": {
+      "question_number": "A4",
+      "correct_option": "d",
+      "solution": "In **Gauss Elimination**, we perform elementary row operations to reduce the coefficient matrix $A$ to an **upper triangular matrix** $U$. The system $UX = Y$ is then solved by **back substitution**.\n\nThe upper triangular form means all elements below the main diagonal are zero, allowing us to solve for variables starting from the last equation upward.",
+      "key_points": [
+        "Gauss Elimination converts $A$ to upper triangular form $U$",
+        "Solution is obtained by back substitution"
+      ]
+    },
+    "A5": {
+      "question_number": "A5",
+      "correct_option": "c",
+      "solution": "A matrix is **strictly diagonally dominant** if for every row $i$, the absolute value of the diagonal element is **strictly greater** than the sum of absolute values of all other elements in that row:\n\n$$|a_{ii}| > \\sum_{\\substack{j=1 \\\\ j \\neq i}}^{n} |a_{ij}| \\quad \\text{for all } i$$\n\nThis condition is important because it **guarantees convergence** of iterative methods like Gauss-Seidel.",
+      "key_points": [
+        "Strict diagonal dominance: $|a_{ii}| > \\sum_{j \\neq i} |a_{ij}|$ for all rows",
+        "Ensures convergence of Gauss-Seidel and Jacobi methods"
+      ]
+    },
+    "A6": {
+      "question_number": "A6",
+      "correct_option": "b",
+      "solution": "The **Bisection method** is based on the **Intermediate Value Theorem**. If $f$ is continuous on $[a, b]$ and $f(a)$ and $f(b)$ have **opposite signs** (i.e., $f(a) \\cdot f(b) < 0$), then there exists at least one root $c \\in (a, b)$ such that $f(c) = 0$.\n\nThe condition $f(a) \\cdot f(b) < 0$ means one value is positive and the other is negative, confirming a sign change and hence a root in the interval.",
+      "key_points": [
+        "Based on the Intermediate Value Theorem",
+        "Opposite signs guarantee at least one root in the interval"
+      ]
+    },
+    "A7": {
+      "question_number": "A7",
+      "correct_option": "d",
+      "solution": "Karl Pearson's **correlation coefficient** $r_{xy}$ satisfies:\n\n$$-1 \\leq r_{xy} \\leq 1$$\n\n- $r_{xy} = +1$: Perfect positive correlation\n- $r_{xy} = -1$: Perfect negative correlation\n- $r_{xy} = 0$: No linear correlation\n\nThe value always lies in the closed interval $[-1, 1]$. Among the given options, $(-1, 1)$ is the closest correct representation.",
+      "key_points": [
+        "Correlation coefficient lies between $-1$ and $+1$",
+        "$r = +1$ indicates perfect positive linear relationship"
+      ]
+    },
+    "A8": {
+      "question_number": "A8",
+      "correct_option": "a",
+      "solution": "Among the given options:\n\n- **Gauss-Seidel** is an **iterative** method — it starts with an initial guess and refines the solution through successive iterations until convergence.\n- **Gauss Elimination** is a **direct** method (row reduction to upper triangular form).\n- **Gauss-Jordan** is a **direct** method (reduces to reduced row echelon form).\n- **Crout's method** is a **direct** method (LU decomposition variant).",
+      "key_points": [
+        "Gauss-Seidel is iterative; it refines solutions successively",
+        "Gauss Elimination, Gauss-Jordan, and Crout's are all direct methods"
+      ]
+    },
+    "A9": {
+      "question_number": "A9",
+      "correct_option": "c",
+      "solution": "The relationship between regression coefficients and correlation coefficient is:\n\n$$r^2 = b_{xy} \\cdot b_{yx}$$\n\n$$r^2 = 0.4 \\times 0.9 = 0.36$$\n\n$$r = \\sqrt{0.36} = 0.6$$\n\nSince both regression coefficients are positive, $r$ is also positive.\n\n**Result: $r = 0.6$**",
+      "key_points": [
+        "$r = \\pm\\sqrt{b_{xy} \\cdot b_{yx}}$",
+        "Sign of $r$ matches the sign of the regression coefficients"
+      ]
+    },
+    "A10": {
+      "question_number": "A10",
+      "correct_option": "b",
+      "solution": "For the Fixed-Point Iteration $x_{n+1} = g(x_n)$ to converge, the **sufficient condition** is:\n\n$$|g'(x)| < 1 \\quad \\text{for all } x \\text{ in the interval containing the root}$$\n\nIf $|g'(x)| > 1$, the iterations diverge. If $|g'(x)| = 1$, convergence is not guaranteed. The smaller the value of $|g'(x)|$, the faster the convergence.",
+      "key_points": [
+        "Convergence requires $|g'(x)| < 1$ near the fixed point",
+        "Smaller $|g'(x)|$ leads to faster convergence"
+      ]
+    },
+    "A11": {
+      "question_number": "A11",
+      "correct_option": "c",
+      "solution": "Both regression lines pass through $(\\bar{x}, \\bar{y})$. Solving simultaneously:\n\n**Equation 1:** $5x - 2y = 4$ ... (i)\n**Equation 2:** $-4x + 7y = 13$ ... (ii)\n\nMultiply (i) by 7 and (ii) by 2:\n$$35x - 14y = 28$$\n$$-8x + 14y = 26$$\n\nAdding: $27x = 54 \\Rightarrow x = 2$\n\nFrom (i): $10 - 2y = 4 \\Rightarrow y = 3$\n\n**Result: $(\\bar{x}, \\bar{y}) = (2, 3)$**",
+      "key_points": [
+        "Regression lines intersect at the point of means $(\\bar{x}, \\bar{y})$",
+        "Solve both equations simultaneously"
+      ]
+    },
+    "A12": {
+      "question_number": "A12",
+      "correct_option": "a",
+      "solution": "The fundamental relationship between regression coefficients and correlation coefficient is:\n\n$$r^2 = b_{xy} \\cdot b_{yx}$$\n\nTherefore, the product of the two regression coefficients equals the **square of the correlation coefficient**.\n\nNote: Since $-1 \\leq r \\leq 1$, we have $0 \\leq r^2 \\leq 1$, which also implies $0 \\leq b_{xy} \\cdot b_{yx} \\leq 1$.",
+      "key_points": [
+        "$b_{xy} \\cdot b_{yx} = r^2$",
+        "Both regression coefficients have the same sign as $r$"
+      ]
+    },
+    "B1": {
+      "question_number": "B1",
+      "solution": "Let $f(x) = x^3 + x - 4$, so $f'(x) = 3x^2 + 1$.\n\n**Finding initial approximation:**\n- $f(1) = 1 + 1 - 4 = -2 < 0$\n- $f(2) = 8 + 2 - 4 = 6 > 0$\n\nThe root lies in $(1, 2)$. Take $x_0 = 1.5$.\n\n**Newton-Raphson formula:**\n\n$$x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)} = x_n - \\frac{x_n^3 + x_n - 4}{3x_n^2 + 1}$$\n\n**Iteration 1:** $x_0 = 1.5$\n$$f(1.5) = 3.375 + 1.5 - 4 = 0.875$$\n$$f'(1.5) = 6.75 + 1 = 7.75$$\n$$x_1 = 1.5 - \\frac{0.875}{7.75} = 1.5 - 0.1129 = 1.3871$$\n\n**Iteration 2:** $x_1 = 1.3871$\n$$f(1.3871) = 2.6648 + 1.3871 - 4 = 0.0519$$\n$$f'(1.3871) = 5.7714 + 1 = 6.7714$$\n$$x_2 = 1.3871 - \\frac{0.0519}{6.7714} = 1.3871 - 0.00766 = 1.3794$$\n\n**Iteration 3:** $x_2 = 1.3794$\n$$f(1.3794) = 2.6259 + 1.3794 - 4 = 0.0053$$\n$$f'(1.3794) = 5.7093 + 1 = 6.7093$$\n$$x_3 = 1.3794 - \\frac{0.0053}{6.7093} = 1.3794 - 0.00079 = 1.3786$$\n\n**Iteration 4:** $x_3 = 1.3786$\n$$f(1.3786) \\approx 0.0001$$\n$$x_4 \\approx 1.3786$$\n\nSince $x_3 \\approx x_4$, convergence is achieved.\n\n**Result: The root is approximately $x \\approx 1.379$**",
+      "key_points": [
+        "Newton-Raphson formula: $x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$",
+        "Initial guess $x_0 = 1.5$ chosen from sign analysis",
+        "Root converges to $x \\approx 1.379$ in 3-4 iterations",
+        "Method has quadratic convergence when $f'(x) \\neq 0$"
+      ]
+    },
+    "B2": {
+      "question_number": "B2",
+      "solution": "**Derivation:**\n\nTo find $\\sqrt{N}$, we need to solve $x^2 - N = 0$.\n\nLet $f(x) = x^2 - N$, so $f'(x) = 2x$.\n\nApplying Newton-Raphson:\n$$x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)} = x_n - \\frac{x_n^2 - N}{2x_n}$$\n\n$$= \\frac{2x_n^2 - x_n^2 + N}{2x_n} = \\frac{x_n^2 + N}{2x_n}$$\n\n$$\\boxed{x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{N}{x_n}\\right)}$$\n\n**Finding $\\sqrt{29}$:**\n\nSince $5^2 = 25$ and $6^2 = 36$, the root lies between 5 and 6. Take $x_0 = 5.5$.\n\n**Iteration 1:**\n$$x_1 = \\frac{1}{2}\\left(5.5 + \\frac{29}{5.5}\\right) = \\frac{1}{2}(5.5 + 5.2727) = 5.3864$$\n\n**Iteration 2:**\n$$x_2 = \\frac{1}{2}\\left(5.3864 + \\frac{29}{5.3864}\\right) = \\frac{1}{2}(5.3864 + 5.3844) = 5.3852$$\n\n**Iteration 3:**\n$$x_3 = \\frac{1}{2}\\left(5.3852 + \\frac{29}{5.3852}\\right) = \\frac{1}{2}(5.3852 + 5.3852) = 5.3852$$\n\nConvergence achieved.\n\n**Result: $\\sqrt{29} \\approx 5.3852$**",
+      "key_points": [
+        "Set $f(x) = x^2 - N$ and apply Newton-Raphson",
+        "Formula: $x_{n+1} = \\frac{1}{2}(x_n + N/x_n)$",
+        "$\\sqrt{29} \\approx 5.3852$ (converges in 3 iterations)"
+      ]
+    },
+    "B3": {
+      "question_number": "B3",
+      "solution": "**Given:** $n = 100$, $\\bar{x}_{\\text{wrong}} = 40$, $\\sigma_{\\text{wrong}} = 10$\n\nWrong values: 30 and 70. Correct values: 3 and 27.\n\n**Step 1: Correct the sum**\n$$\\sum x_{\\text{wrong}} = n \\cdot \\bar{x} = 100 \\times 40 = 4000$$\n\n$$\\sum x_{\\text{correct}} = 4000 - 30 - 70 + 3 + 27 = 3930$$\n\n$$\\bar{x}_{\\text{correct}} = \\frac{3930}{100} = 39.3$$\n\n**Step 2: Correct $\\sum x^2$**\n\nWe know $\\sigma^2 = \\frac{\\sum x^2}{n} - \\bar{x}^2$\n\n$$100 = \\frac{\\sum x^2_{\\text{wrong}}}{100} - 1600$$\n\n$$\\sum x^2_{\\text{wrong}} = 100 \\times 1700 = 170000$$\n\n$$\\sum x^2_{\\text{correct}} = 170000 - 30^2 - 70^2 + 3^2 + 27^2$$\n$$= 170000 - 900 - 4900 + 9 + 729 = 164938$$\n\n**Step 3: Correct standard deviation**\n$$\\sigma^2_{\\text{correct}} = \\frac{164938}{100} - (39.3)^2 = 1649.38 - 1544.49 = 104.89$$\n\n$$\\sigma_{\\text{correct}} = \\sqrt{104.89} \\approx 10.24$$\n\n**Result: Correct standard deviation $\\approx 10.24$**",
+      "key_points": [
+        "Correct $\\sum x$ by removing wrong values and adding correct ones",
+        "Correct $\\sum x^2$ similarly",
+        "Recompute $\\sigma$ using $\\sigma^2 = \\frac{\\sum x^2}{n} - \\bar{x}^2$",
+        "Correct S.D. $\\approx 10.24$"
+      ]
+    },
+    "B4": {
+      "question_number": "B4",
+      "solution": "**Given:** $n = 7$\n\nPrepare the computation table:\n\n| $x$ | $y$ | $xy$ | $y^2$ |\n|-----|-----|------|-------|\n| 1.0 | 5.3 | 5.30 | 28.09 |\n| 1.5 | 5.7 | 8.55 | 32.49 |\n| 2.0 | 6.3 | 12.60 | 39.69 |\n| 2.5 | 7.2 | 18.00 | 51.84 |\n| 3.0 | 8.2 | 24.60 | 67.24 |\n| 3.5 | 8.7 | 30.45 | 75.69 |\n| 4.0 | 8.4 | 33.60 | 70.56 |\n| **17.5** | **49.8** | **133.10** | **365.60** |\n\n$$\\bar{x} = \\frac{17.5}{7} = 2.5, \\quad \\bar{y} = \\frac{49.8}{7} = 7.114$$\n\n**Regression coefficient $b_{xy}$:**\n\n$$b_{xy} = \\frac{n\\sum xy - \\sum x \\sum y}{n\\sum y^2 - (\\sum y)^2}$$\n\n$$= \\frac{7 \\times 133.10 - 17.5 \\times 49.8}{7 \\times 365.60 - (49.8)^2}$$\n\n$$= \\frac{931.70 - 871.50}{2559.20 - 2480.04} = \\frac{60.20}{79.16} = 0.7604$$\n\n**Regression line of $x$ on $y$:**\n\n$$x - \\bar{x} = b_{xy}(y - \\bar{y})$$\n$$x - 2.5 = 0.7604(y - 7.114)$$\n$$x = 0.7604y - 5.41 + 2.5$$\n\n**Result: $x = 0.7604y - 2.91$**",
+      "key_points": [
+        "Regression of $x$ on $y$: $x - \\bar{x} = b_{xy}(y - \\bar{y})$",
+        "$b_{xy} = \\frac{n\\sum xy - \\sum x \\sum y}{n\\sum y^2 - (\\sum y)^2}$",
+        "The regression line is $x = 0.7604y - 2.91$"
+      ]
+    },
+    "B5": {
+      "question_number": "B5",
+      "solution": "Let $f(x) = x^3 - x - 4$.\n\n**Finding initial interval:**\n- $f(1) = 1 - 1 - 4 = -4 < 0$\n- $f(2) = 8 - 2 - 4 = 2 > 0$\n\nRoot lies in $(1, 2)$. Take $a = 1, b = 2$.\n\n**Bisection formula:** $c = \\frac{a + b}{2}$\n\n**Iteration 1:** $c_1 = \\frac{1+2}{2} = 1.5$\n$f(1.5) = 3.375 - 1.5 - 4 = -2.125 < 0$\nRoot in $(1.5, 2)$ → $a = 1.5, b = 2$\n\n**Iteration 2:** $c_2 = \\frac{1.5+2}{2} = 1.75$\n$f(1.75) = 5.3594 - 1.75 - 4 = -0.3906 < 0$\nRoot in $(1.75, 2)$ → $a = 1.75, b = 2$\n\n**Iteration 3:** $c_3 = \\frac{1.75+2}{2} = 1.875$\n$f(1.875) = 6.5918 - 1.875 - 4 = 0.7168 > 0$\nRoot in $(1.75, 1.875)$ → $a = 1.75, b = 1.875$\n\n**Iteration 4:** $c_4 = \\frac{1.75+1.875}{2} = 1.8125$\n$f(1.8125) = 5.9537 - 1.8125 - 4 = 0.1412 > 0$\nRoot in $(1.75, 1.8125)$ → $a = 1.75, b = 1.8125$\n\n**Iteration 5:** $c_5 = \\frac{1.75+1.8125}{2} = 1.7813$\n$f(1.7813) = 5.6487 - 1.7813 - 4 = -0.1326 < 0$\nRoot in $(1.7813, 1.8125)$\n\n**Result: After 5 iterations, the root lies in $(1.7813, 1.8125)$ and approximate root $\\approx 1.7969$**",
+      "key_points": [
+        "Bisection halves the interval at each step",
+        "Check sign of $f(c)$ to decide which half contains the root",
+        "After 5 iterations: root $\\approx 1.797$",
+        "Error bound halves each iteration: $\\epsilon \\leq \\frac{b-a}{2^n}$"
+      ]
+    },
+    "C1": {
+      "question_number": "C1",
+      "solution": "**(a) Gauss-Seidel Method:**\n\nThe system is already diagonally dominant:\n- Row 1: $|10| > |-5| + |-2|$ → $10 > 7$ ✓\n- Row 2: $|-10| > |4| + |3|$ → $10 > 7$ ✓\n- Row 3: $|10| > |1| + |6|$ → $10 > 7$ ✓\n\n**Rewrite for iteration:**\n$$x = \\frac{3 + 5y + 2z}{10}, \\quad y = \\frac{-3 - 4x - 3z}{-10} = \\frac{3 + 4x + 3z}{10}$$\n$$z = \\frac{-3 - x - 6y}{10}$$\n\n**Starting with** $x^{(0)} = 0, y^{(0)} = 0, z^{(0)} = 0$:\n\n**Iteration 1:**\n$$x^{(1)} = \\frac{3 + 5(0) + 2(0)}{10} = 0.3000$$\n$$y^{(1)} = \\frac{3 + 4(0.3) + 3(0)}{10} = \\frac{4.2}{10} = 0.4200$$\n$$z^{(1)} = \\frac{-3 - 0.3 - 6(0.42)}{10} = \\frac{-5.82}{10} = -0.5820$$\n\n**Iteration 2:**\n$$x^{(2)} = \\frac{3 + 5(0.42) + 2(-0.582)}{10} = \\frac{3 + 2.1 - 1.164}{10} = 0.3936$$\n$$y^{(2)} = \\frac{3 + 4(0.3936) + 3(-0.582)}{10} = \\frac{3 + 1.5744 - 1.746}{10} = 0.2828$$\n$$z^{(2)} = \\frac{-3 - 0.3936 - 6(0.2828)}{10} = \\frac{-5.0904}{10} = -0.5090$$\n\n**Iteration 3:**\n$$x^{(3)} = \\frac{3 + 5(0.2828) + 2(-0.509)}{10} = \\frac{3 + 1.414 - 1.018}{10} = 0.3396$$\n$$y^{(3)} = \\frac{3 + 4(0.3396) + 3(-0.509)}{10} = \\frac{3 + 1.3584 - 1.527}{10} = 0.2831$$\n$$z^{(3)} = \\frac{-3 - 0.3396 - 6(0.2831)}{10} = \\frac{-5.0382}{10} = -0.5038$$\n\n**Iteration 4:**\n$$x^{(4)} = \\frac{3 + 5(0.2831) + 2(-0.5038)}{10} = 0.3408$$\n$$y^{(4)} = \\frac{3 + 4(0.3408) + 3(-0.5038)}{10} = 0.2519$$\n$$z^{(4)} = \\frac{-3 - 0.3408 - 6(0.2519)}{10} = -0.4853$$\n\nContinuing iterations until convergence to 4 significant figures:\n\n**Result (a): $x \\approx 0.3396, \\; y \\approx 0.2831, \\; z \\approx -0.5038$**\n\n---\n\n**(b) LU Factorization Method:**\n\nThe system:\n$$\\begin{pmatrix} 1 & 1 & -1 \\\\ 2 & 3 & 5 \\\\ 3 & 2 & -3 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -3 \\\\ 6 \\end{pmatrix}$$\n\n**Step 1: Decompose $A = LU$**\n\n$$L = \\begin{pmatrix} 1 & 0 & 0 \\\\ l_{21} & 1 & 0 \\\\ l_{31} & l_{32} & 1 \\end{pmatrix}, \\quad U = \\begin{pmatrix} u_{11} & u_{12} & u_{13} \\\\ 0 & u_{22} & u_{23} \\\\ 0 & 0 & u_{33} \\end{pmatrix}$$\n\n**Row 1 of U:** $u_{11} = 1, \\; u_{12} = 1, \\; u_{13} = -1$\n\n**Column 1 of L:** $l_{21} = 2/1 = 2, \\; l_{31} = 3/1 = 3$\n\n**Row 2 of U:**\n$u_{22} = 3 - 2(1) = 1$\n$u_{23} = 5 - 2(-1) = 7$\n\n**Column 2 of L:**\n$l_{32} = \\frac{2 - 3(1)}{1} = -1$\n\n**Row 3 of U:**\n$u_{33} = -3 - 3(-1) - (-1)(7) = -3 + 3 + 7 = 7$\n\nSo:\n$$L = \\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 1 & 0 \\\\ 3 & -1 & 1 \\end{pmatrix}, \\quad U = \\begin{pmatrix} 1 & 1 & -1 \\\\ 0 & 1 & 7 \\\\ 0 & 0 & 7 \\end{pmatrix}$$\n\n**Step 2: Solve $LY = B$ (forward substitution)**\n\n$$\\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 1 & 0 \\\\ 3 & -1 & 1 \\end{pmatrix} \\begin{pmatrix} y_1 \\\\ y_2 \\\\ y_3 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -3 \\\\ 6 \\end{pmatrix}$$\n\n$y_1 = 2$\n$y_2 = -3 - 2(2) = -7$\n$y_3 = 6 - 3(2) - (-1)(-7) = 6 - 6 - 7 = -7$\n\n**Step 3: Solve $UX = Y$ (back substitution)**\n\n$$\\begin{pmatrix} 1 & 1 & -1 \\\\ 0 & 1 & 7 \\\\ 0 & 0 & 7 \\end{pmatrix} \\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -7 \\\\ -7 \\end{pmatrix}$$\n\n$x_3 = -7/7 = -1$\n$x_2 = -7 - 7(-1) = 0$\n$x_1 = 2 - 0 - (-1)(-1) = 2 - 0 + 1 = 3$\n\nWait, let me recalculate: $x_1 = 2 - x_2 + x_3 = 2 - 0 + (-1) = 1$\n\nActually: $x_1 + x_2 - x_3 = 2$ → $x_1 = 2 - x_2 + x_3 = 2 - 0 + (-1) = 1$\n\n**Result (b): $x_1 = 1, \\; x_2 = 0, \\; x_3 = -1$**",
+      "key_points": [
+        "Gauss-Seidel requires diagonal dominance for convergence",
+        "Uses updated values immediately within each iteration",
+        "LU decomposition: $A = LU$, solve $LY = B$ then $UX = Y$",
+        "Solution: $x_1 = 1, x_2 = 0, x_3 = -1$"
+      ]
+    },
+    "C2": {
+      "question_number": "C2",
+      "solution": "**(a) SOR Method with $\\omega = 0.5$:**\n\nThe system:\n$4x - 2y + z = 2$\n$-x + 5y - 2z = 4$\n$x + y + 3z = 6$\n\n**Gauss-Seidel iteration formulas:**\n$$x_{\\text{GS}}^{(k+1)} = \\frac{2 + 2y^{(k)} - z^{(k)}}{4}$$\n$$y_{\\text{GS}}^{(k+1)} = \\frac{4 + x^{(k+1)} + 2z^{(k)}}{5}$$\n$$z_{\\text{GS}}^{(k+1)} = \\frac{6 - x^{(k+1)} - y^{(k+1)}}{3}$$\n\n**SOR update:**\n$$x_i^{(k+1)} = (1 - \\omega) x_i^{(k)} + \\omega \\cdot x_{i,\\text{GS}}^{(k+1)}$$\n\n**Starting:** $x^{(0)} = 1, y^{(0)} = 2, z^{(0)} = 1$\n\n**Iteration 1:**\n$x_{\\text{GS}} = \\frac{2 + 4 - 1}{4} = 1.25$\n$x^{(1)} = 0.5(1) + 0.5(1.25) = 1.125$\n\n$y_{\\text{GS}} = \\frac{4 + 1.125 + 2}{5} = 1.425$\n$y^{(1)} = 0.5(2) + 0.5(1.425) = 1.7125$\n\n$z_{\\text{GS}} = \\frac{6 - 1.125 - 1.7125}{3} = 1.0542$\n$z^{(1)} = 0.5(1) + 0.5(1.0542) = 1.0271$\n\n**Iteration 2:**\n$x_{\\text{GS}} = \\frac{2 + 2(1.7125) - 1.0271}{4} = 1.0995$\n$x^{(2)} = 0.5(1.125) + 0.5(1.0995) = 1.1123$\n\n$y_{\\text{GS}} = \\frac{4 + 1.1123 + 2(1.0271)}{5} = 1.4333$\n$y^{(2)} = 0.5(1.7125) + 0.5(1.4333) = 1.5729$\n\n$z_{\\text{GS}} = \\frac{6 - 1.1123 - 1.5729}{3} = 1.1049$\n$z^{(2)} = 0.5(1.0271) + 0.5(1.1049) = 1.0660$\n\n**Iteration 3:**\n$x_{\\text{GS}} = \\frac{2 + 2(1.5729) - 1.066}{4} = 1.0200$\n$x^{(3)} = 0.5(1.1123) + 0.5(1.0200) = 1.0661$\n\n$y_{\\text{GS}} = \\frac{4 + 1.0661 + 2(1.066)}{5} = 1.4396$\n$y^{(3)} = 0.5(1.5729) + 0.5(1.4396) = 1.5063$\n\n$z_{\\text{GS}} = \\frac{6 - 1.0661 - 1.5063}{3} = 1.1425$\n$z^{(3)} = 0.5(1.066) + 0.5(1.1425) = 1.1043$\n\nContinuing iterations, the solution converges to approximately:\n\n**Result (a): $x \\approx 1, \\; y \\approx 1.4, \\; z \\approx 1.2$**\n\n---\n\n**(b) Secant Method for $x^3 - 2x - 5 = 0$:**\n\nLet $f(x) = x^3 - 2x - 5$.\n\n$f(2) = 8 - 4 - 5 = -1 < 0$\n$f(3) = 27 - 6 - 5 = 16 > 0$\n\nTake $x_0 = 2, x_1 = 3$.\n\n**Secant formula:**\n$$x_{n+1} = x_n - f(x_n) \\cdot \\frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$$\n\n**Iteration 1:**\n$$x_2 = 3 - 16 \\cdot \\frac{3-2}{16-(-1)} = 3 - \\frac{16}{17} = 3 - 0.9412 = 2.0588$$\n\n$f(2.0588) = 8.7212 - 4.1176 - 5 = -0.3964$\n\n**Iteration 2:**\n$$x_3 = 2.0588 - (-0.3964) \\cdot \\frac{2.0588 - 3}{-0.3964 - 16} = 2.0588 - (-0.3964) \\cdot \\frac{-0.9412}{-16.3964}$$\n$$= 2.0588 - 0.02275 = 2.0946$$\n\n$f(2.0946) = 9.1944 - 4.1892 - 5 = 0.0052$\n\n**Iteration 3:**\n$$x_4 = 2.0946 - 0.0052 \\cdot \\frac{2.0946 - 2.0588}{0.0052 - (-0.3964)}$$\n$$= 2.0946 - 0.0052 \\cdot \\frac{0.0358}{0.4016} = 2.0946 - 0.000463 = 2.0941$$\n\n$f(2.0941) \\approx -0.0002$ (very close to zero)\n\n**Result (b): Root $\\approx 2.094$**",
+      "key_points": [
+        "SOR formula: $x^{(k+1)} = (1-\\omega)x^{(k)} + \\omega \\cdot x_{\\text{GS}}^{(k+1)}$",
+        "$\\omega < 1$ gives under-relaxation, $\\omega > 1$ gives over-relaxation",
+        "Secant method uses two previous points instead of derivative",
+        "Root of $x^3 - 2x - 5 = 0$ is approximately $2.094$"
+      ]
+    },
+    "C3": {
+      "question_number": "C3",
+      "solution": "**(a) Regression Analysis:**\n\n**Equation 1:** $8x - 10y + 66 = 0$ → $8x - 10y = -66$ ... (i)\n**Equation 2:** $40x - 18y = 214$ ... (ii)\n\n**(i) Finding averages $(\\bar{x}, \\bar{y})$:**\n\nBoth regression lines pass through $(\\bar{x}, \\bar{y})$.\n\nFrom (i): $8x - 10y = -66$ → multiply by 5: $40x - 50y = -330$\nFrom (ii): $40x - 18y = 214$\n\nSubtracting: $-32y = -544$ → $y = 17$\n\nFrom (i): $8x - 170 = -66$ → $8x = 104$ → $x = 13$\n\n**Result: $\\bar{x} = 13, \\bar{y} = 17$**\n\n**(ii) Finding correlation coefficient $r$:**\n\nIdentify the regression lines:\n\nRearranging Equation 1: $y = 0.8x + 6.6$ → this could be regression of $y$ on $x$: $b_{yx} = 0.8$\nRearranging Equation 2: $x = 0.45y + 5.35$ → regression of $x$ on $y$: $b_{xy} = 0.45$\n\n$$r^2 = b_{xy} \\times b_{yx} = 0.45 \\times 0.8 = 0.36$$\n$$r = +0.6$$ (positive since both coefficients are positive)\n\n**Result: $r = 0.6$**\n\n**(iii) Finding $\\sigma_y$:**\n\nWe know $b_{yx} = r \\cdot \\frac{\\sigma_y}{\\sigma_x}$\n\nGiven $\\text{Var}(x) = 9$, so $\\sigma_x = 3$.\n\n$$0.8 = 0.6 \\times \\frac{\\sigma_y}{3}$$\n$$\\sigma_y = \\frac{0.8 \\times 3}{0.6} = 4$$\n\n**Result: $\\sigma_y = 4$**\n\n---\n\n**(b) Mean Deviation from Mean:**\n\n| Class | Mid-value ($x_i$) | $f_i$ | $f_i x_i$ | $|x_i - \\bar{x}|$ | $f_i|x_i - \\bar{x}|$ |\n|-------|-------------------|--------|-----------|-------------------|----------------------|\n| 65–84 | 74.5 | 9 | 670.5 | 50.5 | 454.5 |\n| 85–104 | 94.5 | 10 | 945 | 30.5 | 305 |\n| 105–124 | 114.5 | 17 | 1946.5 | 10.5 | 178.5 |\n| 125–144 | 134.5 | 10 | 1345 | 9.5 | 95 |\n| 145–164 | 154.5 | 5 | 772.5 | 29.5 | 147.5 |\n| 165–184 | 174.5 | 4 | 698 | 49.5 | 198 |\n| 185–204 | 194.5 | 5 | 972.5 | 69.5 | 347.5 |\n| **Total** | | **60** | **7350** | | **1726** |\n\n$$\\bar{x} = \\frac{7350}{60} = 122.5$$\n\nWait, let me recalculate $|x_i - \\bar{x}|$ with $\\bar{x} = 122.5$:\n- $|74.5 - 122.5| = 48$\n- $|94.5 - 122.5| = 28$\n- $|114.5 - 122.5| = 8$\n- $|134.5 - 122.5| = 12$\n- $|154.5 - 122.5| = 32$\n- $|174.5 - 122.5| = 52$\n- $|194.5 - 122.5| = 72$\n\nRecalculating $f_i|x_i - \\bar{x}|$: $432 + 280 + 136 + 120 + 160 + 208 + 360 = 1696$\n\n$$\\text{Mean Deviation} = \\frac{\\sum f_i|x_i - \\bar{x}|}{\\sum f_i} = \\frac{1696}{60} = 28.27$$\n\n**Result: Mean Deviation from Mean $\\approx 28.27$ grams**",
+      "key_points": [
+        "$\\bar{x} = 13, \\bar{y} = 17$ from solving regression equations simultaneously",
+        "$r = 0.6$ from $r^2 = b_{xy} \\cdot b_{yx}$",
+        "$\\sigma_y = 4$ using $b_{yx} = r \\cdot \\sigma_y / \\sigma_x$",
+        "Mean Deviation $= \\frac{\\sum f_i|x_i - \\bar{x}|}{N} \\approx 28.27$ g"
+      ]
+    },
+    "C4": {
+      "question_number": "C4",
+      "solution": "**(a) Gauss Elimination Method:**\n\nThe augmented matrix:\n$$\\left[\\begin{array}{ccc|c} 1 & 1 & 2 & 4 \\\\ 2 & 5 & 6 & 13 \\\\ 3 & 6 & 8 & 17 \\end{array}\\right]$$\n\n**Step 1:** $R_2 \\leftarrow R_2 - 2R_1$, $R_3 \\leftarrow R_3 - 3R_1$\n$$\\left[\\begin{array}{ccc|c} 1 & 1 & 2 & 4 \\\\ 0 & 3 & 2 & 5 \\\\ 0 & 3 & 2 & 5 \\end{array}\\right]$$\n\n**Step 2:** $R_3 \\leftarrow R_3 - R_2$\n$$\\left[\\begin{array}{ccc|c} 1 & 1 & 2 & 4 \\\\ 0 & 3 & 2 & 5 \\\\ 0 & 0 & 0 & 0 \\end{array}\\right]$$\n\nThe third row is all zeros, indicating **infinitely many solutions** (the system is consistent but underdetermined).\n\nLet $z = t$ (parameter).\n\nFrom Row 2: $3y + 2t = 5$ → $y = \\frac{5 - 2t}{3}$\n\nFrom Row 1: $x + \\frac{5-2t}{3} + 2t = 4$ → $x = 4 - \\frac{5-2t}{3} - 2t = \\frac{12 - 5 + 2t - 6t}{3} = \\frac{7 - 4t}{3}$\n\n**Result (a):** $x = \\frac{7-4t}{3}, \\; y = \\frac{5-2t}{3}, \\; z = t$\n\nFor example, when $t = 1$: $x = 1, y = 1, z = 1$.\n\n---\n\n**(b) Regula Falsi Method for $e^x - 3x = 0$:**\n\nLet $f(x) = e^x - 3x$.\n\n$f(0.5) = e^{0.5} - 1.5 = 1.6487 - 1.5 = 0.1487 > 0$\n$f(0.8) = e^{0.8} - 2.4 = 2.2255 - 2.4 = -0.1745 < 0$\n\n**Regula Falsi formula:**\n$$x_n = \\frac{a \\cdot f(b) - b \\cdot f(a)}{f(b) - f(a)}$$\n\n**Iteration 1:** $a = 0.5, b = 0.8$\n$$x_1 = \\frac{0.5(-0.1745) - 0.8(0.1487)}{-0.1745 - 0.1487} = \\frac{-0.08725 - 0.11896}{-0.3232} = \\frac{-0.20621}{-0.3232} = 0.6381$$\n\n$f(0.6381) = e^{0.6381} - 1.9143 = 1.8930 - 1.9143 = -0.0213 < 0$\n\nRoot in $(0.5, 0.6381)$ → $a = 0.5, b = 0.6381$\n\n**Iteration 2:**\n$$x_2 = \\frac{0.5(-0.0213) - 0.6381(0.1487)}{-0.0213 - 0.1487} = \\frac{-0.01065 - 0.09489}{-0.1700} = \\frac{-0.10554}{-0.1700} = 0.6208$$\n\n$f(0.6208) = e^{0.6208} - 1.8624 = 1.8604 - 1.8624 = -0.0020 < 0$\n\nRoot in $(0.5, 0.6208)$ → $a = 0.5, b = 0.6208$\n\n**Iteration 3:**\n$$x_3 = \\frac{0.5(-0.0020) - 0.6208(0.1487)}{-0.0020 - 0.1487} = \\frac{-0.001 - 0.09231}{-0.1507} = \\frac{-0.09331}{-0.1507} = 0.6191$$\n\n$f(0.6191) \\approx 0.0001$ (essentially zero)\n\nConverged to 2 decimal places.\n\n**Result (b): Root $\\approx 0.62$**",
+      "key_points": [
+        "Gauss Elimination reveals the system has infinitely many solutions",
+        "Parametric solution: $x = (7-4t)/3, y = (5-2t)/3, z = t$",
+        "Regula Falsi uses linear interpolation between two points of opposite sign",
+        "Root of $e^x - 3x = 0$ is approximately $0.62$"
+      ]
+    },
+    "C5": {
+      "question_number": "C5",
+      "solution": "**(a) Correlation Coefficient:**\n\n$n = 8$\n\n| $x$ | $y$ | $x^2$ | $y^2$ | $xy$ |\n|-----|-----|-------|-------|------|\n| 1 | 1 | 1 | 1 | 1 |\n| 3 | 2 | 9 | 4 | 6 |\n| 4 | 4 | 16 | 16 | 16 |\n| 6 | 4 | 36 | 16 | 24 |\n| 8 | 5 | 64 | 25 | 40 |\n| 9 | 7 | 81 | 49 | 63 |\n| 11 | 8 | 121 | 64 | 88 |\n| 14 | 9 | 196 | 81 | 126 |\n| **56** | **40** | **524** | **256** | **364** |\n\n**Karl Pearson's formula:**\n\n$$r = \\frac{n\\sum xy - \\sum x \\sum y}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}}$$\n\n$$= \\frac{8(364) - 56(40)}{\\sqrt{[8(524) - 56^2][8(256) - 40^2]}}$$\n\n$$= \\frac{2912 - 2240}{\\sqrt{[4192 - 3136][2048 - 1600]}}$$\n\n$$= \\frac{672}{\\sqrt{1056 \\times 448}}$$\n\n$$= \\frac{672}{\\sqrt{473088}} = \\frac{672}{687.67} \\approx 0.9772$$\n\n**Result: $r \\approx 0.977$** (strong positive correlation)\n\n**Scatter Diagram:** Plot the 8 points on an $x$-$y$ plane. The points show a clear upward linear trend, consistent with the high positive correlation coefficient.\n\n---\n\n**(b) Finding Missing Frequencies:**\n\nTotal families = 1000: $50 + f_1 + 500 + f_2 + 50 = 1000$\n$$f_1 + f_2 = 400 \\quad \\text{...(i)}$$\n\n**Using Mean = 87.50:**\n\n| Class | Mid-value ($x_i$) | $f_i$ | $f_i x_i$ |\n|-------|-------------------|--------|------------|\n| 40–59 | 49.5 | 50 | 2475 |\n| 60–79 | 69.5 | $f_1$ | $69.5f_1$ |\n| 80–99 | 89.5 | 500 | 44750 |\n| 100–119 | 109.5 | $f_2$ | $109.5f_2$ |\n| 120–139 | 129.5 | 50 | 6475 |\n\n$$\\bar{x} = \\frac{53700 + 69.5f_1 + 109.5f_2}{1000} = 87.50$$\n\n$$69.5f_1 + 109.5f_2 = 87500 - 53700 = 33800$$\n$$69.5f_1 + 109.5f_2 = 33800 \\quad \\text{...(ii)}$$\n\nFrom (i): $f_2 = 400 - f_1$. Substituting in (ii):\n$$69.5f_1 + 109.5(400 - f_1) = 33800$$\n$$69.5f_1 + 43800 - 109.5f_1 = 33800$$\n$$-40f_1 = -10000$$\n$$f_1 = 250$$\n\nFrom (i): $f_2 = 400 - 250 = 150$\n\n**Verification with Median = 87.50:**\n\nMedian class is 80–99 (cumulative frequency crosses $N/2 = 500$).\n\n$$\\text{Median} = L + \\frac{N/2 - cf}{f} \\times h = 79.5 + \\frac{500 - 300}{500} \\times 20 = 79.5 + 8 = 87.5$$ ✓\n\n**Result: $f_1 = 250, f_2 = 150$**",
+      "key_points": [
+        "$r \\approx 0.977$ indicates strong positive linear correlation",
+        "Use total frequency and mean equations to form two simultaneous equations",
+        "$f_1 = 250, f_2 = 150$",
+        "Verified using median formula"
+      ]
+    }
+  }
+}
