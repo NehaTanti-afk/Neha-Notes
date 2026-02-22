@@ -47,6 +47,7 @@
 }
 
 :root {
+    color-scheme: light;
     --radius: 0.625rem;
     /* Warm beige & brown palette */
     --background: oklch(0.97 0.01 80);
@@ -83,6 +84,7 @@
 }
 
 .dark {
+    color-scheme: dark;
     --background: oklch(0.17 0.02 50);
     --foreground: oklch(0.95 0.01 75);
     --card: oklch(0.21 0.025 50);

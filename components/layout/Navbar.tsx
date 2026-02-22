@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useAuth } from '@/hooks/useAuth'
+import { ThemeToggle } from '@/components/layout/ThemeToggle'
 
 export function Navbar() {
   const { user, loading, signOut } = useAuth()
@@ -39,6 +40,7 @@ export function Navbar() {
 
           {/* Desktop auth controls */}
           <div className="hidden md:flex items-center gap-3">
+            <ThemeToggle />
             {loading ? (
               <div className="h-8 w-24 animate-pulse rounded-md bg-muted" />
             ) : user ? (
@@ -68,14 +70,17 @@ export function Navbar() {
             )}
           </div>
 
-          {/* Mobile hamburger */}
-          <button
-            className="md:hidden p-2 rounded-md text-muted-foreground hover:text-foreground"
-            onClick={() => setMenuOpen((prev) => !prev)}
-            aria-label="Toggle menu"
-          >
-            {menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
-          </button>
+          {/* Mobile controls */}
+          <div className="md:hidden flex items-center gap-2">
+            <ThemeToggle />
+            <button
+              className="p-2 rounded-md text-muted-foreground hover:text-foreground"
+              onClick={() => setMenuOpen((prev) => !prev)}
+              aria-label="Toggle menu"
+            >
+              {menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+            </button>
+          </div>
         </div>
       </div>
 
