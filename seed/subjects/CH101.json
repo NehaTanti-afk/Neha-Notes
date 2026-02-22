@@ -7,7 +7,7 @@
   "department": "IT",
   "college": "JISCE",
   "exam_pattern": {
-    "total_marks": 70,
+    "total_marks": 60,
     "duration_minutes": 180,
     "groups": [
       {
@@ -22,10 +22,10 @@
       {
         "name": "B",
         "label": "Group B",
-        "instructions": "Answer any 3 out of 5 questions",
-        "questions_count": 5,
-        "attempt_count": 3,
-        "marks_per_question": 5,
+        "instructions": "Answer any 5 out of 6 questions",
+        "questions_count": 6,
+        "attempt_count": 5,
+        "marks_per_question": 4,
         "question_type": "short"
       },
       {
@@ -34,7 +34,7 @@
         "instructions": "Answer any 3 out of 5 questions",
         "questions_count": 5,
         "attempt_count": 3,
-        "marks_per_question": 15,
+        "marks_per_question": 10,
         "question_type": "long"
       }
     ]

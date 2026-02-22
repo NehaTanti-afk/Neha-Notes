@@ -16,7 +16,7 @@
     "A1": {
       "group": "A",
       "number": "A1",
-      "text": "The time-independent Schrödinger wave equation is:",
+      "text": "The time-independent Schrödinger wave equation in operator form is:",
       "marks": 1,
       "co": "CO1",
       "bl": "L1",
@@ -43,7 +43,7 @@
     "A2": {
       "group": "A",
       "number": "A2",
-      "text": "Which of the following quantum numbers determines the shape of an orbital?",
+      "text": "Which quantum number determines the shape of an orbital?",
       "marks": 1,
       "co": "CO1",
       "bl": "L1",
@@ -329,8 +329,8 @@
     "B1": {
       "group": "B",
       "number": "B1",
-      "text": "(a) State de Broglie's hypothesis and write the de Broglie equation. [2]\n(b) Calculate the de Broglie wavelength of an electron moving with a velocity of $1.0 \\times 10^6$ m/s. (Mass of electron = $9.1 \\times 10^{-31}$ kg, $h = 6.626 \\times 10^{-34}$ J·s) [3]",
-      "marks": 5,
+      "text": "State de Broglie's hypothesis and calculate the de Broglie wavelength of an electron moving with a velocity of $1.0 \\times 10^6$ m/s. (Mass of electron = $9.1 \\times 10^{-31}$ kg, $h = 6.626 \\times 10^{-34}$ J·s)",
+      "marks": 4,
       "co": "CO1",
       "bl": "L3",
       "is_preview": true
@@ -338,40 +338,48 @@
     "B2": {
       "group": "B",
       "number": "B2",
-      "text": "(a) Define Gibbs free energy. Write the Gibbs-Helmholtz equation. [2]\n(b) Calculate $\\Delta G^\\circ$ for the combustion of methane at 298 K, given $\\Delta H^\\circ = -890.4$ kJ/mol and $\\Delta S^\\circ = -242.2$ J/mol·K. Is the reaction spontaneous? [3]",
-      "marks": 5,
+      "text": "Define Gibbs free energy. Calculate $\\Delta G^\\circ$ for the combustion of methane at 298 K, given $\\Delta H^\\circ = -890.4$ kJ/mol and $\\Delta S^\\circ = -242.2$ J/mol·K. Is the reaction spontaneous?",
+      "marks": 4,
       "co": "CO2",
       "bl": "L3"
     },
     "B3": {
       "group": "B",
       "number": "B3",
-      "text": "(a) Write the synthesis and applications of HDPE and LDPE. [3]\n(b) What is tacticity in polymers? Name the three types. [2]",
-      "marks": 5,
+      "text": "Write the synthesis and applications of HDPE and LDPE. What is tacticity in polymers?",
+      "marks": 4,
       "co": "CO1",
       "bl": "L2"
     },
     "B4": {
       "group": "B",
       "number": "B4",
-      "text": "(a) Compare chemical corrosion and electrochemical corrosion. [3]\n(b) Define calorific value, HCV, and LCV. [2]",
-      "marks": 5,
+      "text": "Compare chemical corrosion and electrochemical corrosion. Define calorific value, HCV, and LCV.",
+      "marks": 4,
       "co": "CO4",
       "bl": "L2"
     },
     "B5": {
       "group": "B",
       "number": "B5",
-      "text": "(a) Compare $S_N1$ and $S_N2$ nucleophilic substitution reactions. [3]\n(b) Explain the acidity order among acetic acid, ethanol, and phenol. [2]",
-      "marks": 5,
+      "text": "Compare $S_N1$ and $S_N2$ nucleophilic substitution reactions with examples.",
+      "marks": 4,
       "co": "CO3",
+      "bl": "L2"
+    },
+    "B6": {
+      "group": "B",
+      "number": "B6",
+      "text": "Explain the working principle and applications of Lithium-ion batteries.",
+      "marks": 4,
+      "co": "CO2",
       "bl": "L2"
     },
     "C1": {
       "group": "C",
       "number": "C1",
-      "text": "(a) Write the time-independent Schrödinger wave equation and explain its significance. [3]\n(b) State Slater's rule. Calculate the effective nuclear charge experienced by a valence electron of Sodium ($Z = 11$). [5]\n(c) Explain the variation of electron affinity and electronegativity across a period and down a group. [4]\n(d) Explain penetration of orbitals and its effect on orbital energies. [3]",
-      "marks": 15,
+      "text": "(a) Write the time-independent Schrödinger wave equation and explain its significance. [3]\n(b) State Slater's rule and calculate the effective nuclear charge on the valence electron of Sodium ($Z = 11$). [4]\n(c) Explain the variation of electron affinity and electronegativity across a period and down a group. [3]",
+      "marks": 10,
       "co": "CO1",
       "bl": "L2",
       "is_preview": true
@@ -379,32 +387,32 @@
     "C2": {
       "group": "C",
       "number": "C2",
-      "text": "(a) State and explain the second law of thermodynamics. [3]\n(b) Define entropy. Derive the mathematical expression for entropy and explain its physical significance. [5]\n(c) The standard enthalpy of formation of $\\text{H}_2\\text{O}(l)$ is $-285.83$ kJ/mol and $\\text{CO}_2(g)$ is $-393.51$ kJ/mol. The standard enthalpy of formation of $\\text{CH}_4(g)$ is $-74.87$ kJ/mol. Calculate the standard enthalpy of combustion of methane. [4]\n(d) Define standard free energy. How is it related to the equilibrium constant? [3]",
-      "marks": 15,
+      "text": "(a) State and explain the second law of thermodynamics. [2]\n(b) Define entropy and derive the general expression for entropy change of an ideal gas. Explain its physical significance. [5]\n(c) Using standard enthalpies of formation, calculate the standard enthalpy of combustion of methane. Given: $\\Delta H^\\circ_f[\\text{H}_2\\text{O}(l)] = -285.83$ kJ/mol, $\\Delta H^\\circ_f[\\text{CO}_2(g)] = -393.51$ kJ/mol, $\\Delta H^\\circ_f[\\text{CH}_4(g)] = -74.87$ kJ/mol. [3]",
+      "marks": 10,
       "co": "CO2",
       "bl": "L3"
     },
     "C3": {
       "group": "C",
       "number": "C3",
-      "text": "(a) Explain the concept of intrinsic and extrinsic semiconductors with examples. [4]\n(b) Describe n-type and p-type semiconductors. How is conductivity improved by doping? [5]\n(c) Discuss the role of Silicon and Germanium as semiconductor-based memory materials. [3]\n(d) What are the properties of semiconductors that make them useful in electronic devices? [3]",
-      "marks": 15,
+      "text": "(a) Explain intrinsic and extrinsic semiconductors with examples. [3]\n(b) Describe n-type and p-type semiconductors. How is conductivity improved by doping? [4]\n(c) Discuss the role of Silicon and Germanium as semiconductor-based memory materials. [3]",
+      "marks": 10,
       "co": "CO5",
       "bl": "L2"
     },
     "C4": {
       "group": "C",
       "number": "C4",
-      "text": "(a) Explain electrophilic addition reactions with the mechanism of addition of HBr to propene. [4]\n(b) State Markovnikov's rule and peroxide effect with examples. [4]\n(c) Write the synthesis and uses of Paracetamol and Aspirin. [4]\n(d) Compare the basicity of methylamine, aniline, and ammonia with reasoning. [3]",
-      "marks": 15,
+      "text": "(a) Explain electrophilic addition reactions with the mechanism of addition of HBr to propene. [3]\n(b) State Markovnikov's rule and the peroxide effect with examples. [3]\n(c) Write the synthesis and uses of Paracetamol and Aspirin. [4]",
+      "marks": 10,
       "co": "CO3",
       "bl": "L3"
     },
     "C5": {
       "group": "C",
       "number": "C5",
-      "text": "(a) Explain the applications of UV-Visible spectroscopy. [4]\n(b) Derive Lambert-Beer's law. Explain how $\\lambda_{\\max}$ and concentration of an unknown solution can be determined. [5]\n(c) What is the fingerprint region in IR spectroscopy? Explain its significance. [3]\n(d) Differentiate between chromophores and auxochromes with examples. [3]",
-      "marks": 15,
+      "text": "(a) Explain the applications of UV-Visible spectroscopy. [3]\n(b) State Lambert-Beer's law. Explain how $\\lambda_{\\max}$ and the concentration of an unknown solution can be determined. [4]\n(c) What is the fingerprint region in IR spectroscopy? Explain its significance. [3]",
+      "marks": 10,
       "co": "CO3",
       "bl": "L2"
     }
@@ -413,215 +421,216 @@
     "A1": {
       "question_number": "A1",
       "correct_option": "a",
-      "solution": "The time-independent Schrödinger wave equation in operator form is:\n\n$$\\hat{H}\\psi = E\\psi$$\n\nwhere:\n- $\\hat{H}$ = Hamiltonian operator (represents total energy: kinetic + potential)\n- $\\psi$ = wave function (describes the quantum state of the particle)\n- $E$ = total energy of the system (eigenvalue)\n\nIn full form for a single particle:\n\n$$-\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi = E\\psi$$\n\nThe other options represent: (b) incorrect combination, (c) Planck's equation, (d) de Broglie equation.",
+      "solution": "The time-independent Schrödinger wave equation in operator form is:\n\n$$\\hat{H}\\psi = E\\psi$$\n\nwhere $\\hat{H}$ = Hamiltonian operator (total energy: kinetic + potential), $\\psi$ = wave function, $E$ = total energy.\n\nIn full form: $-\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi = E\\psi$\n\nOther options: (b) incorrect, (c) Planck's equation, (d) de Broglie equation.",
       "key_points": [
         "Schrödinger equation: $\\hat{H}\\psi = E\\psi$",
-        "$\\hat{H}$ = Hamiltonian operator, $\\psi$ = wave function, $E$ = energy",
+        "$\\hat{H}$ = Hamiltonian, $\\psi$ = wave function",
         "Fundamental equation of quantum mechanics"
       ]
     },
     "A2": {
       "question_number": "A2",
       "correct_option": "b",
-      "solution": "The **azimuthal quantum number ($l$)** determines the **shape** of an orbital.\n\n| $l$ value | Orbital type | Shape |\n|-----------|-------------|-------|\n| 0 | s | Spherical |\n| 1 | p | Dumbbell |\n| 2 | d | Double dumbbell / cloverleaf |\n| 3 | f | Complex shapes |\n\nOther quantum numbers: $n$ (size/energy level), $m_l$ (orientation in space), $m_s$ (spin direction).",
+      "solution": "The **azimuthal quantum number ($l$)** determines the **shape** of an orbital.\n\n| $l$ | Orbital | Shape |\n|-----|---------|-------|\n| 0 | s | Spherical |\n| 1 | p | Dumbbell |\n| 2 | d | Double dumbbell / cloverleaf |\n| 3 | f | Complex |\n\nOther quantum numbers: $n$ (size), $m_l$ (orientation), $m_s$ (spin direction).",
       "key_points": [
-        "Azimuthal quantum number ($l$) determines orbital shape",
-        "$l = 0$ (s, spherical), $l = 1$ (p, dumbbell), $l = 2$ (d), $l = 3$ (f)"
+        "Azimuthal quantum number ($l$) determines shape",
+        "$l = 0$ (s), $l = 1$ (p), $l = 2$ (d), $l = 3$ (f)"
       ]
     },
     "A3": {
       "question_number": "A3",
       "correct_option": "c",
-      "solution": "Electronegativity follows the trend:\n- **Across a period** (left → right): **Increases** — nuclear charge increases while atomic size decreases, so atoms attract bonding electrons more strongly\n- **Down a group** (top → bottom): **Decreases** — atomic size increases significantly, shielding increases, so the attraction for bonding electrons weakens\n\nFluorine has the highest electronegativity (3.98 on Pauling scale) among all elements.",
+      "solution": "Electronegativity trends:\n- **Across a period** (left → right): **Increases** — nuclear charge increases, atomic size decreases\n- **Down a group** (top → bottom): **Decreases** — atomic size increases, shielding increases\n\nFluorine has the highest electronegativity (3.98, Pauling scale).",
       "key_points": [
-        "Electronegativity increases across a period",
-        "Electronegativity decreases down a group",
+        "EN increases across a period, decreases down a group",
         "Fluorine has the highest electronegativity"
       ]
     },
     "A4": {
       "question_number": "A4",
       "correct_option": "b",
-      "solution": "Phosphorus is a **Group 15 element** with 5 valence electrons. When it replaces a silicon atom (4 valence electrons) in the crystal lattice, there is one **extra electron** that is free to conduct.\n\nThis produces an **n-type (negative-type) semiconductor**:\n- Phosphorus acts as a **donor impurity**\n- **Electrons** are the majority charge carriers\n- Holes are the minority carriers\n\nDoping with Group 13 elements (e.g., B, Al, Ga) produces p-type semiconductors.",
+      "solution": "Phosphorus (Group 15, 5 valence electrons) replaces Si (4 valence electrons) → one **extra free electron** → **n-type semiconductor**.\n\n- Phosphorus is a **donor impurity**\n- Electrons are majority carriers\n- Group 13 elements (B, Al, Ga) produce p-type instead.",
       "key_points": [
-        "Phosphorus (Group 15) donates extra electron → n-type",
-        "Electrons are majority carriers in n-type",
-        "Phosphorus is a donor impurity"
+        "Phosphorus (Group 15) → n-type semiconductor",
+        "Extra electron = donor impurity",
+        "Electrons are majority carriers"
       ]
     },
     "A5": {
       "question_number": "A5",
       "correct_option": "c",
-      "solution": "According to the **second law of thermodynamics**, for any **spontaneous process**, the total entropy of the universe (system + surroundings) always **increases**:\n\n$$\\Delta S_{\\text{universe}} = \\Delta S_{\\text{system}} + \\Delta S_{\\text{surroundings}} > 0$$\n\n- $\\Delta S_{\\text{universe}} > 0$: Spontaneous (irreversible) process\n- $\\Delta S_{\\text{universe}} = 0$: Reversible (equilibrium) process\n- $\\Delta S_{\\text{universe}} < 0$: Non-spontaneous process",
+      "solution": "For a **spontaneous process**, total entropy of the universe always **increases**:\n\n$$\\Delta S_{\\text{universe}} = \\Delta S_{\\text{system}} + \\Delta S_{\\text{surroundings}} > 0$$\n\n- $> 0$: spontaneous\n- $= 0$: reversible (equilibrium)\n- $< 0$: non-spontaneous",
       "key_points": [
-        "$\\Delta S_{\\text{universe}} > 0$ for spontaneous process",
-        "Entropy of universe always increases or stays the same",
-        "This is the second law of thermodynamics"
+        "$\\Delta S_{\\text{universe}} > 0$ for spontaneous",
+        "Second law of thermodynamics",
+        "$= 0$ at equilibrium"
       ]
     },
     "A6": {
       "question_number": "A6",
       "correct_option": "c",
-      "solution": "The **Daniell cell** consists of a Zinc anode and a Copper cathode:\n\n$$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} - E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}}$$\n\n$$E^\\circ_{\\text{cell}} = (+0.34) - (-0.76) = 1.10 \\text{ V}$$\n\nThis is one of the most commonly referenced standard cell potentials.",
+      "solution": "The **Daniell cell** (Zn anode, Cu cathode):\n\n$$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} - E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = (+0.34) - (-0.76) = 1.10 \\text{ V}$$",
       "key_points": [
-        "Daniell cell: Zn anode + Cu cathode",
-        "$E^\\circ = 0.34 - (-0.76) = 1.10$ V",
-        "One of the classic electrochemical cells"
+        "Daniell cell: Zn|Zn²⁺||Cu²⁺|Cu",
+        "$E^\\circ = 1.10$ V"
       ]
     },
     "A7": {
       "question_number": "A7",
       "correct_option": "b",
-      "solution": "**Nylon 6,6** is prepared by the condensation polymerization of **hexamethylenediamine** with **adipic acid** (hexanedioic acid).\n\n$$n(\\text{H}_2\\text{N}-(\\text{CH}_2)_6-\\text{NH}_2) + n(\\text{HOOC}-(\\text{CH}_2)_4-\\text{COOH}) \\rightarrow \\text{Nylon 6,6} + 2n\\text{H}_2\\text{O}$$\n\nThe name \"6,6\" refers to the 6 carbon atoms in each of the two monomers.",
+      "solution": "**Nylon 6,6** = condensation of hexamethylenediamine + **adipic acid** (hexanedioic acid).\n\n\"6,6\" = 6 carbons in each monomer. Water is eliminated as a by-product.",
       "key_points": [
         "Nylon 6,6 = hexamethylenediamine + adipic acid",
-        "Condensation polymerization with water as by-product",
-        "6,6 refers to 6 carbons in each monomer"
+        "Condensation polymerization, water eliminated",
+        "6,6 = 6 carbons in each monomer"
       ]
     },
     "A8": {
       "question_number": "A8",
       "correct_option": "b",
-      "solution": "**HDPE** stands for **High Density Polyethylene**.\n\n- HDPE has **linear chains** with very little branching\n- Close packing of chains → **higher density** (0.94–0.97 g/cm³)\n- More crystalline, rigid, and stronger than LDPE\n- Applications: Bottles, pipes, containers, toys\n\n**LDPE** (Low Density Polyethylene) has more branching → lower density (0.91–0.94 g/cm³), more flexible.",
+      "solution": "**HDPE = High Density Polyethylene**\n\n- Linear chains with minimal branching → close packing → density 0.94–0.97 g/cm³\n- More crystalline, rigid, and stronger than LDPE\n- Applications: Bottles, pipes, containers",
       "key_points": [
         "HDPE = High Density Polyethylene",
-        "Linear chains, less branching → higher density, more rigid",
+        "Linear chains, less branching, higher density",
         "Used for bottles, pipes, containers"
       ]
     },
     "A9": {
       "question_number": "A9",
       "correct_option": "b",
-      "solution": "**Cetane number** measures the quality (ignition quality) of **diesel** fuel.\n\n- It is the percentage of **cetane** ($\\text{C}_{16}\\text{H}_{34}$, n-hexadecane) in a mixture with **$\\alpha$-methylnaphthalene** that matches the diesel's ignition characteristics\n- Higher cetane number = shorter ignition delay = better diesel quality\n- Good diesel fuel has a cetane number of 40–55\n\n**Octane number** is the corresponding measure for petrol/gasoline.",
+      "solution": "**Cetane number** measures ignition quality of **diesel**.\n\n- % of cetane (n-hexadecane) in a reference mixture matching diesel's ignition\n- Higher cetane = shorter ignition delay = better diesel\n- **Octane number** is for petrol.",
       "key_points": [
-        "Cetane number measures diesel quality",
+        "Cetane number = diesel quality",
         "Higher cetane = shorter ignition delay",
-        "Octane number is for petrol, cetane number is for diesel"
+        "Octane number is for petrol"
       ]
     },
     "A10": {
       "question_number": "A10",
       "correct_option": "b",
-      "solution": "**Markovnikov's rule** states: In the addition of HX to an unsymmetrical alkene, the **hydrogen atom** adds to the carbon with **more hydrogen atoms** (less substituted carbon), and the **halide** adds to the carbon with **fewer hydrogen atoms** (more substituted carbon).\n\nFor propene ($\\text{CH}_3\\text{-CH=CH}_2$) + HBr:\n- H adds to $\\text{CH}_2$ (terminal carbon, more H's)\n- Br adds to the middle carbon ($\\text{CH}$)\n- Product: **2-bromopropane** ($\\text{CH}_3\\text{CHBr}\\text{CH}_3$)\n\nThis follows because the more substituted carbocation intermediate ($2^\\circ$) is more stable than the less substituted one ($1^\\circ$).",
+      "solution": "**Markovnikov's rule:** In HX addition to unsymmetrical alkenes, H goes to the carbon with **more H atoms**, halide to the **more substituted** carbon.\n\nPropene + HBr → **2-bromopropane** ($\\text{CH}_3\\text{CHBrCH}_3$)\n\nThe 2° carbocation intermediate is more stable than 1°.",
       "key_points": [
-        "Markovnikov's rule: H goes to C with more H's, halide to more substituted C",
-        "HBr + propene → 2-bromopropane (Markovnikov product)",
+        "Markovnikov: H to C with more H's, halide to more substituted C",
+        "HBr + propene → 2-bromopropane",
         "More substituted carbocation is more stable"
       ]
     },
     "A11": {
       "question_number": "A11",
       "correct_option": "b",
-      "solution": "The **fingerprint region** in IR spectroscopy lies in the range of **1500–400 cm⁻¹**.\n\nThis region is characterized by:\n- Complex absorption patterns due to **bending vibrations** and **C–C, C–O, C–N stretching**\n- Unique for each compound — like a fingerprint, no two different compounds have the same pattern in this region\n- Used for **identification** of unknown compounds by comparison with reference spectra\n\nThe region above 1500 cm⁻¹ (functional group region: 4000–1500 cm⁻¹) shows characteristic absorptions of specific functional groups.",
+      "solution": "The **fingerprint region**: **1500–400 cm⁻¹**\n\n- Complex bending vibrations and C–C, C–O, C–N stretching\n- Unique for each compound — used for identification\n- Region above 1500 cm⁻¹ is the functional group region",
       "key_points": [
         "Fingerprint region: 1500–400 cm⁻¹",
-        "Unique for each compound — used for identification",
-        "Contains bending vibrations and C–C, C–O stretching"
+        "Unique for each compound",
+        "Used for identification by comparison"
       ]
     },
     "A12": {
       "question_number": "A12",
       "correct_option": "b",
-      "solution": "**Galvanic corrosion** (also called bimetallic corrosion) occurs when **two dissimilar metals** are in electrical contact in the presence of an **electrolyte**.\n\n- The more **active (anodic) metal** corrodes preferentially\n- The more **noble (cathodic) metal** is protected\n- The driving force is the **potential difference** between the two metals in the galvanic series\n- Example: Iron nail in contact with copper plate in salt water — iron corrodes faster\n\nOther types: pitting (localized holes), crevice (in gaps), stress (under mechanical stress).",
+      "solution": "**Galvanic corrosion** occurs when **two dissimilar metals** are in electrical contact with an **electrolyte**.\n\n- More active (anodic) metal corrodes preferentially\n- More noble (cathodic) metal is protected\n- Driven by potential difference in galvanic series",
       "key_points": [
-        "Galvanic corrosion: two dissimilar metals + electrolyte",
-        "More active metal (anode) corrodes faster",
-        "Driven by potential difference in galvanic series"
+        "Galvanic: two dissimilar metals + electrolyte",
+        "More active metal corrodes faster",
+        "Potential difference drives corrosion"
       ]
     },
     "B1": {
       "question_number": "B1",
-      "solution": "**(a) de Broglie's Hypothesis:**\n\nLouis de Broglie proposed that **matter**, like radiation, has a **dual nature** — every moving particle has wave-like properties associated with it. The wavelength of this \"matter wave\" is given by the **de Broglie equation**:\n\n$$\\lambda = \\frac{h}{mv} = \\frac{h}{p}$$\n\nwhere:\n- $\\lambda$ = de Broglie wavelength\n- $h$ = Planck's constant ($6.626 \\times 10^{-34}$ J·s)\n- $m$ = mass of the particle\n- $v$ = velocity of the particle\n- $p = mv$ = linear momentum\n\nThis wave nature is significant for microscopic particles (electrons, protons) but negligible for macroscopic objects due to their large mass.\n\n**(b) Calculation:**\n\nGiven:\n- $m = 9.1 \\times 10^{-31}$ kg\n- $v = 1.0 \\times 10^{6}$ m/s\n- $h = 6.626 \\times 10^{-34}$ J·s\n\nUsing de Broglie equation:\n\n$$\\lambda = \\frac{h}{mv} = \\frac{6.626 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 1.0 \\times 10^{6}}$$\n\n$$\\lambda = \\frac{6.626 \\times 10^{-34}}{9.1 \\times 10^{-25}}$$\n\n$$\\lambda = 7.28 \\times 10^{-10} \\text{ m}$$\n\n$$\\lambda = 7.28 \\text{ Å} \\approx 0.728 \\text{ nm}$$\n\n**Result: $\\lambda \\approx 7.28$ Å** — this is comparable to atomic dimensions, confirming that wave nature is significant for electrons.",
+      "solution": "**de Broglie's Hypothesis:** Every moving particle has **wave-like properties**. The wavelength is:\n\n$$\\lambda = \\frac{h}{mv} = \\frac{h}{p}$$\n\nwhere $h$ = Planck's constant, $m$ = mass, $v$ = velocity, $p$ = momentum.\n\nThis wave nature is significant for microscopic particles but negligible for macroscopic objects.\n\n**Calculation:**\n\nGiven: $m = 9.1 \\times 10^{-31}$ kg, $v = 1.0 \\times 10^{6}$ m/s, $h = 6.626 \\times 10^{-34}$ J·s\n\n$$\\lambda = \\frac{6.626 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 1.0 \\times 10^{6}} = \\frac{6.626 \\times 10^{-34}}{9.1 \\times 10^{-25}}$$\n\n$$\\lambda = 7.28 \\times 10^{-10} \\text{ m} = 7.28 \\text{ Å}$$\n\n**Result: $\\lambda \\approx 7.28$ Å** — comparable to atomic dimensions, confirming electron wave nature.",
       "key_points": [
-        "de Broglie: every moving particle has wave nature",
-        "$\\lambda = h/mv$; significant for microscopic particles",
+        "de Broglie: $\\lambda = h/mv$",
+        "Wave nature significant for microscopic particles",
         "$\\lambda \\approx 7.28$ Å for the given electron"
       ]
     },
     "B2": {
       "question_number": "B2",
-      "solution": "**(a) Gibbs Free Energy:**\n\n**Gibbs free energy ($G$)** is a thermodynamic state function that gives the maximum amount of **non-expansion (useful) work** obtainable from a system at constant temperature and pressure.\n\n$$G = H - TS$$\n\n**Gibbs-Helmholtz equation** (for a process at constant $T$ and $P$):\n\n$$\\Delta G = \\Delta H - T\\Delta S$$\n\nwhere $\\Delta H$ = enthalpy change, $T$ = absolute temperature (K), $\\Delta S$ = entropy change.\n\n**(b) Calculation:**\n\nGiven:\n- $\\Delta H^\\circ = -890.4$ kJ/mol\n- $\\Delta S^\\circ = -242.2$ J/mol·K = $-0.2422$ kJ/mol·K\n- $T = 298$ K\n\nUsing Gibbs-Helmholtz equation:\n\n$$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$$\n\n$$\\Delta G^\\circ = -890.4 - (298 \\times (-0.2422))$$\n\n$$\\Delta G^\\circ = -890.4 + 72.18 = -818.22 \\text{ kJ/mol}$$\n\nSince $\\Delta G^\\circ < 0$, the combustion of methane is **spontaneous** at 298 K.\n\n**Result: $\\Delta G^\\circ = -818.22$ kJ/mol (spontaneous)**",
+      "solution": "**Gibbs free energy ($G$)** measures the maximum **non-expansion work** obtainable from a system at constant $T$ and $P$:\n\n$$G = H - TS \\quad \\Rightarrow \\quad \\Delta G = \\Delta H - T\\Delta S$$\n\n**Calculation:**\n\nGiven: $\\Delta H^\\circ = -890.4$ kJ/mol, $\\Delta S^\\circ = -242.2$ J/mol·K = $-0.2422$ kJ/mol·K, $T = 298$ K\n\n$$\\Delta G^\\circ = -890.4 - (298 \\times (-0.2422))$$\n\n$$\\Delta G^\\circ = -890.4 + 72.18 = -818.22 \\text{ kJ/mol}$$\n\nSince $\\Delta G^\\circ < 0$, the combustion of methane is **spontaneous** at 298 K.\n\n**Result: $\\Delta G^\\circ = -818.22$ kJ/mol (spontaneous)**",
       "key_points": [
-        "Gibbs-Helmholtz: $\\Delta G = \\Delta H - T\\Delta S$",
-        "$\\Delta G^\\circ = -818.22$ kJ/mol for methane combustion",
-        "$\\Delta G < 0$ confirms the reaction is spontaneous"
+        "$\\Delta G = \\Delta H - T\\Delta S$",
+        "$\\Delta G^\\circ = -818.22$ kJ/mol",
+        "$\\Delta G < 0$ → spontaneous reaction"
       ]
     },
     "B3": {
       "question_number": "B3",
-      "solution": "**(a) HDPE and LDPE:**\n\n**HDPE (High Density Polyethylene):**\n\n*Synthesis:* Polymerization of ethylene ($\\text{CH}_2\\text{=CH}_2$) using **Ziegler-Natta catalyst** ($\\text{TiCl}_4 + \\text{Al(C}_2\\text{H}_5)_3$) at low pressure (6–7 atm) and moderate temperature (60–70°C).\n\n$$n(\\text{CH}_2\\text{=CH}_2) \\xrightarrow{\\text{Ziegler-Natta}} -(\\text{CH}_2\\text{-CH}_2)_n-$$\n\n- Linear chains with minimal branching → close packing → density: 0.94–0.97 g/cm³\n- *Applications:* Water pipes, bottles, containers, garbage bags, fuel tanks, crates\n\n**LDPE (Low Density Polyethylene):**\n\n*Synthesis:* Free radical polymerization of ethylene at **high pressure** (1000–2000 atm) and **high temperature** (150–300°C) using peroxide initiators.\n\n- Highly branched chains → poor packing → density: 0.91–0.94 g/cm³\n- More flexible and transparent than HDPE\n- *Applications:* Plastic bags, cling wrap, squeeze bottles, cable insulation, food packaging\n\n**(b) Tacticity in Polymers:**\n\n**Tacticity** refers to the **relative stereochemical arrangement** of substituent groups on the polymer backbone. It describes the spatial orientation of side groups along the chain.\n\n**Three types:**\n\n1. **Isotactic:** All substituents are on the **same side** of the polymer backbone (regular arrangement). Example: Isotactic polypropylene — crystalline, high melting point\n\n2. **Syndiotactic:** Substituents **alternate** regularly on opposite sides of the backbone. Example: Syndiotactic polystyrene\n\n3. **Atactic:** Substituents are arranged **randomly** with no regular pattern. Example: Atactic polypropylene — amorphous, soft, rubbery",
+      "solution": "**HDPE (High Density Polyethylene):**\n\n*Synthesis:* Ethylene polymerized using **Ziegler-Natta catalyst** ($\\text{TiCl}_4 + \\text{Al(C}_2\\text{H}_5)_3$) at low pressure (6–7 atm), 60–70°C.\n\n- Linear chains, minimal branching → density 0.94–0.97 g/cm³\n- *Applications:* Water pipes, bottles, containers, crates, fuel tanks\n\n**LDPE (Low Density Polyethylene):**\n\n*Synthesis:* Free radical polymerization at **high pressure** (1000–2000 atm), 150–300°C with peroxide initiators.\n\n- Highly branched → density 0.91–0.94 g/cm³, more flexible\n- *Applications:* Plastic bags, cling wrap, squeeze bottles, cable insulation\n\n**Tacticity** refers to the relative **stereochemical arrangement** of substituent groups on the polymer backbone. Three types:\n\n1. **Isotactic:** All substituents on the **same side** (crystalline, high melting point)\n2. **Syndiotactic:** Substituents **alternate** on opposite sides\n3. **Atactic:** **Random** arrangement (amorphous, soft)",
       "key_points": [
-        "HDPE: Ziegler-Natta catalyst, linear, dense — pipes, bottles",
-        "LDPE: high-pressure free radical, branched, flexible — bags, wrap",
+        "HDPE: Ziegler-Natta, linear, dense; LDPE: high-pressure, branched, flexible",
         "Tacticity: isotactic (same side), syndiotactic (alternating), atactic (random)"
       ]
     },
     "B4": {
       "question_number": "B4",
-      "solution": "**(a) Chemical vs. Electrochemical Corrosion:**\n\n| Feature | Chemical Corrosion | Electrochemical Corrosion |\n|---------|-------------------|-------------------------|\n| Mechanism | Direct chemical attack on metal | Formation of electrochemical (galvanic) cells |\n| Medium | Dry gases or anhydrous liquids | Aqueous electrolyte solution |\n| Also called | Dry corrosion | Wet corrosion |\n| Electrolyte | Not required | Required (moisture/water) |\n| Current flow | No electric current | Current flows between anode and cathode |\n| Nature | Uniform, slow attack | Localized or general, can be rapid |\n| Example | Tarnishing of silver by $\\text{H}_2\\text{S}$ gas | Rusting of iron in moist air |\n| Temperature | Occurs at high temperature usually | Occurs at room temperature |\n\n**(b) Fuel Terminology:**\n\n**Calorific Value:** The total amount of **heat energy** released by complete combustion of a unit mass (or volume) of fuel under standard conditions. Unit: kJ/kg or kcal/kg.\n\n**HCV (Higher Calorific Value):** Also called **Gross Calorific Value (GCV)** — the total heat produced when the fuel is completely burned and the **water vapour formed is condensed** to liquid water. It includes the latent heat of condensation of water vapour.\n\n**LCV (Lower Calorific Value):** Also called **Net Calorific Value (NCV)** — the heat produced when fuel is burned and the **water remains as vapour** (steam). It does **not** include the latent heat of condensation.\n\n$$\\text{LCV} = \\text{HCV} - \\frac{9H}{100} \\times L$$\n\nwhere $H$ = percentage of hydrogen in fuel and $L$ = latent heat of steam (587 kcal/kg or 2454 kJ/kg).\n\nLCV is always **less than** HCV.",
+      "solution": "**Chemical vs. Electrochemical Corrosion:**\n\n| Feature | Chemical | Electrochemical |\n|---------|---------|------------------|\n| Mechanism | Direct chemical attack | Galvanic cell formation |\n| Medium | Dry gases / anhydrous liquids | Aqueous electrolyte |\n| Also called | Dry corrosion | Wet corrosion |\n| Electrolyte | Not required | Required (moisture) |\n| Current flow | No | Yes (anode to cathode) |\n| Example | Tarnishing of silver by H₂S | Rusting of iron in moist air |\n\n**Fuel Definitions:**\n\n**Calorific Value:** Total heat energy released by complete combustion of a unit mass of fuel. (kJ/kg)\n\n**HCV (Higher/Gross Calorific Value):** Heat when fuel burns and **water vapour condenses** to liquid. Includes latent heat of condensation.\n\n**LCV (Lower/Net Calorific Value):** Heat when **water remains as vapour**. Excludes latent heat.\n\n$$\\text{LCV} = \\text{HCV} - \\frac{9H}{100} \\times L$$\n\nwhere $H$ = % hydrogen, $L$ = latent heat of steam. LCV < HCV always.",
       "key_points": [
-        "Chemical corrosion: dry, direct attack; Electrochemical: wet, galvanic cells",
-        "HCV includes latent heat of water condensation; LCV does not",
-        "LCV = HCV − (9H/100) × L; LCV < HCV always"
+        "Chemical: dry, direct; Electrochemical: wet, galvanic cells",
+        "HCV includes latent heat; LCV does not",
+        "LCV < HCV always"
       ]
     },
     "B5": {
       "question_number": "B5",
-      "solution": "**(a) $S_N1$ vs. $S_N2$ Reactions:**\n\n| Feature | $S_N1$ | $S_N2$ |\n|---------|--------|--------|\n| Full form | Substitution Nucleophilic Unimolecular | Substitution Nucleophilic Bimolecular |\n| Mechanism | Two steps (via carbocation intermediate) | One step (concerted, backside attack) |\n| Rate law | Rate $= k[\\text{substrate}]$ | Rate $= k[\\text{substrate}][\\text{nucleophile}]$ |\n| Rate depends on | Only substrate concentration | Both substrate and nucleophile |\n| Substrate preference | $3^\\circ > 2^\\circ > 1^\\circ$ | $1^\\circ > 2^\\circ > 3^\\circ$ |\n| Stereochemistry | Racemization (mix of retention + inversion) | Walden inversion (complete inversion) |\n| Example | $(\\text{CH}_3)_3\\text{CBr} + \\text{OH}^-$ | $\\text{CH}_3\\text{Br} + \\text{OH}^-$ |\n\n**(b) Acidity Order — Acetic acid, Ethanol, Phenol:**\n\nAcidity order: **Acetic acid > Phenol > Ethanol**\n\n**Reasoning:**\n\n1. **Acetic acid** ($\\text{CH}_3\\text{COOH}$, $pK_a \\approx 4.75$) is most acidic because the conjugate base (acetate ion, $\\text{CH}_3\\text{COO}^-$) is stabilized by **resonance** — the negative charge is delocalized equally over both oxygen atoms.\n\n2. **Phenol** ($\\text{C}_6\\text{H}_5\\text{OH}$, $pK_a \\approx 10$) is moderately acidic. The phenoxide ion ($\\text{C}_6\\text{H}_5\\text{O}^-$) is stabilized by delocalization of the negative charge into the **aromatic ring** through resonance.\n\n3. **Ethanol** ($\\text{C}_2\\text{H}_5\\text{OH}$, $pK_a \\approx 16$) is least acidic. The ethoxide ion ($\\text{C}_2\\text{H}_5\\text{O}^-$) has no resonance stabilization; the $+I$ (inductive) effect of the ethyl group further destabilizes the negative charge.\n\nThe key factor is the **stability of the conjugate base** — more stable conjugate base = stronger acid.",
+      "solution": "| Feature | $S_N1$ | $S_N2$ |\n|---------|--------|--------|\n| Full form | Substitution Nucleophilic Unimolecular | Substitution Nucleophilic Bimolecular |\n| Mechanism | Two steps (via carbocation) | One step (concerted, backside attack) |\n| Rate law | Rate $= k[\\text{substrate}]$ | Rate $= k[\\text{substrate}][\\text{nucleophile}]$ |\n| Rate depends on | Only substrate | Both substrate and nucleophile |\n| Substrate preference | $3^\\circ > 2^\\circ > 1^\\circ$ | $1^\\circ > 2^\\circ > 3^\\circ$ |\n| Stereochemistry | Racemization | Walden inversion |\n| Example | $(\\text{CH}_3)_3\\text{CBr} + \\text{OH}^-$ | $\\text{CH}_3\\text{Br} + \\text{OH}^-$ |\n\n**Key difference:** $S_N1$ proceeds through a **carbocation intermediate** (2 steps), so it favours $3^\\circ$ substrates (more stable carbocation). $S_N2$ is a **concerted single step** with backside nucleophilic attack, so it favours $1^\\circ$ substrates (less steric hindrance).",
       "key_points": [
-        "$S_N1$: unimolecular, carbocation, racemization; $S_N2$: bimolecular, concerted, inversion",
-        "Acidity: Acetic acid > Phenol > Ethanol",
-        "Conjugate base stability determines acid strength"
+        "$S_N1$: unimolecular, carbocation, racemization, favours 3°",
+        "$S_N2$: bimolecular, concerted, inversion, favours 1°",
+        "Rate law differs: $S_N1$ depends only on substrate"
+      ]
+    },
+    "B6": {
+      "question_number": "B6",
+      "solution": "**Lithium-ion batteries** are rechargeable cells working on **intercalation** of Li⁺ ions.\n\n**Components:**\n- **Anode:** Graphite ($\\text{LiC}_6$)\n- **Cathode:** $\\text{LiCoO}_2$ (or $\\text{LiFePO}_4$, $\\text{LiMnO}_2$)\n- **Electrolyte:** $\\text{LiPF}_6$ in organic solvent\n- **Separator:** Porous membrane\n\n**During discharging:**\n- Anode: $\\text{LiC}_6 \\rightarrow \\text{Li}^+ + e^- + \\text{C}_6$ (oxidation)\n- Cathode: $\\text{Li}^+ + e^- + \\text{CoO}_2 \\rightarrow \\text{LiCoO}_2$ (reduction)\n- Li⁺ moves anode → cathode through electrolyte; electrons through external circuit\n\n**During charging:** Reverse process with external power.\n\n**Applications:** Mobile phones, laptops, electric vehicles, solar energy storage, medical devices, power tools.",
+      "key_points": [
+        "Works by intercalation of Li⁺ between electrodes",
+        "Discharge: Li⁺ anode → cathode",
+        "Applications: phones, EVs, energy storage"
       ]
     },
     "C1": {
       "question_number": "C1",
-      "solution": "**(a) Time-Independent Schrödinger Wave Equation:**\n\nThe Schrödinger wave equation describes the quantum mechanical behavior of a particle (like an electron) in terms of its **wave function** $\\psi$:\n\n$$-\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi = E\\psi$$\n\nOr in operator notation: $\\hat{H}\\psi = E\\psi$\n\nwhere:\n- $\\hbar = h/2\\pi$ (reduced Planck's constant)\n- $m$ = mass of the particle\n- $\\nabla^2 = \\frac{\\partial^2}{\\partial x^2} + \\frac{\\partial^2}{\\partial y^2} + \\frac{\\partial^2}{\\partial z^2}$ (Laplacian operator)\n- $V$ = potential energy\n- $E$ = total energy (eigenvalue)\n- $\\psi$ = wave function (eigenfunction)\n\n**Significance:**\n- $\\psi$ itself has no direct physical meaning\n- $|\\psi|^2$ gives the **probability density** of finding the particle at a given point\n- Solving this equation gives allowed **energy levels** and **wave functions** (orbitals) for electrons in atoms\n- It replaces the classical concept of definite orbits with **probability distributions**\n\n**(b) Slater's Rule and Calculation for Sodium:**\n\n**Slater's Rule** provides a systematic method to calculate the **screening constant** ($\\sigma$) to find the effective nuclear charge:\n\n$$Z_{\\text{eff}} = Z - \\sigma$$\n\n**Rules for $\\sigma$:**\n1. Write electrons in groups: $(1s)(2s, 2p)(3s, 3p)(3d)(4s, 4p)...$\n2. Electrons to the right of the electron of interest contribute 0\n3. Same group electrons: each contributes **0.35** (except 1s: **0.30**)\n4. For s, p electrons: $(n-1)$ shell → **0.85** each; $(n-2)$ and inner → **1.00** each\n5. For d, f electrons: all inner groups → **1.00** each\n\n**Calculation for valence (3s) electron of Na ($Z = 11$):**\n\nElectronic configuration: $(1s^2)(2s^2 2p^6)(3s^1)$\n\nFor the 3s electron:\n- Same group (3s): 0 other electrons × 0.35 = **0**\n- $(n-1)$ group (2s, 2p): 8 electrons × 0.85 = **6.80**\n- $(n-2)$ group (1s): 2 electrons × 1.00 = **2.00**\n\n$$\\sigma = 0 + 6.80 + 2.00 = 8.80$$\n\n$$Z_{\\text{eff}} = 11 - 8.80 = 2.20$$\n\n**Result: $Z_{\\text{eff}} = 2.20$ for the 3s valence electron of Na.** This low effective charge explains why sodium easily loses its valence electron.\n\n**(c) Electron Affinity and Electronegativity Trends:**\n\n**Electron Affinity (EA):**\n\nElectron affinity is the energy released when a neutral atom in gaseous state **gains an electron** to form a negative ion.\n\n$$\\text{X}(g) + e^- \\rightarrow \\text{X}^-(g) \\quad \\Delta H = -EA$$\n\n*Across a period (left → right):*\n- EA generally **increases** — atomic size decreases, $Z_{\\text{eff}}$ increases, so atoms accept electrons more readily\n- Exceptions: Group 2 (filled s subshell) and Group 15 (half-filled p subshell) have lower EA due to stable configurations\n- Chlorine has the highest EA among all elements (not fluorine, due to F's very small size causing electron-electron repulsion)\n\n*Down a group (top → bottom):*\n- EA generally **decreases** — atomic size increases, incoming electron is farther from nucleus\n- Exception: F < Cl (fluorine's small size causes inter-electron repulsion)\n\n**Electronegativity:**\n\nElectronegativity is the tendency of an atom to **attract shared electrons** in a covalent bond toward itself.\n\n*Across a period (left → right):*\n- Electronegativity **increases** — smaller size, higher $Z_{\\text{eff}}$, stronger pull on bonding electrons\n\n*Down a group (top → bottom):*\n- Electronegativity **decreases** — larger atomic size, greater shielding, weaker attraction\n\nFluorine is the most electronegative element (EN = 3.98, Pauling scale).\n\n**(d) Penetration of Orbitals:**\n\n**Penetration** refers to the extent to which the electron density of an orbital **reaches close to the nucleus**, passing through the electron clouds of inner shells.\n\n**Key concept:** Although all orbitals with the same $n$ have similar average distances from the nucleus, their probability distributions differ near the nucleus:\n\n**Penetrating power:** $ns > np > nd > nf$\n\n- s-orbitals have a significant probability density very close to the nucleus\n- p-orbitals have a node at the nucleus (zero probability at nucleus)\n- d and f orbitals have even less penetration\n\n**Effect on orbital energies:**\n\nGreater penetration → electron experiences **higher effective nuclear charge** → orbital has **lower energy** (more stable).\n\nFor multi-electron atoms, this causes the energy ordering:\n\n$$E(ns) < E(np) < E(nd) < E(nf)$$\n\nWithin the same shell, s-electrons are more tightly bound than p, d, or f electrons. This explains:\n- Why the filling order follows ($n + l$) rule\n- Why 4s fills before 3d (4s has better penetration despite higher $n$)\n- Why orbital energies vary across the periodic table as $Z$ increases",
+      "solution": "**(a) Schrödinger Wave Equation:**\n\n$$-\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi = E\\psi \\quad \\text{or} \\quad \\hat{H}\\psi = E\\psi$$\n\nwhere $\\hbar = h/2\\pi$, $m$ = particle mass, $\\nabla^2$ = Laplacian operator, $V$ = potential energy, $E$ = total energy, $\\psi$ = wave function.\n\n**Significance:**\n- $\\psi$ has no direct physical meaning, but $|\\psi|^2$ gives the **probability density** of finding the particle\n- Solving it gives allowed **energy levels** and **wave functions** (orbitals)\n- Replaces classical orbits with **probability distributions**\n- Fundamental equation governing quantum mechanical behaviour of matter\n\n**(b) Slater's Rule:**\n\n$$Z_{\\text{eff}} = Z - \\sigma$$\n\n**Rules for $\\sigma$:**\n1. Group electrons: $(1s)(2s, 2p)(3s, 3p)(3d)(4s, 4p)...$\n2. Electrons to the right → **0**\n3. Same group → **0.35** each (1s: **0.30**)\n4. For s, p: $(n-1)$ → **0.85**; $(n-2)$ and inner → **1.00**\n5. For d, f: all inner groups → **1.00**\n\n**Na ($Z = 11$), valence 3s electron:**\n\nConfig: $(1s^2)(2s^2 2p^6)(3s^1)$\n\n- Same group (3s): 0 others × 0.35 = **0**\n- $(n-1)$ (2s, 2p): 8 × 0.85 = **6.80**\n- $(n-2)$ (1s): 2 × 1.00 = **2.00**\n\n$\\sigma = 0 + 6.80 + 2.00 = 8.80$\n\n$$Z_{\\text{eff}} = 11 - 8.80 = 2.20$$\n\n**Result: $Z_{\\text{eff}} = 2.20$** — low effective charge explains Na's easy electron loss.\n\n**(c) Electron Affinity and Electronegativity Trends:**\n\n**Electron Affinity (EA):**\n\n*Across a period:* EA generally **increases** — smaller size, higher $Z_{\\text{eff}}$, atoms accept electrons more readily. Exceptions: Group 2 (filled s) and Group 15 (half-filled p) have lower EA.\n\nChlorine has the highest EA (not fluorine — F's tiny size causes electron repulsion).\n\n*Down a group:* EA generally **decreases** — larger size, incoming electron farther from nucleus. Exception: F < Cl.\n\n**Electronegativity (EN):**\n\n*Across a period:* EN **increases** — smaller size, higher $Z_{\\text{eff}}$, stronger pull on bonding electrons.\n\n*Down a group:* EN **decreases** — larger size, greater shielding.\n\nFluorine is the most electronegative element (EN = 3.98, Pauling scale).",
       "key_points": [
-        "Schrödinger equation: $\\hat{H}\\psi = E\\psi$; $|\\psi|^2$ = probability density",
+        "Schrödinger: $\\hat{H}\\psi = E\\psi$; $|\\psi|^2$ = probability density",
         "$Z_{\\text{eff}} = 2.20$ for Na valence electron",
-        "EA and EN increase across period, decrease down group",
-        "Penetrating power: $ns > np > nd > nf$ — affects orbital energies"
+        "EA and EN increase across period, decrease down group"
       ]
     },
     "C2": {
       "question_number": "C2",
-      "solution": "**(a) Second Law of Thermodynamics:**\n\n**Statement (multiple equivalent forms):**\n\n1. **Kelvin-Planck Statement:** It is impossible to construct a heat engine that, operating in a cycle, produces no effect other than the absorption of heat from a single reservoir and the performance of an equal amount of work. (i.e., no engine can be 100% efficient)\n\n2. **Clausius Statement:** It is impossible for heat to flow spontaneously from a colder body to a hotter body without the expenditure of external work.\n\n3. **Entropy Statement:** In any spontaneous process, the **total entropy of the universe** (system + surroundings) always increases:\n\n$$\\Delta S_{\\text{universe}} \\geq 0$$\n\nThe equality holds for reversible processes; the inequality for irreversible (spontaneous) processes.\n\n**Explanation:** The second law defines the **direction of natural processes** — they proceed in the direction that increases the total entropy (disorder) of the universe. It explains why heat flows from hot to cold, why gas expands to fill a container, and why we cannot create a perpetual motion machine.\n\n**(b) Entropy — Definition, Mathematical Expression, and Significance:**\n\n**Definition:** Entropy ($S$) is a thermodynamic state function that measures the **degree of disorder or randomness** of a system.\n\n**Mathematical derivation:**\n\nFor a reversible process, entropy change is defined as:\n\n$$dS = \\frac{\\delta q_{\\text{rev}}}{T}$$\n\nFor a finite change:\n\n$$\\Delta S = \\int_i^f \\frac{\\delta q_{\\text{rev}}}{T}$$\n\nFor an ideal gas undergoing a change from state $(T_1, V_1)$ to $(T_2, V_2)$:\n\nFrom the first law: $\\delta q_{\\text{rev}} = dU + PdV = nC_V dT + \\frac{nRT}{V}dV$\n\n$$\\Delta S = \\int_{T_1}^{T_2} \\frac{nC_V}{T}dT + \\int_{V_1}^{V_2} \\frac{nR}{V}dV$$\n\n$$\\Delta S = nC_V \\ln\\frac{T_2}{T_1} + nR\\ln\\frac{V_2}{V_1}$$\n\n**Physical Significance:**\n\n1. Entropy measures the **unavailability of energy** for doing useful work — higher entropy means more energy is \"wasted\" as disorder\n2. Related to **number of microstates** ($W$) by Boltzmann equation: $S = k_B \\ln W$ — more microstates = more disorder = higher entropy\n3. Entropy is a measure of the **spontaneity** of a process — natural processes tend toward states of maximum entropy\n4. It quantifies the **irreversibility** of real processes\n5. At absolute zero (0 K), the entropy of a perfect crystal is zero (Third Law of Thermodynamics)\n\n**(c) Enthalpy of Combustion of Methane:**\n\nReaction: $\\text{CH}_4(g) + 2\\text{O}_2(g) \\rightarrow \\text{CO}_2(g) + 2\\text{H}_2\\text{O}(l)$\n\nUsing Hess's Law:\n\n$$\\Delta H^\\circ_{\\text{combustion}} = \\sum \\Delta H^\\circ_f(\\text{products}) - \\sum \\Delta H^\\circ_f(\\text{reactants})$$\n\nGiven:\n- $\\Delta H^\\circ_f[\\text{CO}_2(g)] = -393.51$ kJ/mol\n- $\\Delta H^\\circ_f[\\text{H}_2\\text{O}(l)] = -285.83$ kJ/mol\n- $\\Delta H^\\circ_f[\\text{CH}_4(g)] = -74.87$ kJ/mol\n- $\\Delta H^\\circ_f[\\text{O}_2(g)] = 0$ kJ/mol (element in standard state)\n\n$$\\Delta H^\\circ_{\\text{comb}} = [(-393.51) + 2(-285.83)] - [(-74.87) + 2(0)]$$\n\n$$\\Delta H^\\circ_{\\text{comb}} = [-393.51 - 571.66] - [-74.87]$$\n\n$$\\Delta H^\\circ_{\\text{comb}} = -965.17 + 74.87 = -890.30 \\text{ kJ/mol}$$\n\n**Result: $\\Delta H^\\circ_{\\text{combustion}} = -890.30$ kJ/mol** (exothermic)\n\n**(d) Standard Free Energy and Equilibrium Constant:**\n\n**Standard free energy ($\\Delta G^\\circ$):** The Gibbs free energy change when reactants in their **standard states** (1 atm, 1 M, 298 K) are converted to products in their standard states.\n\n**Relationship with equilibrium constant:**\n\n$$\\Delta G^\\circ = -RT \\ln K$$\n\nAt 298 K:\n\n$$\\Delta G^\\circ = -2.303RT \\log K = -(8.314)(298)(2.303) \\log K$$\n\n$$\\Delta G^\\circ = -5705.8 \\log K \\text{ (J/mol)}$$\n\n**Implications:**\n- If $K > 1$: $\\Delta G^\\circ < 0$ → reaction favors products\n- If $K < 1$: $\\Delta G^\\circ > 0$ → reaction favors reactants\n- If $K = 1$: $\\Delta G^\\circ = 0$ → system at standard equilibrium\n\nAlso related to cell potential: $\\Delta G^\\circ = -nFE^\\circ_{\\text{cell}}$",
+      "solution": "**(a) Second Law of Thermodynamics:**\n\n- **Kelvin-Planck:** No heat engine can convert all absorbed heat completely into work (100% efficiency impossible).\n- **Clausius:** Heat cannot flow spontaneously from a colder to a hotter body.\n- **Entropy:** $\\Delta S_{\\text{universe}} \\geq 0$ for all real processes.\n\nThe second law defines the **direction** of natural processes — they proceed to increase universal entropy.\n\n**(b) Entropy — Definition, Derivation, Significance:**\n\n**Entropy ($S$)** measures the **degree of disorder/randomness** of a system.\n\nFor a reversible process: $dS = \\delta q_{\\text{rev}}/T$\n\n**General expression for ideal gas** (change from $T_1, V_1$ to $T_2, V_2$):\n\nFrom first law: $\\delta q_{\\text{rev}} = dU + PdV = nC_V dT + \\frac{nRT}{V}dV$\n\n$$\\Delta S = \\int \\frac{\\delta q_{\\text{rev}}}{T} = \\int_{T_1}^{T_2} \\frac{nC_V}{T}dT + \\int_{V_1}^{V_2} \\frac{nR}{V}dV$$\n\n$$\\boxed{\\Delta S = nC_V \\ln\\frac{T_2}{T_1} + nR\\ln\\frac{V_2}{V_1}}$$\n\n**Physical significance:**\n1. Measures **unavailable energy** — energy that cannot be converted to work\n2. Related to microstates: $S = k_B \\ln W$ (Boltzmann)\n3. Nature tends towards **maximum entropy** (2nd law)\n4. At absolute zero: $S = 0$ for a perfect crystal (3rd law)\n\n**(c) Enthalpy of Combustion:**\n\n$\\text{CH}_4(g) + 2\\text{O}_2(g) \\rightarrow \\text{CO}_2(g) + 2\\text{H}_2\\text{O}(l)$\n\n$$\\Delta H^\\circ_{\\text{comb}} = \\sum \\Delta H^\\circ_f(\\text{products}) - \\sum \\Delta H^\\circ_f(\\text{reactants})$$\n\n$$= [(-393.51) + 2(-285.83)] - [(-74.87) + 0]$$\n\n$$= [-393.51 - 571.66] - [-74.87] = -965.17 + 74.87$$\n\n$$\\boxed{\\Delta H^\\circ_{\\text{comb}} = -890.30 \\text{ kJ/mol}}$$",
       "key_points": [
-        "Second law: $\\Delta S_{\\text{universe}} \\geq 0$; defines direction of natural processes",
-        "$\\Delta S = nC_V \\ln(T_2/T_1) + nR \\ln(V_2/V_1)$ for ideal gas",
-        "$\\Delta H^\\circ_{\\text{combustion}} = -890.30$ kJ/mol for methane",
-        "$\\Delta G^\\circ = -RT \\ln K$; links free energy to equilibrium"
+        "Second law: entropy of universe always increases",
+        "$\\Delta S = nC_V \\ln(T_2/T_1) + nR \\ln(V_2/V_1)$",
+        "$\\Delta H^\\circ_{\\text{combustion}} = -890.30$ kJ/mol for methane"
       ]
     },
     "C3": {
       "question_number": "C3",
-      "solution": "**(a) Intrinsic and Extrinsic Semiconductors:**\n\n**Intrinsic Semiconductors:**\n- **Pure semiconductors** without any dopant impurities\n- Conductivity is due to **thermal excitation** of electrons from valence band to conduction band\n- Number of electrons = number of holes ($n_e = n_h$)\n- Very **low conductivity** at room temperature, increases with temperature\n- Examples: Pure silicon (Si), pure germanium (Ge)\n- Band gap: Si = 1.12 eV, Ge = 0.67 eV\n\n**Extrinsic Semiconductors:**\n- Semiconductors whose conductivity has been enhanced by **doping** with small amounts of impurity atoms\n- Conductivity is primarily due to the added impurities\n- Either electrons or holes are the **majority carriers**\n- Much **higher conductivity** than intrinsic semiconductors\n- Two types: n-type (donor-doped) and p-type (acceptor-doped)\n- Examples: Si doped with P (n-type), Si doped with B (p-type)\n\n**(b) n-type and p-type Semiconductors:**\n\n**n-type Semiconductor:**\n- Formed by doping Si/Ge with **Group 15** (pentavalent) elements: P, As, Sb\n- The dopant has **5 valence electrons** — 4 bond with Si, 1 is free\n- Extra electron acts as **donor** → free electrons are **majority carriers**\n- Holes are minority carriers\n- The Fermi level shifts **upward** toward the conduction band\n- Called \"n-type\" because **negative charges** (electrons) are majority carriers\n\n**p-type Semiconductor:**\n- Formed by doping Si/Ge with **Group 13** (trivalent) elements: B, Al, Ga\n- The dopant has **3 valence electrons** — creates a **hole** (vacancy)\n- Holes act as **acceptors** → holes are **majority carriers**\n- Electrons are minority carriers\n- The Fermi level shifts **downward** toward the valence band\n- Called \"p-type\" because **positive charges** (holes) are majority carriers\n\n**How doping improves conductivity:**\n\nIn an intrinsic semiconductor, conductivity depends only on thermally generated electron-hole pairs, which is very limited at room temperature. Doping introduces additional charge carriers:\n- n-type: adds free electrons in the conduction band\n- p-type: creates holes in the valence band\n\nEven a tiny amount of dopant (1 in $10^6$ atoms) can increase conductivity by **several orders of magnitude** (e.g., from $10^{-4}$ to $10^2$ S/m).\n\n**(c) Role of Silicon and Germanium as Memory Materials:**\n\n**Silicon (Si):**\n- Most widely used semiconductor in the electronics industry\n- Band gap of **1.12 eV** — optimal for room-temperature operation\n- Basis of **MOSFET transistors** used in all modern memory devices (SRAM, DRAM, Flash)\n- Silicon dioxide ($\\text{SiO}_2$) forms a natural, high-quality **insulating layer** — crucial for gate oxide in transistors\n- Abundant (second most common element in Earth's crust), cheap to process\n- Used in **flash memory** (NAND/NOR), **DRAM**, and **SRAM** chips\n\n**Germanium (Ge):**\n- Band gap of **0.67 eV** — historically the first semiconductor used in transistors\n- Higher **electron and hole mobility** than silicon → faster switching speeds\n- Used in **high-speed memory** and **SiGe alloy** (Silicon-Germanium) devices\n- SiGe technology combines Si's manufacturing advantages with Ge's speed → used in high-performance cache memory\n- Applications in **radiation-hardened memory** for aerospace and military\n\n**(d) Useful Properties of Semiconductors:**\n\n1. **Tunable conductivity:** Conductivity can be precisely controlled by doping concentration — enables design of custom electronic components\n2. **Temperature sensitivity:** Conductivity increases with temperature (unlike metals) — useful in temperature sensors and thermistors\n3. **Band gap:** The energy gap between valence and conduction bands determines optical and electrical properties — enables LEDs, solar cells, and photodetectors\n4. **p-n junction formation:** When p-type and n-type semiconductors are joined, they form a p-n junction — the basis of diodes, transistors, solar cells, and integrated circuits\n5. **Photoconductivity:** Semiconductors can generate electron-hole pairs when exposed to light — basis of solar cells and photodetectors",
+      "solution": "**(a) Intrinsic and Extrinsic Semiconductors:**\n\n**Intrinsic:** Pure semiconductors, conductivity from **thermal excitation** only. $n_e = n_h$. Very low conductivity at room temperature.\n- Examples: Pure Si (band gap 1.12 eV), pure Ge (0.67 eV)\n\n**Extrinsic:** Doped with impurities → much higher conductivity. Either electrons or holes are majority carriers.\n- Examples: Si doped with P (n-type), Si doped with B (p-type)\n\n**(b) n-type and p-type Semiconductors:**\n\n**n-type:**\n- Doped with **Group 15** (pentavalent): P, As, Sb\n- 5th valence electron is free → **donor impurity**\n- **Electrons** = majority carriers, holes = minority\n- Fermi level shifts toward conduction band\n\n**p-type:**\n- Doped with **Group 13** (trivalent): B, Al, Ga\n- Creates a **hole** (vacancy) → **acceptor impurity**\n- **Holes** = majority carriers, electrons = minority\n- Fermi level shifts toward valence band\n\n**How doping improves conductivity:** Intrinsic conductivity depends only on thermally generated pairs (very limited). Even tiny amounts of dopant (1 in $10^6$ atoms) introduce additional carriers, increasing conductivity by **several orders of magnitude**.\n\n**(c) Silicon and Germanium as Memory Materials:**\n\n**Silicon:**\n- Band gap 1.12 eV — optimal for room-temperature operation\n- Basis of **MOSFET transistors** in SRAM, DRAM, Flash memory\n- $\\text{SiO}_2$ forms a natural, high-quality insulating layer (crucial for gate oxide)\n- Abundant and cheap to process\n\n**Germanium:**\n- Band gap 0.67 eV — first semiconductor used in transistors historically\n- Higher **electron and hole mobility** than Si → faster switching\n- **SiGe alloys** combine Si's manufacturing advantage with Ge's speed\n- Used in high-performance cache memory and radiation-hardened aerospace applications",
       "key_points": [
-        "Intrinsic: pure, low conductivity; Extrinsic: doped, much higher conductivity",
-        "n-type: Group 15 dopant (donor), electrons majority; p-type: Group 13 dopant (acceptor), holes majority",
-        "Si: 1.12 eV gap, basis of MOSFET and flash memory; Ge: 0.67 eV, higher mobility",
-        "Key properties: tunable conductivity, p-n junctions, photoconductivity"
+        "Intrinsic: pure, low conductivity; Extrinsic: doped, much higher",
+        "n-type: Group 15 (donor, electrons); p-type: Group 13 (acceptor, holes)",
+        "Si: MOSFET basis, 1.12 eV; Ge: higher mobility, SiGe alloys"
       ]
     },
     "C4": {
       "question_number": "C4",
-      "solution": "**(a) Electrophilic Addition Reactions — Addition of HBr to Propene:**\n\n**Electrophilic addition** is a reaction where an **electrophile** (electron-seeking species) attacks the $\\pi$-bond of an alkene, breaking it and forming new $\\sigma$-bonds.\n\n**Mechanism of HBr addition to propene ($\\text{CH}_3\\text{CH=CH}_2$):**\n\n**Step 1 — Protonation (slow, rate-determining):**\nThe $\\pi$-electrons of the double bond attack the electrophile $\\text{H}^+$ (from HBr):\n\n$$\\text{CH}_3\\text{CH=CH}_2 + \\text{H}^+ \\rightarrow \\text{CH}_3\\text{CH}^+\\text{CH}_3$$\n\nThe proton adds to the terminal carbon (less substituted) to form a **secondary carbocation** ($2^\\circ$), which is more stable than the primary carbocation.\n\n**Step 2 — Nucleophilic attack (fast):**\nThe bromide ion ($\\text{Br}^-$) attacks the carbocation:\n\n$$\\text{CH}_3\\text{CH}^+\\text{CH}_3 + \\text{Br}^- \\rightarrow \\text{CH}_3\\text{CHBr}\\text{CH}_3$$\n\n**Product:** 2-bromopropane (Markovnikov product)\n\n**(b) Markovnikov's Rule and Peroxide Effect:**\n\n**Markovnikov's Rule (1870):**\n\n\"In the addition of HX to an unsymmetrical alkene, the **hydrogen atom** adds to the carbon that already has **more hydrogen atoms** (less substituted carbon), and the **halide** adds to the more substituted carbon.\"\n\nAlternatively: \"The negative part of the adding molecule goes to the carbon with fewer hydrogen atoms.\"\n\n*Example:*\n$$\\text{CH}_3\\text{CH=CH}_2 + \\text{HBr} \\rightarrow \\text{CH}_3\\text{CHBrCH}_3 \\quad \\text{(2-bromopropane)}$$\n\n**Reason:** The more substituted carbocation intermediate is more stable due to hyperconjugation and inductive effects.\n\n**Peroxide Effect (Anti-Markovnikov Addition / Kharasch Effect):**\n\nIn the presence of **organic peroxides** (e.g., benzoyl peroxide, $\\text{(C}_6\\text{H}_5\\text{COO)}_2$), HBr adds to alkenes in the **opposite** manner to Markovnikov's rule.\n\n*Example:*\n$$\\text{CH}_3\\text{CH=CH}_2 + \\text{HBr} \\xrightarrow{\\text{peroxide}} \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{Br} \\quad \\text{(1-bromopropane)}$$\n\n**Mechanism:** Free radical chain reaction:\n1. **Initiation:** Peroxide generates free radicals → $\\text{Br}^\\bullet$ radical formed\n2. **Propagation:** $\\text{Br}^\\bullet$ adds to terminal carbon → more stable $2^\\circ$ radical → radical reacts with HBr\n3. **Termination:** Radical combination\n\n**Important:** Peroxide effect works **only with HBr**, not with HCl (C–Cl bond too strong to break homolytically) or HI (H–I bond too weak, reaction not energetically favorable).\n\n**(c) Synthesis and Uses of Paracetamol and Aspirin:**\n\n**Paracetamol (Acetaminophen):**\n\n*Synthesis:* Paracetamol is synthesized by **acetylation of p-aminophenol** with acetic anhydride:\n\n$$\\text{p-aminophenol} + \\text{(CH}_3\\text{CO)}_2\\text{O} \\rightarrow \\text{Paracetamol} + \\text{CH}_3\\text{COOH}$$\n\nThe $-\\text{NH}_2$ group of p-aminophenol reacts with acetic anhydride to form an **amide bond** ($-\\text{NHCOCH}_3$).\n\n*Uses:*\n- **Antipyretic:** Reduces fever\n- **Analgesic:** Relieves mild to moderate pain (headache, toothache, body pain)\n- Preferred over aspirin for patients with gastric issues (does not irritate stomach)\n- Used in combination with other drugs for cold and flu\n\n**Aspirin (Acetylsalicylic acid):**\n\n*Synthesis:* Aspirin is synthesized by **acetylation of salicylic acid** with acetic anhydride:\n\n$$\\text{Salicylic acid} + \\text{(CH}_3\\text{CO)}_2\\text{O} \\xrightarrow{\\text{H}_2\\text{SO}_4} \\text{Aspirin} + \\text{CH}_3\\text{COOH}$$\n\nThe phenolic $-\\text{OH}$ group of salicylic acid reacts with acetic anhydride to form an **ester bond** ($-\\text{OCOCH}_3$). Conc. $\\text{H}_2\\text{SO}_4$ acts as catalyst.\n\n*Uses:*\n- **Analgesic:** Pain reliever\n- **Antipyretic:** Fever reducer\n- **Anti-inflammatory:** Reduces inflammation (NSAIDs class)\n- **Antiplatelet:** Low-dose aspirin prevents blood clotting → used to prevent heart attacks and strokes\n\n**(d) Basicity Comparison — Methylamine, Aniline, Ammonia:**\n\nBasicity order: **Methylamine ($\\text{CH}_3\\text{NH}_2$) > Ammonia ($\\text{NH}_3$) > Aniline ($\\text{C}_6\\text{H}_5\\text{NH}_2$)**\n\n**Reasoning:**\n\n1. **Methylamine** ($\\text{CH}_3\\text{NH}_2$, $pK_b \\approx 3.36$) is the **strongest base**:\n   - The methyl group ($\\text{CH}_3$) has a **+I (electron-donating inductive) effect**\n   - It pushes electron density toward nitrogen, making the lone pair **more available** for protonation\n   - The conjugate acid ($\\text{CH}_3\\text{NH}_3^+$) is stabilized by hyperconjugation\n\n2. **Ammonia** ($\\text{NH}_3$, $pK_b \\approx 4.75$) has **moderate basicity**:\n   - No substituent effects — serves as the reference\n   - Lone pair on nitrogen is available for donation\n\n3. **Aniline** ($\\text{C}_6\\text{H}_5\\text{NH}_2$, $pK_b \\approx 9.40$) is the **weakest base**:\n   - The lone pair on nitrogen is **delocalized into the benzene ring** through resonance\n   - This makes the lone pair **less available** for protonation\n   - The aromatic ring acts as an electron-withdrawing group through resonance ($-M$ effect)\n\nThe key factor is the **availability of the lone pair** on nitrogen for donation to a proton.",
+      "solution": "**(a) Electrophilic Addition — HBr to Propene:**\n\n**Electrophilic addition:** An electrophile attacks the $\\pi$-bond of an alkene, breaking it and forming new $\\sigma$-bonds.\n\n**Mechanism:**\n\n**Step 1 — Protonation (slow):** $\\pi$-electrons attack $\\text{H}^+$ from HBr:\n$$\\text{CH}_3\\text{CH=CH}_2 + \\text{H}^+ \\rightarrow \\text{CH}_3\\text{CH}^+\\text{CH}_3$$\nH adds to terminal C → more stable **2° carbocation** forms.\n\n**Step 2 — Nucleophilic attack (fast):** $\\text{Br}^-$ attacks the carbocation:\n$$\\text{CH}_3\\text{CH}^+\\text{CH}_3 + \\text{Br}^- \\rightarrow \\text{CH}_3\\text{CHBrCH}_3$$\n\n**Product:** 2-bromopropane (Markovnikov product).\n\n**(b) Markovnikov's Rule and Peroxide Effect:**\n\n**Markovnikov's Rule:** In HX addition to unsymmetrical alkenes, H adds to the carbon with **more hydrogens** (less substituted), halide to the **more substituted** carbon.\n\n*Example:* Propene + HBr → **2-bromopropane** (H to $\\text{CH}_2$, Br to $\\text{CH}$)\n\n**Peroxide Effect (Anti-Markovnikov / Kharasch Effect):**\n\nWith **organic peroxides**, HBr adds in the **opposite** manner via free radical mechanism:\n\n*Example:* Propene + HBr $\\xrightarrow{\\text{peroxide}}$ **1-bromopropane** (Br to terminal C)\n\n**Important:** Only works with **HBr** — not HCl (C–Cl too strong) or HI (H–I too weak).\n\n**(c) Synthesis of Paracetamol and Aspirin:**\n\n**Paracetamol (Acetaminophen):**\n\n*Synthesis:* Acetylation of **p-aminophenol** with **acetic anhydride**:\n$$\\text{p-aminophenol} + (\\text{CH}_3\\text{CO})_2\\text{O} \\rightarrow \\text{Paracetamol} + \\text{CH}_3\\text{COOH}$$\n\nThe $-\\text{NH}_2$ group reacts to form an amide bond ($-\\text{NHCOCH}_3$).\n\n*Uses:* Antipyretic (reduces fever), analgesic (pain relief — headache, body pain), safer for stomach than aspirin.\n\n**Aspirin (Acetylsalicylic acid):**\n\n*Synthesis:* Acetylation of **salicylic acid** with **acetic anhydride** (conc. $\\text{H}_2\\text{SO}_4$ catalyst):\n$$\\text{Salicylic acid} + (\\text{CH}_3\\text{CO})_2\\text{O} \\xrightarrow{\\text{H}_2\\text{SO}_4} \\text{Aspirin} + \\text{CH}_3\\text{COOH}$$\n\nThe phenolic $-\\text{OH}$ forms an ester bond ($-\\text{OCOCH}_3$).\n\n*Uses:* Analgesic (pain), antipyretic (fever), anti-inflammatory (NSAID), antiplatelet (low-dose prevents blood clots → heart attack/stroke prevention).",
       "key_points": [
-        "Electrophilic addition: electrophile attacks π-bond via carbocation intermediate",
-        "Markovnikov: H to more H-bearing C; Peroxide effect gives anti-Markovnikov (HBr only)",
-        "Paracetamol: p-aminophenol + acetic anhydride; Aspirin: salicylic acid + acetic anhydride",
-        "Basicity: CH₃NH₂ > NH₃ > C₆H₅NH₂ (lone pair availability)"
+        "Electrophilic addition via carbocation intermediate",
+        "Markovnikov: halide to more substituted C; Peroxide reverses (HBr only)",
+        "Paracetamol: p-aminophenol + acetic anhydride; Aspirin: salicylic acid + acetic anhydride"
       ]
     },
     "C5": {
       "question_number": "C5",
-      "solution": "**(a) Applications of UV-Visible Spectroscopy:**\n\n1. **Identification of compounds:** UV-Vis spectra can identify functional groups and conjugated systems based on characteristic absorption wavelengths ($\\lambda_{\\max}$)\n\n2. **Quantitative analysis (concentration determination):** Using Beer-Lambert law ($A = \\varepsilon cl$), the concentration of an unknown solution can be determined from its absorbance\n\n3. **Purity determination:** Impurities often have different absorption characteristics — presence of impurities can be detected and quantified\n\n4. **Study of conjugation:** As conjugation increases, $\\lambda_{\\max}$ shifts to longer wavelengths (red shift / bathochromic shift) — used to study the extent of conjugation in molecules\n\n5. **Kinetics of reactions:** Changes in absorbance over time can be used to follow the progress and rate of chemical reactions\n\n6. **Determination of molecular weight:** For certain compounds, molecular weight can be estimated from molar absorptivity\n\n7. **Environmental monitoring:** Detection of pollutants in water and air based on their UV absorption\n\n8. **Pharmaceutical analysis:** Quality control and assay of drugs and pharmaceutical products\n\n**(b) Lambert-Beer's Law — Derivation and Applications:**\n\n**Lambert's Law:** When monochromatic light passes through a transparent medium, the rate of decrease of intensity ($I$) with the thickness ($l$) of the medium is proportional to the intensity:\n\n$$-\\frac{dI}{dl} \\propto I \\quad \\Rightarrow \\quad -\\frac{dI}{dl} = kI$$\n\nIntegrating: $\\ln\\frac{I_0}{I} = kl$ or $\\log\\frac{I_0}{I} = k'l$\n\n**Beer's Law:** The absorption is proportional to the **concentration** ($c$) of the absorbing substance:\n\n$$\\log\\frac{I_0}{I} \\propto c$$\n\n**Combined Lambert-Beer's Law:**\n\n$$A = \\log\\frac{I_0}{I} = \\varepsilon \\cdot c \\cdot l$$\n\nwhere:\n- $A$ = absorbance (optical density)\n- $I_0$ = intensity of incident light\n- $I$ = intensity of transmitted light\n- $\\varepsilon$ = molar absorptivity (L mol⁻¹ cm⁻¹)\n- $c$ = concentration (mol/L)\n- $l$ = path length (cm)\n\n**Determination of $\\lambda_{\\max}$:**\n1. Prepare a solution of the compound at known concentration\n2. Measure absorbance at different wavelengths across the UV-Vis range\n3. Plot **absorbance vs. wavelength** → obtain the absorption spectrum\n4. The wavelength at which **maximum absorbance** occurs is $\\lambda_{\\max}$\n5. $\\lambda_{\\max}$ is characteristic of the compound and used for identification\n\n**Determination of concentration of unknown solution:**\n1. Prepare several solutions of known concentrations of the same compound\n2. Measure absorbance of each at $\\lambda_{\\max}$\n3. Plot **absorbance vs. concentration** → obtain a **calibration curve** (straight line through origin)\n4. Measure the absorbance of the unknown solution at the same $\\lambda_{\\max}$\n5. From the calibration curve, read the corresponding concentration\n6. Alternatively, use $c = A/(\\varepsilon \\cdot l)$ if $\\varepsilon$ is known\n\n**(c) Fingerprint Region in IR Spectroscopy:**\n\nThe **fingerprint region** lies in the range **1500–400 cm⁻¹** in an IR spectrum.\n\n**Characteristics:**\n- Contains complex absorption patterns arising from **bending vibrations** (deformation), **C–C stretching**, and various **skeletal vibrations** of the molecule\n- This region is **unique for every compound** — no two different compounds (except enantiomers) have exactly the same pattern, much like a human fingerprint\n\n**Significance:**\n1. **Compound identification:** By comparing the fingerprint region of an unknown compound's spectrum with reference spectra in databases, the compound can be positively identified\n2. **Authentication:** Confirms whether a sample is the claimed substance\n3. **Distinguishing isomers:** Structural isomers that may have similar functional group regions can be distinguished by their fingerprint patterns\n4. **Quality control:** Used in pharmaceutical and industrial settings to verify the identity and purity of chemicals\n\nNote: The region **4000–1500 cm⁻¹** is called the **functional group region**, where specific functional groups show characteristic absorptions (e.g., $\\text{O–H}$ at ~3300 cm⁻¹, $\\text{C=O}$ at ~1700 cm⁻¹).\n\n**(d) Chromophores vs. Auxochromes:**\n\n| Feature | Chromophore | Auxochrome |\n|---------|------------|------------|\n| Definition | Functional group responsible for UV-Vis absorption | Functional group that enhances absorption when attached to a chromophore |\n| Absorbs UV-Vis? | **Yes**, on its own | **No**, not by itself |\n| Contains | Unsaturated bonds (π electrons, non-bonding electrons) | Atoms with lone pairs (heteroatoms) |\n| Electronic transitions | $\\pi \\to \\pi^*$, $n \\to \\pi^*$ | Extends conjugation through lone pair donation |\n| Effect on $\\lambda_{\\max}$ | Causes primary absorption | Shifts $\\lambda_{\\max}$ to longer wavelength (bathochromic/red shift) |\n| Effect on intensity | Primary absorber | Increases absorption intensity (hyperchromic effect) |\n| Examples | $\\text{C=C}$, $\\text{C=O}$, $\\text{N=N}$, $\\text{C=S}$, $\\text{NO}_2$ | $-\\text{OH}$, $-\\text{NH}_2$, $-\\text{OR}$, $-\\text{Cl}$, $-\\text{Br}$ |\n\n**Example:** Benzene ($\\lambda_{\\max} = 255$ nm) → Aniline (benzene + $-\\text{NH}_2$, $\\lambda_{\\max} = 280$ nm). The $-\\text{NH}_2$ auxochrome causes a **red shift** of 25 nm by extending the conjugated system through its lone pair electrons.",
+      "solution": "**(a) Applications of UV-Visible Spectroscopy:**\n\n1. **Identification of compounds:** Characteristic $\\lambda_{\\max}$ values identify functional groups and conjugation\n2. **Quantitative analysis:** Beer-Lambert law determines unknown concentrations from absorbance\n3. **Purity determination:** Impurities with different absorption can be detected\n4. **Study of conjugation:** Increased conjugation → red shift (bathochromic shift) of $\\lambda_{\\max}$\n5. **Reaction kinetics:** Absorbance changes over time track reaction progress\n6. **Pharmaceutical analysis:** Drug quality control and assay\n\n**(b) Lambert-Beer's Law:**\n\n**Statement:** Absorbance of a solution is directly proportional to **concentration** and **path length** of the absorbing medium:\n\n$$A = \\varepsilon \\cdot c \\cdot l$$\n\nwhere $A$ = absorbance, $\\varepsilon$ = molar absorptivity (L mol⁻¹ cm⁻¹), $c$ = concentration (mol/L), $l$ = path length (cm).\n\nAlso: $A = \\log(I_0/I)$\n\n**Determination of $\\lambda_{\\max}$:**\n1. Prepare a solution at known concentration\n2. Measure absorbance at different wavelengths across UV-Vis range\n3. Plot **absorbance vs. wavelength** → absorption spectrum\n4. Wavelength of **maximum absorbance** = $\\lambda_{\\max}$\n\n**Determination of unknown concentration:**\n1. Prepare standard solutions of known concentrations\n2. Measure absorbance of each at $\\lambda_{\\max}$\n3. Plot **absorbance vs. concentration** → **calibration curve** (straight line)\n4. Measure absorbance of unknown at the same $\\lambda_{\\max}$\n5. Read concentration from the calibration curve\n6. Or use: $c = A/(\\varepsilon \\cdot l)$ if $\\varepsilon$ is known\n\n**(c) Fingerprint Region in IR Spectroscopy:**\n\nThe fingerprint region: **1500–400 cm⁻¹**.\n\n**Characteristics:**\n- Contains complex **bending vibrations**, C–C/C–O/C–N stretching, and skeletal vibrations\n- **Unique for every compound** — no two different molecules have the same pattern\n\n**Significance:**\n1. **Compound identification:** Matching unknown spectrum with reference database confirms identity\n2. **Distinguishing isomers:** Structural isomers with similar functional groups differ in fingerprint region\n3. **Quality control:** Verifies identity and purity in pharmaceutical/industrial settings\n4. **Authentication:** Confirms if a sample matches the claimed substance\n\nThe region above 1500 cm⁻¹ (4000–1500 cm⁻¹) is the **functional group region** with characteristic peaks: O–H (~3300 cm⁻¹), C=O (~1700 cm⁻¹), N–H (~3400 cm⁻¹).",
       "key_points": [
-        "UV-Vis: quantitative analysis, purity check, reaction kinetics, conjugation studies",
-        "Beer-Lambert: $A = \\varepsilon cl$; calibration curve determines unknown concentration",
-        "Fingerprint region (1500–400 cm⁻¹): unique pattern for each compound",
-        "Chromophores absorb UV-Vis; auxochromes enhance absorption (red shift)"
+        "UV-Vis: quantitative analysis, purity check, kinetics",
+        "Beer-Lambert: $A = \\varepsilon cl$; calibration curve for unknown concentration",
+        "Fingerprint region: 1500–400 cm⁻¹, unique for each compound"
       ]
     }
   }
