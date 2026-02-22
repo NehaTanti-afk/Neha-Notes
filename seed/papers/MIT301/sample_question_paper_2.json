@@ -1,0 +1,618 @@
+{
+  "subject_code": "MIT301",
+  "title": "Sample Question Paper 2",
+  "type": "end_sem",
+  "year": "2025-26",
+  "metadata": {
+    "difficulty": "medium",
+    "modules_covered": [
+      "Module 1",
+      "Module 2",
+      "Module 3"
+    ]
+  },
+  "questions": {
+    "A1": {
+      "group": "A",
+      "number": "A1",
+      "text": "The maximum likelihood estimate is a solution of the equation",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "is_preview": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "$\\frac{\\partial}{\\partial \\theta}(L(\\theta)) = 0$"
+        },
+        {
+          "key": "b",
+          "text": "$\\frac{\\partial}{\\partial \\theta}(L(\\theta)) = \\theta$"
+        },
+        {
+          "key": "c",
+          "text": "$\\frac{\\partial}{\\partial \\theta}(L(\\theta)) = \\text{constant}$"
+        },
+        {
+          "key": "d",
+          "text": "None of these"
+        }
+      ]
+    },
+    "A2": {
+      "group": "A",
+      "number": "A2",
+      "text": "The arithmetic mean of 20 data is calculated to be 89.40. Later one data 78 is replaced by 87. Then the arithmetic mean of the data after replacement will be",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$89$"
+        },
+        {
+          "key": "b",
+          "text": "$85$"
+        },
+        {
+          "key": "c",
+          "text": "$89.85$"
+        },
+        {
+          "key": "d",
+          "text": "$85.89$"
+        }
+      ]
+    },
+    "A3": {
+      "group": "A",
+      "number": "A3",
+      "text": "In an iterative method, the amount of computation depends on the",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Degree of accuracy"
+        },
+        {
+          "key": "b",
+          "text": "Rounding of errors"
+        },
+        {
+          "key": "c",
+          "text": "Ease of using the operators"
+        },
+        {
+          "key": "d",
+          "text": "Number of variables"
+        }
+      ]
+    },
+    "A4": {
+      "group": "A",
+      "number": "A4",
+      "text": "Find the sum of the eigenvalues of the matrix $\\begin{pmatrix} 2 & 0 & 1 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 2 \\end{pmatrix}$",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$8$"
+        },
+        {
+          "key": "b",
+          "text": "$7$"
+        },
+        {
+          "key": "c",
+          "text": "$5$"
+        },
+        {
+          "key": "d",
+          "text": "$1$"
+        }
+      ]
+    },
+    "A5": {
+      "group": "A",
+      "number": "A5",
+      "text": "In the Fixed-Point Iteration method, what happens if the absolute value of $g'(x)$ is greater than 1 for all $x$ in the interval containing the fixed point?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Convergence is guaranteed"
+        },
+        {
+          "key": "b",
+          "text": "The method may oscillate or diverge"
+        },
+        {
+          "key": "c",
+          "text": "The method may still converge, but more iteration is needed"
+        },
+        {
+          "key": "d",
+          "text": "It implies the fixed point is not unique"
+        }
+      ]
+    },
+    "A6": {
+      "group": "A",
+      "number": "A6",
+      "text": "In the Gauss-Seidel method, what is the condition for convergence?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "The matrix must be non-singular"
+        },
+        {
+          "key": "b",
+          "text": "The matrix must be symmetric"
+        },
+        {
+          "key": "c",
+          "text": "The matrix must be diagonally dominant or symmetric positive definite"
+        },
+        {
+          "key": "d",
+          "text": "Convergence is not guaranteed for Gauss-Seidel"
+        }
+      ]
+    },
+    "A7": {
+      "group": "A",
+      "number": "A7",
+      "text": "Newton-Raphson method is used to find the root of the equation $x^2 - 2 = 0$. If iterations are started from $x_0 = -1$, then iterations will be",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "converge to $-\\sqrt{2}$"
+        },
+        {
+          "key": "b",
+          "text": "converge to $-1$"
+        },
+        {
+          "key": "c",
+          "text": "converge to $\\sqrt{2}$"
+        },
+        {
+          "key": "d",
+          "text": "does not converge"
+        }
+      ]
+    },
+    "A8": {
+      "group": "A",
+      "number": "A8",
+      "text": "If $x$ is the test statistic and $(a, b)$ is the region of acceptance corresponding to 3% level of significance, then $P(a \\leq x \\leq b)$ is",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$0.97$"
+        },
+        {
+          "key": "b",
+          "text": "$0.9$"
+        },
+        {
+          "key": "c",
+          "text": "$0.95$"
+        },
+        {
+          "key": "d",
+          "text": "$0.03$"
+        }
+      ]
+    },
+    "A9": {
+      "group": "A",
+      "number": "A9",
+      "text": "Let $S^2$ be the sample variance of a sample of size $n$ drawn from a population with mean $\\mu$ and S.D. $\\sigma$. Then $E(S^2) =$",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$\\frac{n}{n-1}\\sigma^2$"
+        },
+        {
+          "key": "b",
+          "text": "$\\frac{n-1}{n}\\sigma^2$"
+        },
+        {
+          "key": "c",
+          "text": "$\\frac{n+1}{n}\\sigma^2$"
+        },
+        {
+          "key": "d",
+          "text": "$\\frac{n-1}{n}\\sigma^2$"
+        }
+      ]
+    },
+    "A10": {
+      "group": "A",
+      "number": "A10",
+      "text": "The Gauss-Seidel method is applicable to strictly diagonally dominant or symmetric ________ definite matrices.",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Positive"
+        },
+        {
+          "key": "b",
+          "text": "Negative"
+        },
+        {
+          "key": "c",
+          "text": "Zero"
+        },
+        {
+          "key": "d",
+          "text": "Equal"
+        }
+      ]
+    },
+    "A11": {
+      "group": "A",
+      "number": "A11",
+      "text": "Which one of the following is an iterative technique for solving a system of simultaneous linear algebraic equations?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gauss-Seidel"
+        },
+        {
+          "key": "b",
+          "text": "Gauss-Elimination"
+        },
+        {
+          "key": "c",
+          "text": "Gauss-Jordan"
+        },
+        {
+          "key": "d",
+          "text": "LU-decomposition"
+        }
+      ]
+    },
+    "A12": {
+      "group": "A",
+      "number": "A12",
+      "text": "Which one of the following is a statistic of $n > 1$ dimension?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Mean of population"
+        },
+        {
+          "key": "b",
+          "text": "Mean of sample"
+        },
+        {
+          "key": "c",
+          "text": "S.D. of population"
+        },
+        {
+          "key": "d",
+          "text": "Random variable"
+        }
+      ]
+    },
+    "B1": {
+      "group": "B",
+      "number": "B1",
+      "text": "From a random sample of size 49 drawn from a normal population with standard deviation 2, find the 99% confidence interval of the population mean. Also find the interval if the mean of such a sample is 3. Given that $\\int_0^{2.58} \\phi(z)\\,dz = 0.495$, $\\phi(z)$ being the standard normal density function.",
+      "marks": 5,
+      "co": "CO3",
+      "bl": "L3",
+      "is_preview": true
+    },
+    "B2": {
+      "group": "B",
+      "number": "B2",
+      "text": "Use the power method to find the largest eigenvalue of the matrix $A = \\begin{pmatrix} 3 & -5 \\\\ -2 & 4 \\end{pmatrix}$.",
+      "marks": 5,
+      "co": "CO3",
+      "bl": "L3"
+    },
+    "B3": {
+      "group": "B",
+      "number": "B3",
+      "text": "Develop a recurrence formula for finding $\\sqrt{N}$ using Newton-Raphson method and hence compute $\\sqrt{27}$ to three decimal places.",
+      "marks": 5,
+      "co": "CO4",
+      "bl": "L4"
+    },
+    "B4": {
+      "group": "B",
+      "number": "B4",
+      "text": "Let $T_1$ and $T_2$ be two statistics with $E(T_1) = 2\\theta_1 + 3\\theta_2$ and $E(T_2) = \\theta_1 + \\theta_2$. Find unbiased estimators of the parameters $\\theta_1$ and $\\theta_2$.",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L2"
+    },
+    "B5": {
+      "group": "B",
+      "number": "B5",
+      "text": "Perform five iterations of the bisection method to obtain a root of the equation $f(x) = x^3 - x - 4 = 0$.",
+      "marks": 5,
+      "co": "CO4",
+      "bl": "L3"
+    },
+    "C1": {
+      "group": "C",
+      "number": "C1",
+      "text": "(a) Let $\\{X_1, X_2, X_3, \\ldots, X_n\\}$ be a random sample from a normal distribution with mean $\\mu$ and variance 1. Show that $\\frac{1}{n}\\sum_{i=1}^{n} X_i^2$ is an unbiased estimator of $\\mu^2 + 1$. [6]\n\n(b) From the following data, estimate the purchase when the sale is 100. To get a purchase of 60, what would be the required sales? [6]\n\n| Sales | 91 | 97 | 108 | 121 | 67 | 124 | 51 | 73 | 111 | 57 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Purchases | 71 | 75 | 69 | 97 | 70 | 91 | 39 | 61 | 80 | 47 |\n\n(c) Define Standard Error of a Statistic. State the Central Limit Theorem for Statistics. [3]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L4",
+      "is_preview": true
+    },
+    "C2": {
+      "group": "C",
+      "number": "C2",
+      "text": "(a) Solve the equations $x + y + z = 3$, $2x - y - z = 3$, $x - y + z = 9$ using Gauss Elimination method. [8]\n\n(b) Solve the equations $x + y + z = 7$, $x + 2y + 2z = 13$, $x + 3y + z = 13$ using LU factorization method. [7]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L4"
+    },
+    "C3": {
+      "group": "C",
+      "number": "C3",
+      "text": "(a) Find the root of the equation $x^3 - 9x + 1 = 0$ for the root lying between 2 and 3, correct up to two decimal places, using Newton-Raphson method. [7]\n\n(b) Find a root of $x^4 - x^3 + 10x + 7 = 0$ correct to three decimal places between $a = -2$ and $b = -1$ by Newton-Raphson method. [8]",
+      "marks": 15,
+      "co": "CO3",
+      "bl": "L3"
+    },
+    "C4": {
+      "group": "C",
+      "number": "C4",
+      "text": "(a) If samples are drawn from a Normal population, then the sample variance is a consistent estimator of the population variance. [5]\n\n(b) The probability density function of a random variable $X$ is assumed to be of the form $f(x) = cx^\\alpha$, $0 \\leq x \\leq 1$ for some constant $c$. If $X_1, X_2, \\ldots, X_n$ is a random sample of size $n$, find the maximum likelihood estimate of $\\alpha$. [5]\n\n(c) The mean and standard deviation of marks of 70 students were found to be 65 and 5.2 respectively. Later it was found that the mark of one student was wrongly recorded as 85 instead of 58. Obtain the correct standard deviation. [5]",
+      "marks": 15,
+      "co": "CO3",
+      "bl": "L3"
+    },
+    "C5": {
+      "group": "C",
+      "number": "C5",
+      "text": "(a) Find the root of the following equation $e^{-x} - \\sin x = 0$ by Regula-Falsi method correct to four significant digits. [7]\n\n(b) Solve the following system of linear equations, correct up to four decimal places, by the Gauss-Seidel iteration method: [8]\n$x + y + 54z = 110$\n$6x + 15y + 2z = 72$\n$27x + 6y - z = 85$",
+      "marks": 15,
+      "co": "CO3",
+      "bl": "L3"
+    }
+  },
+  "answers": {
+    "A1": {
+      "question_number": "A1",
+      "correct_option": "a",
+      "solution": "The **Maximum Likelihood Estimate (MLE)** is obtained by maximizing the likelihood function $L(\\theta)$ with respect to the parameter $\\theta$.\n\nThe necessary condition for a maximum is:\n\n$$\\frac{\\partial}{\\partial \\theta}(L(\\theta)) = 0$$\n\nAlternatively, we can maximize $\\ln L(\\theta)$ (the log-likelihood), which gives the same result:\n\n$$\\frac{\\partial}{\\partial \\theta}(\\ln L(\\theta)) = 0$$\n\nSetting the derivative to zero and solving for $\\theta$ gives the MLE.",
+      "key_points": [
+        "MLE is found by setting $\\frac{\\partial L}{\\partial \\theta} = 0$",
+        "Log-likelihood is often used for computational convenience",
+        "The solution must also satisfy the second-order condition for a maximum"
+      ]
+    },
+    "A2": {
+      "question_number": "A2",
+      "correct_option": "c",
+      "solution": "Original sum = $20 \\times 89.40 = 1788$\n\nNew sum = $1788 - 78 + 87 = 1797$\n\nNew mean = $\\frac{1797}{20} = 89.85$\n\n**Result: New A.M. = $89.85$**",
+      "key_points": [
+        "Correct the sum by removing old value and adding new value",
+        "New mean = New sum / $n$"
+      ]
+    },
+    "A3": {
+      "question_number": "A3",
+      "correct_option": "a",
+      "solution": "In iterative methods (such as Newton-Raphson, Gauss-Seidel, etc.), the number of iterations — and hence the **amount of computation** — depends on the **degree of accuracy** required.\n\nHigher accuracy demands more iterations, increasing the computational effort. The stopping criterion is typically when the difference between successive iterates is less than a specified tolerance (accuracy level).",
+      "key_points": [
+        "More accuracy = more iterations = more computation",
+        "Stopping criterion is based on desired accuracy/tolerance"
+      ]
+    },
+    "A4": {
+      "question_number": "A4",
+      "correct_option": "b",
+      "solution": "The **sum of eigenvalues** of a matrix equals the **trace** (sum of diagonal elements).\n\n$$\\text{Trace} = 2 + 3 + 2 = 7$$\n\nAlternatively, since this is an upper triangular matrix, the eigenvalues are the diagonal elements: $2, 3, 2$. Their sum is $7$.\n\n**Result: Sum of eigenvalues = $7$**",
+      "key_points": [
+        "Sum of eigenvalues = Trace of the matrix",
+        "For triangular matrices, eigenvalues are the diagonal entries"
+      ]
+    },
+    "A5": {
+      "question_number": "A5",
+      "correct_option": "b",
+      "solution": "For the Fixed-Point Iteration $x_{n+1} = g(x_n)$:\n\n- If $|g'(x)| < 1$ near the fixed point → **convergence**\n- If $|g'(x)| > 1$ near the fixed point → **divergence** (the method oscillates or moves away from the root)\n\nWhen $|g'(x)| > 1$, each iteration amplifies the error rather than reducing it, causing the iterates to move further from the fixed point.",
+      "key_points": [
+        "$|g'(x)| > 1$ causes divergence or oscillation",
+        "Errors are amplified when the derivative exceeds 1 in magnitude"
+      ]
+    },
+    "A6": {
+      "question_number": "A6",
+      "correct_option": "c",
+      "solution": "The **Gauss-Seidel method** is guaranteed to converge if the coefficient matrix is:\n\n1. **Strictly diagonally dominant** — $|a_{ii}| > \\sum_{j \\neq i} |a_{ij}|$ for all rows, OR\n2. **Symmetric positive definite**\n\nEither condition is **sufficient** (not necessary) for convergence. The method may converge in other cases too, but convergence is guaranteed under these conditions.",
+      "key_points": [
+        "Diagonal dominance or symmetric positive definiteness guarantees convergence",
+        "These are sufficient conditions, not necessary"
+      ]
+    },
+    "A7": {
+      "question_number": "A7",
+      "correct_option": "a",
+      "solution": "For $f(x) = x^2 - 2$, $f'(x) = 2x$.\n\nNewton-Raphson: $x_{n+1} = x_n - \\frac{x_n^2 - 2}{2x_n} = \\frac{x_n^2 + 2}{2x_n}$\n\nStarting from $x_0 = -1$ (negative):\n$$x_1 = \\frac{1 + 2}{-2} = -1.5$$\n$$x_2 = \\frac{2.25 + 2}{-3} = -1.4167$$\n$$x_3 \\approx -1.4142$$\n\nThe iterations converge to $-\\sqrt{2} \\approx -1.4142$ because we started from a negative initial guess, and the method converges to the nearest root.",
+      "key_points": [
+        "Newton-Raphson converges to the root nearest to the initial guess",
+        "Starting from $x_0 = -1$ leads to the negative root $-\\sqrt{2}$"
+      ]
+    },
+    "A8": {
+      "question_number": "A8",
+      "correct_option": "a",
+      "solution": "The **level of significance** $\\alpha = 3\\% = 0.03$ is the probability of the rejection region.\n\nThe **region of acceptance** has probability:\n$$P(a \\leq x \\leq b) = 1 - \\alpha = 1 - 0.03 = 0.97$$\n\n**Result: $P(a \\leq x \\leq b) = 0.97$**",
+      "key_points": [
+        "Acceptance probability = $1 - \\alpha$ (significance level)",
+        "3% significance → 97% acceptance probability"
+      ]
+    },
+    "A9": {
+      "question_number": "A9",
+      "correct_option": "b",
+      "solution": "The sample variance is defined as:\n$$S^2 = \\frac{1}{n}\\sum_{i=1}^{n}(X_i - \\bar{X})^2$$\n\nIts expected value is:\n$$E(S^2) = \\frac{n-1}{n}\\sigma^2$$\n\nThis shows that $S^2$ is a **biased** estimator of $\\sigma^2$ (it underestimates). The **unbiased** estimator is $\\frac{n}{n-1}S^2 = \\frac{1}{n-1}\\sum(X_i - \\bar{X})^2$.\n\n**Result: $E(S^2) = \\frac{n-1}{n}\\sigma^2$**",
+      "key_points": [
+        "$S^2 = \\frac{1}{n}\\sum(X_i - \\bar{X})^2$ is a biased estimator of $\\sigma^2$",
+        "Unbiased estimator uses $n-1$ in denominator (Bessel's correction)"
+      ]
+    },
+    "A10": {
+      "question_number": "A10",
+      "correct_option": "a",
+      "solution": "The Gauss-Seidel iterative method converges for:\n1. **Strictly diagonally dominant** matrices\n2. **Symmetric positive definite** matrices\n\nA symmetric positive definite matrix has all positive eigenvalues and satisfies $x^T A x > 0$ for all non-zero vectors $x$.",
+      "key_points": [
+        "Gauss-Seidel converges for symmetric **positive** definite matrices",
+        "Also converges for strictly diagonally dominant matrices"
+      ]
+    },
+    "A11": {
+      "question_number": "A11",
+      "correct_option": "a",
+      "solution": "Among the listed methods:\n\n- **Gauss-Seidel** — **Iterative** method (starts with an initial guess and improves iteratively)\n- **Gauss-Elimination** — Direct method\n- **Gauss-Jordan** — Direct method\n- **LU-decomposition** — Direct method\n\nOnly Gauss-Seidel uses successive approximation, making it the iterative technique.",
+      "key_points": [
+        "Gauss-Seidel is the only iterative method among the options",
+        "Direct methods give exact solution in finite steps (ignoring round-off)"
+      ]
+    },
+    "A12": {
+      "question_number": "A12",
+      "correct_option": "b",
+      "solution": "A **statistic** is a function of sample observations (not involving any unknown parameter). The **sample mean** $\\bar{X} = \\frac{1}{n}\\sum X_i$ is a function of $n > 1$ sample values, making it a statistic of $n > 1$ dimension.\n\n- Mean of population ($\\mu$) is a **parameter**, not a statistic\n- S.D. of population ($\\sigma$) is a **parameter**\n- Random variable is not a statistic\n\nOnly the **mean of sample** qualifies as a statistic.",
+      "key_points": [
+        "A statistic is a function of sample observations only",
+        "Sample mean is a statistic; population mean is a parameter"
+      ]
+    },
+    "B1": {
+      "question_number": "B1",
+      "solution": "**Given:** $n = 49$, $\\sigma = 2$, confidence level = 99%\n\nFor 99% confidence: $\\alpha = 0.01$, $\\alpha/2 = 0.005$\n\nGiven $\\int_0^{2.58} \\phi(z)\\,dz = 0.495$, so $z_{\\alpha/2} = 2.58$.\n\n**Standard error:** $SE = \\frac{\\sigma}{\\sqrt{n}} = \\frac{2}{\\sqrt{49}} = \\frac{2}{7} = 0.2857$\n\n**99% Confidence Interval:**\n$$\\bar{x} - z_{\\alpha/2} \\cdot SE \\leq \\mu \\leq \\bar{x} + z_{\\alpha/2} \\cdot SE$$\n\n$$\\bar{x} - 2.58 \\times 0.2857 \\leq \\mu \\leq \\bar{x} + 2.58 \\times 0.2857$$\n\n$$\\bar{x} - 0.737 \\leq \\mu \\leq \\bar{x} + 0.737$$\n\n**If $\\bar{x} = 3$:**\n$$3 - 0.737 \\leq \\mu \\leq 3 + 0.737$$\n\n$$2.263 \\leq \\mu \\leq 3.737$$\n\n**Result: 99% C.I. = $(2.263, 3.737)$**",
+      "key_points": [
+        "C.I. = $\\bar{x} \\pm z_{\\alpha/2} \\cdot \\frac{\\sigma}{\\sqrt{n}}$",
+        "For 99% confidence, $z_{0.005} = 2.58$",
+        "C.I. when $\\bar{x} = 3$ is $(2.263, 3.737)$"
+      ]
+    },
+    "B2": {
+      "question_number": "B2",
+      "solution": "**Power Method:** Start with an initial vector and repeatedly multiply by $A$.\n\nLet $X^{(0)} = \\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$\n\n**Iteration 1:**\n$$AX^{(0)} = \\begin{pmatrix} 3 & -5 \\\\ -2 & 4 \\end{pmatrix}\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ 2 \\end{pmatrix} = 2\\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix}$$\n\n$\\lambda_1 = 2$, $X^{(1)} = \\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix}$\n\n**Iteration 2:**\n$$AX^{(1)} = \\begin{pmatrix} 3 & -5 \\\\ -2 & 4 \\end{pmatrix}\\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -8 \\\\ 6 \\end{pmatrix} = -8\\begin{pmatrix} 1 \\\\ -0.75 \\end{pmatrix}$$\n\n$\\lambda_2 = -8$, $X^{(2)} = \\begin{pmatrix} 1 \\\\ -0.75 \\end{pmatrix}$\n\n**Iteration 3:**\n$$AX^{(2)} = \\begin{pmatrix} 3 & -5 \\\\ -2 & 4 \\end{pmatrix}\\begin{pmatrix} 1 \\\\ -0.75 \\end{pmatrix} = \\begin{pmatrix} 6.75 \\\\ -5 \\end{pmatrix} = 6.75\\begin{pmatrix} 1 \\\\ -0.7407 \\end{pmatrix}$$\n\n$\\lambda_3 = 6.75$\n\n**Iteration 4:**\n$$AX^{(3)} = \\begin{pmatrix} 3 & -5 \\\\ -2 & 4 \\end{pmatrix}\\begin{pmatrix} 1 \\\\ -0.7407 \\end{pmatrix} = \\begin{pmatrix} 6.7037 \\\\ -4.9630 \\end{pmatrix} = 6.7037\\begin{pmatrix} 1 \\\\ -0.7404 \\end{pmatrix}$$\n\n$\\lambda_4 = 6.7037$\n\n**Iteration 5:**\n$$\\lambda_5 \\approx 6.702$$\n\nConverging to the dominant eigenvalue.\n\n**Verification:** Eigenvalues satisfy $\\lambda^2 - 7\\lambda + 2 = 0$\n$$\\lambda = \\frac{7 \\pm \\sqrt{49 - 8}}{2} = \\frac{7 \\pm \\sqrt{41}}{2}$$\n$$\\lambda_1 = \\frac{7 + 6.403}{2} \\approx 6.702, \\quad \\lambda_2 \\approx 0.298$$\n\n**Result: Largest eigenvalue $\\approx 6.702$**",
+      "key_points": [
+        "Power method finds the dominant (largest magnitude) eigenvalue",
+        "Multiply initial vector by $A$ repeatedly and normalize",
+        "Largest eigenvalue $\\approx 6.702$"
+      ]
+    },
+    "B3": {
+      "question_number": "B3",
+      "solution": "**Derivation:**\n\nTo find $\\sqrt{N}$, solve $f(x) = x^2 - N = 0$, so $f'(x) = 2x$.\n\nNewton-Raphson formula:\n$$x_{n+1} = x_n - \\frac{x_n^2 - N}{2x_n} = \\frac{2x_n^2 - x_n^2 + N}{2x_n}$$\n\n$$\\boxed{x_{n+1} = \\frac{1}{2}\\left(x_n + \\frac{N}{x_n}\\right)}$$\n\n**Computing $\\sqrt{27}$:**\n\nSince $5^2 = 25$ and $6^2 = 36$, take $x_0 = 5$.\n\n**Iteration 1:**\n$$x_1 = \\frac{1}{2}\\left(5 + \\frac{27}{5}\\right) = \\frac{1}{2}(5 + 5.4) = 5.2$$\n\n**Iteration 2:**\n$$x_2 = \\frac{1}{2}\\left(5.2 + \\frac{27}{5.2}\\right) = \\frac{1}{2}(5.2 + 5.1923) = 5.1962$$\n\n**Iteration 3:**\n$$x_3 = \\frac{1}{2}\\left(5.1962 + \\frac{27}{5.1962}\\right) = \\frac{1}{2}(5.1962 + 5.1962) = 5.1962$$\n\nConverged.\n\n**Result: $\\sqrt{27} \\approx 5.196$**",
+      "key_points": [
+        "Formula: $x_{n+1} = \\frac{1}{2}(x_n + N/x_n)$",
+        "$\\sqrt{27} \\approx 5.196$",
+        "Converges in just 3 iterations"
+      ]
+    },
+    "B4": {
+      "question_number": "B4",
+      "solution": "**Given:**\n- $E(T_1) = 2\\theta_1 + 3\\theta_2$ ... (i)\n- $E(T_2) = \\theta_1 + \\theta_2$ ... (ii)\n\nWe need to find linear combinations $aT_1 + bT_2$ that are unbiased for $\\theta_1$ and $\\theta_2$ respectively.\n\n**For unbiased estimator of $\\theta_1$:**\n\nWe need $E(aT_1 + bT_2) = \\theta_1$\n$$a(2\\theta_1 + 3\\theta_2) + b(\\theta_1 + \\theta_2) = \\theta_1$$\n$$(2a + b)\\theta_1 + (3a + b)\\theta_2 = \\theta_1$$\n\nComparing: $2a + b = 1$ and $3a + b = 0$\n\nSubtracting: $a = -1$, so $b = 1 - 2(-1) = 3$\n\n**Unbiased estimator of $\\theta_1$: $\\hat{\\theta}_1 = -T_1 + 3T_2 = 3T_2 - T_1$**\n\n**For unbiased estimator of $\\theta_2$:**\n\nWe need $E(cT_1 + dT_2) = \\theta_2$\n$$(2c + d)\\theta_1 + (3c + d)\\theta_2 = \\theta_2$$\n\nComparing: $2c + d = 0$ and $3c + d = 1$\n\nSubtracting: $c = 1$, so $d = -2$\n\n**Unbiased estimator of $\\theta_2$: $\\hat{\\theta}_2 = T_1 - 2T_2$**\n\n**Verification:**\n- $E(3T_2 - T_1) = 3(\\theta_1 + \\theta_2) - (2\\theta_1 + 3\\theta_2) = 3\\theta_1 + 3\\theta_2 - 2\\theta_1 - 3\\theta_2 = \\theta_1$ ✓\n- $E(T_1 - 2T_2) = (2\\theta_1 + 3\\theta_2) - 2(\\theta_1 + \\theta_2) = \\theta_2$ ✓",
+      "key_points": [
+        "Unbiased estimator has $E(\\hat{\\theta}) = \\theta$",
+        "$\\hat{\\theta}_1 = 3T_2 - T_1$",
+        "$\\hat{\\theta}_2 = T_1 - 2T_2$"
+      ]
+    },
+    "B5": {
+      "question_number": "B5",
+      "solution": "Let $f(x) = x^3 - x - 4$.\n\n**Finding initial interval:**\n- $f(1) = 1 - 1 - 4 = -4 < 0$\n- $f(2) = 8 - 2 - 4 = 2 > 0$\n\nRoot lies in $(1, 2)$.\n\n| Iter | $a$ | $b$ | $c = \\frac{a+b}{2}$ | $f(c)$ | Next interval |\n|------|-------|-------|---------|---------|---------------|\n| 1 | 1 | 2 | 1.5 | $-2.125$ | $(1.5, 2)$ |\n| 2 | 1.5 | 2 | 1.75 | $-0.3906$ | $(1.75, 2)$ |\n| 3 | 1.75 | 2 | 1.875 | $0.7168$ | $(1.75, 1.875)$ |\n| 4 | 1.75 | 1.875 | 1.8125 | $0.1412$ | $(1.75, 1.8125)$ |\n| 5 | 1.75 | 1.8125 | 1.7813 | $-0.1326$ | $(1.7813, 1.8125)$ |\n\n**Detailed calculations:**\n\n- $f(1.5) = 3.375 - 1.5 - 4 = -2.125$\n- $f(1.75) = 5.3594 - 1.75 - 4 = -0.3906$\n- $f(1.875) = 6.5918 - 1.875 - 4 = 0.7168$\n- $f(1.8125) = 5.9537 - 1.8125 - 4 = 0.1412$\n- $f(1.7813) = 5.6487 - 1.7813 - 4 = -0.1326$\n\n**Result: After 5 iterations, approximate root $\\approx 1.797$**",
+      "key_points": [
+        "Bisection halves the interval each iteration",
+        "Sign of $f(c)$ determines which half to keep",
+        "After 5 iterations: root $\\approx 1.797$",
+        "Error reduces by factor of 2 each step"
+      ]
+    },
+    "C1": {
+      "question_number": "C1",
+      "solution": "**(a) Proving $\\frac{1}{n}\\sum X_i^2$ is unbiased for $\\mu^2 + 1$:**\n\nGiven $X_i \\sim N(\\mu, 1)$, so $E(X_i) = \\mu$ and $\\text{Var}(X_i) = 1$.\n\nWe know: $E(X_i^2) = \\text{Var}(X_i) + [E(X_i)]^2 = 1 + \\mu^2$\n\nTherefore:\n$$E\\left(\\frac{1}{n}\\sum_{i=1}^{n} X_i^2\\right) = \\frac{1}{n}\\sum_{i=1}^{n} E(X_i^2) = \\frac{1}{n} \\cdot n(\\mu^2 + 1) = \\mu^2 + 1$$\n\nSince $E\\left(\\frac{1}{n}\\sum X_i^2\\right) = \\mu^2 + 1$, the estimator is **unbiased** for $\\mu^2 + 1$. ∎\n\n---\n\n**(b) Regression Analysis:**\n\nLet $x$ = Sales, $y$ = Purchases, $n = 10$\n\n| | $x$ | $y$ | $x^2$ | $y^2$ | $xy$ |\n|---|---|---|---|---|---|\n| Sum | 900 | 700 | 86050 | 52470 | 66470 |\n\n$\\bar{x} = 90, \\quad \\bar{y} = 70$\n\n**Regression of $y$ on $x$ (to estimate purchase when sale = 100):**\n\n$$b_{yx} = \\frac{n\\sum xy - \\sum x \\sum y}{n\\sum x^2 - (\\sum x)^2} = \\frac{10(66470) - 900(700)}{10(86050) - 810000}$$\n\n$$= \\frac{664700 - 630000}{860500 - 810000} = \\frac{34700}{50500} = 0.687$$\n\nRegression line of $y$ on $x$: $y - 70 = 0.687(x - 90)$\n\nWhen $x = 100$: $y = 70 + 0.687(10) = 76.87$\n\n**Result: Estimated purchase when sale = 100 is $\\approx 76.87$**\n\n**Regression of $x$ on $y$ (to find sale when purchase = 60):**\n\n$$b_{xy} = \\frac{n\\sum xy - \\sum x \\sum y}{n\\sum y^2 - (\\sum y)^2} = \\frac{34700}{524700 - 490000} = \\frac{34700}{34700} = 1.0$$\n\nRegression line of $x$ on $y$: $x - 90 = 1.0(y - 70)$\n\nWhen $y = 60$: $x = 90 + 1.0(60 - 70) = 80$\n\n**Result: Required sales for purchase of 60 is $80$**\n\n---\n\n**(c) Definitions:**\n\n**Standard Error:** The standard error of a statistic is the standard deviation of its sampling distribution. If $T$ is a statistic, then $SE(T) = \\sqrt{\\text{Var}(T)}$. For the sample mean: $SE(\\bar{X}) = \\frac{\\sigma}{\\sqrt{n}}$.\n\n**Central Limit Theorem:** If $X_1, X_2, \\ldots, X_n$ are independent and identically distributed random variables with mean $\\mu$ and finite variance $\\sigma^2$, then as $n \\to \\infty$, the distribution of the standardized sample mean:\n\n$$Z = \\frac{\\bar{X} - \\mu}{\\sigma/\\sqrt{n}}$$\n\napproaches the **standard normal distribution** $N(0, 1)$, regardless of the original distribution of the $X_i$'s.",
+      "key_points": [
+        "$E(X^2) = \\text{Var}(X) + [E(X)]^2 = \\sigma^2 + \\mu^2$",
+        "Estimated purchase at sale 100 is $\\approx 76.87$; required sales for purchase 60 is $80$",
+        "CLT: $\\bar{X}$ is approximately normal for large $n$",
+        "Standard Error = S.D. of the sampling distribution"
+      ]
+    },
+    "C2": {
+      "question_number": "C2",
+      "solution": "**(a) Gauss Elimination Method:**\n\nAugmented matrix:\n$$\\left[\\begin{array}{ccc|c} 1 & 1 & 1 & 3 \\\\ 2 & -1 & -1 & 3 \\\\ 1 & -1 & 1 & 9 \\end{array}\\right]$$\n\n**Step 1:** $R_2 \\leftarrow R_2 - 2R_1$, $R_3 \\leftarrow R_3 - R_1$\n$$\\left[\\begin{array}{ccc|c} 1 & 1 & 1 & 3 \\\\ 0 & -3 & -3 & -3 \\\\ 0 & -2 & 0 & 6 \\end{array}\\right]$$\n\n**Step 2:** $R_3 \\leftarrow R_3 - \\frac{2}{3}R_2$\n$$\\left[\\begin{array}{ccc|c} 1 & 1 & 1 & 3 \\\\ 0 & -3 & -3 & -3 \\\\ 0 & 0 & 2 & 8 \\end{array}\\right]$$\n\n**Back substitution:**\n\nFrom Row 3: $2z = 8 \\Rightarrow z = 4$\n\nFrom Row 2: $-3y - 3(4) = -3 \\Rightarrow -3y = 9 \\Rightarrow y = -3$\n\nFrom Row 1: $x + (-3) + 4 = 3 \\Rightarrow x = 2$\n\n**Result (a): $x = 2, y = -3, z = 4$**\n\n---\n\n**(b) LU Factorization Method:**\n\n$$A = \\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 2 \\\\ 1 & 3 & 1 \\end{pmatrix}$$\n\n**Step 1: Find $L$ and $U$**\n\n$U$ (first row) = $[1, 1, 1]$\n\n$L$ (first column): $l_{21} = 1/1 = 1$, $l_{31} = 1/1 = 1$\n\n$U$ (second row): $u_{22} = 2 - 1(1) = 1$, $u_{23} = 2 - 1(1) = 1$\n\n$L$ (second column): $l_{32} = \\frac{3 - 1(1)}{1} = 2$\n\n$U$ (third row): $u_{33} = 1 - 1(1) - 2(1) = -2$\n\n$$L = \\begin{pmatrix} 1 & 0 & 0 \\\\ 1 & 1 & 0 \\\\ 1 & 2 & 1 \\end{pmatrix}, \\quad U = \\begin{pmatrix} 1 & 1 & 1 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & -2 \\end{pmatrix}$$\n\n**Step 2: Solve $LY = B$**\n\n$y_1 = 7$\n$y_2 = 13 - 7 = 6$\n$y_3 = 13 - 7 - 2(6) = -6$\n\n**Step 3: Solve $UX = Y$**\n\n$z = -6/(-2) = 3$\n$y = 6 - 3 = 3$\n$x = 7 - 3 - 3 = 1$\n\n**Result (b): $x = 1, y = 3, z = 3$**\n\n**Verification:** $1 + 3 + 3 = 7$ ✓, $1 + 6 + 6 = 13$ ✓, $1 + 9 + 3 = 13$ ✓",
+      "key_points": [
+        "Gauss Elimination: row reduce to upper triangular form, then back substitute",
+        "Solution (a): $x = 2, y = -3, z = 4$",
+        "LU factorization: decompose $A = LU$, solve $LY = B$ then $UX = Y$",
+        "Solution (b): $x = 1, y = 3, z = 3$"
+      ]
+    },
+    "C3": {
+      "question_number": "C3",
+      "solution": "**(a) Newton-Raphson for $x^3 - 9x + 1 = 0$, root in $(2, 3)$:**\n\n$f(x) = x^3 - 9x + 1$, $f'(x) = 3x^2 - 9$\n\n$f(2) = 8 - 18 + 1 = -9 < 0$\n$f(3) = 27 - 27 + 1 = 1 > 0$\n\nTake $x_0 = 3$ (closer to sign change).\n\n**Iteration 1:**\n$$x_1 = 3 - \\frac{f(3)}{f'(3)} = 3 - \\frac{1}{18} = 3 - 0.0556 = 2.9444$$\n\n**Iteration 2:**\n$f(2.9444) = 25.519 - 26.5 + 1 = 0.019$\n$f'(2.9444) = 26.01 - 9 = 17.01$\n$$x_2 = 2.9444 - \\frac{0.019}{17.01} = 2.9444 - 0.0011 = 2.9433$$\n\n**Iteration 3:**\n$f(2.9433) \\approx 0.0001$ → converged\n\n**Result (a): Root $\\approx 2.94$**\n\n---\n\n**(b) Newton-Raphson for $x^4 - x^3 + 10x + 7 = 0$, root in $(-2, -1)$:**\n\n$f(x) = x^4 - x^3 + 10x + 7$, $f'(x) = 4x^3 - 3x^2 + 10$\n\n$f(-2) = 16 + 8 - 20 + 7 = 11 > 0$\n$f(-1) = 1 + 1 - 10 + 7 = -1 < 0$\n\nTake $x_0 = -1$.\n\n**Iteration 1:**\n$f(-1) = -1$, $f'(-1) = -4 - 3 + 10 = 3$\n$$x_1 = -1 - \\frac{-1}{3} = -1 + 0.3333 = -0.6667$$\n\nHmm, this goes outside the interval. Let's try $x_0 = -1.5$:\n\n$f(-1.5) = 5.0625 + 3.375 - 15 + 7 = 0.4375$\n$f'(-1.5) = -13.5 - 6.75 + 10 = -10.25$\n\n$$x_1 = -1.5 - \\frac{0.4375}{-10.25} = -1.5 + 0.0427 = -1.4573$$\n\n**Iteration 2:**\n$f(-1.4573) = 4.506 + 3.096 - 14.573 + 7 = 0.029$\n$f'(-1.4573) = -12.38 - 6.37 + 10 = -8.75$\n$$x_2 = -1.4573 - \\frac{0.029}{-8.75} = -1.4573 + 0.0033 = -1.4540$$\n\n**Iteration 3:**\n$f(-1.454) \\approx 0.0002$\n$$x_3 \\approx -1.454$$\n\n**Result (b): Root $\\approx -1.454$**",
+      "key_points": [
+        "Root of $x^3 - 9x + 1 = 0$ near 3 is $\\approx 2.94$",
+        "Root of $x^4 - x^3 + 10x + 7 = 0$ near $-1.5$ is $\\approx -1.454$",
+        "Choose initial guess where $|f(x_0)|$ is small for faster convergence",
+        "Newton-Raphson converges quadratically near simple roots"
+      ]
+    },
+    "C4": {
+      "question_number": "C4",
+      "solution": "**(a) Consistency of Sample Variance:**\n\nA sequence of estimators $T_n$ is **consistent** for parameter $\\theta$ if $T_n \\xrightarrow{P} \\theta$ as $n \\to \\infty$.\n\nFor the sample variance $S^2 = \\frac{1}{n}\\sum_{i=1}^{n}(X_i - \\bar{X})^2$ from a normal population $N(\\mu, \\sigma^2)$:\n\n1. $E(S^2) = \\frac{n-1}{n}\\sigma^2 \\to \\sigma^2$ as $n \\to \\infty$ (asymptotically unbiased)\n\n2. $\\text{Var}(S^2) = \\frac{2(n-1)}{n^2}\\sigma^4 \\to 0$ as $n \\to \\infty$\n\nBy **Chebyshev's inequality**, for any $\\epsilon > 0$:\n$$P(|S^2 - \\sigma^2| > \\epsilon) \\leq \\frac{\\text{Var}(S^2) + [E(S^2) - \\sigma^2]^2}{\\epsilon^2} \\to 0$$\n\nTherefore $S^2 \\xrightarrow{P} \\sigma^2$, proving $S^2$ is a consistent estimator of $\\sigma^2$. ∎\n\n---\n\n**(b) MLE of $\\alpha$:**\n\n$f(x) = cx^\\alpha$, $0 \\leq x \\leq 1$\n\nFirst, find $c$: $\\int_0^1 cx^\\alpha\\,dx = 1 \\Rightarrow c \\cdot \\frac{1}{\\alpha + 1} = 1 \\Rightarrow c = \\alpha + 1$\n\n**Likelihood function:**\n$$L(\\alpha) = \\prod_{i=1}^{n} (\\alpha + 1)x_i^\\alpha = (\\alpha + 1)^n \\prod x_i^\\alpha$$\n\n**Log-likelihood:**\n$$\\ln L = n \\ln(\\alpha + 1) + \\alpha \\sum_{i=1}^{n} \\ln x_i$$\n\n**Setting derivative to zero:**\n$$\\frac{d(\\ln L)}{d\\alpha} = \\frac{n}{\\alpha + 1} + \\sum \\ln x_i = 0$$\n\n$$\\frac{n}{\\alpha + 1} = -\\sum \\ln x_i$$\n\n$$\\alpha + 1 = \\frac{n}{-\\sum \\ln x_i} = \\frac{-n}{\\sum \\ln x_i}$$\n\n$$\\boxed{\\hat{\\alpha} = \\frac{-n}{\\sum_{i=1}^{n} \\ln x_i} - 1}$$\n\n---\n\n**(c) Correcting Standard Deviation:**\n\n**Given:** $n = 70$, $\\bar{x}_{\\text{wrong}} = 65$, $\\sigma_{\\text{wrong}} = 5.2$\n\nWrong value: 85. Correct value: 58.\n\n**Correct the sum:**\n$\\sum x_{\\text{wrong}} = 70 \\times 65 = 4550$\n$\\sum x_{\\text{correct}} = 4550 - 85 + 58 = 4523$\n$\\bar{x}_{\\text{correct}} = 4523/70 = 64.614$\n\n**Correct $\\sum x^2$:**\n$\\sigma^2 = \\frac{\\sum x^2}{n} - \\bar{x}^2$\n$27.04 = \\frac{\\sum x^2_{\\text{wrong}}}{70} - 4225$\n$\\sum x^2_{\\text{wrong}} = 70 \\times 4252.04 = 297642.8$\n\n$\\sum x^2_{\\text{correct}} = 297642.8 - 85^2 + 58^2 = 297642.8 - 7225 + 3364 = 293781.8$\n\n$\\sigma^2_{\\text{correct}} = \\frac{293781.8}{70} - (64.614)^2 = 4196.883 - 4174.968 = 21.915$\n\n$\\sigma_{\\text{correct}} = \\sqrt{21.915} \\approx 4.68$\n\n**Result: Correct S.D. $\\approx 4.68$**",
+      "key_points": [
+        "Consistency: $E(S^2) \\to \\sigma^2$ and $\\text{Var}(S^2) \\to 0$ as $n \\to \\infty$",
+        "MLE of $\\alpha$: $\\hat{\\alpha} = -n/\\sum \\ln x_i - 1$",
+        "Correct S.D. by adjusting $\\sum x$ and $\\sum x^2$, then recomputing",
+        "Correct S.D. $\\approx 4.68$"
+      ]
+    },
+    "C5": {
+      "question_number": "C5",
+      "solution": "**(a) Regula-Falsi for $e^{-x} - \\sin x = 0$:**\n\nLet $f(x) = e^{-x} - \\sin x$.\n\n$f(0) = 1 - 0 = 1 > 0$\n$f(1) = 0.3679 - 0.8415 = -0.4736 < 0$\n\nRoot lies in $(0, 1)$.\n\n**Regula-Falsi formula:**\n$$x_n = \\frac{a \\cdot f(b) - b \\cdot f(a)}{f(b) - f(a)}$$\n\n**Iteration 1:** $a = 0, b = 1$\n$$x_1 = \\frac{0(-0.4736) - 1(1)}{-0.4736 - 1} = \\frac{-1}{-1.4736} = 0.6786$$\n\n$f(0.6786) = e^{-0.6786} - \\sin(0.6786) = 0.5074 - 0.6274 = -0.1200 < 0$\n\nRoot in $(0, 0.6786)$ → $a = 0, b = 0.6786$\n\n**Iteration 2:**\n$$x_2 = \\frac{0(-0.12) - 0.6786(1)}{-0.12 - 1} = \\frac{-0.6786}{-1.12} = 0.6059$$\n\n$f(0.6059) = 0.5459 - 0.5688 = -0.0229 < 0$\n\nRoot in $(0, 0.6059)$\n\n**Iteration 3:**\n$$x_3 = \\frac{0(-0.0229) - 0.6059(1)}{-0.0229 - 1} = \\frac{-0.6059}{-1.0229} = 0.5924$$\n\n$f(0.5924) = 0.5530 - 0.5572 = -0.0042 < 0$\n\n**Iteration 4:**\n$$x_4 = \\frac{-0.5924}{-1.0042} = 0.5899$$\n\n$f(0.5899) \\approx -0.0008$\n\n**Iteration 5:**\n$$x_5 \\approx 0.5895$$\n\n**Result (a): Root $\\approx 0.5885$**\n\n---\n\n**(b) Gauss-Seidel for the system:**\n\nRewrite for diagonal dominance — rearrange the equations:\n- $27x + 6y - z = 85$ → $x = \\frac{85 - 6y + z}{27}$\n- $6x + 15y + 2z = 72$ → $y = \\frac{72 - 6x - 2z}{15}$\n- $x + y + 54z = 110$ → $z = \\frac{110 - x - y}{54}$\n\nCheck diagonal dominance:\n- Row 1: $|27| > |6| + |-1|$ → $27 > 7$ ✓\n- Row 2: $|15| > |6| + |2|$ → $15 > 8$ ✓\n- Row 3: $|54| > |1| + |1|$ → $54 > 2$ ✓\n\n**Starting:** $x^{(0)} = 0, y^{(0)} = 0, z^{(0)} = 0$\n\n**Iteration 1:**\n$x^{(1)} = \\frac{85}{27} = 3.1481$\n$y^{(1)} = \\frac{72 - 6(3.1481)}{15} = \\frac{72 - 18.889}{15} = 3.5407$\n$z^{(1)} = \\frac{110 - 3.1481 - 3.5407}{54} = \\frac{103.311}{54} = 1.9132$\n\n**Iteration 2:**\n$x^{(2)} = \\frac{85 - 6(3.5407) + 1.9132}{27} = \\frac{85 - 21.244 + 1.913}{27} = \\frac{65.669}{27} = 2.4322$\n$y^{(2)} = \\frac{72 - 6(2.4322) - 2(1.9132)}{15} = \\frac{72 - 14.593 - 3.826}{15} = \\frac{53.581}{15} = 3.5721$\n$z^{(2)} = \\frac{110 - 2.4322 - 3.5721}{54} = \\frac{103.996}{54} = 1.9259$\n\n**Iteration 3:**\n$x^{(3)} = \\frac{85 - 6(3.5721) + 1.9259}{27} = \\frac{65.493}{27} = 2.4257$\n$y^{(3)} = \\frac{72 - 6(2.4257) - 2(1.9259)}{15} = \\frac{53.595}{15} = 3.5730$\n$z^{(3)} = \\frac{110 - 2.4257 - 3.5730}{54} = \\frac{104.001}{54} = 1.9260$\n\n**Iteration 4:**\nValues stabilize: $x \\approx 2.4253, y \\approx 3.5731, z \\approx 1.9260$\n\n**Result (b): $x \\approx 2.4253, \\; y \\approx 3.5731, \\; z \\approx 1.9260$**",
+      "key_points": [
+        "Root of $e^{-x} - \\sin x = 0$ is approximately $0.5885$",
+        "Rearrange equations for diagonal dominance before applying Gauss-Seidel",
+        "Solution: $x \\approx 2.4253, y \\approx 3.5731, z \\approx 1.9260$",
+        "Gauss-Seidel uses updated values within each iteration step"
+      ]
+    }
+  }
+}
