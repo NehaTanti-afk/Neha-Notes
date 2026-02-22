@@ -1,0 +1,630 @@
+{
+  "subject_code": "CH101",
+  "title": "Sample Question Paper 1",
+  "type": "end_sem",
+  "year": "2025-26",
+  "metadata": {
+    "difficulty": "medium",
+    "modules_covered": [
+      "Module 1",
+      "Module 2",
+      "Module 3",
+      "Module 4"
+    ]
+  },
+  "questions": {
+    "A1": {
+      "group": "A",
+      "number": "A1",
+      "text": "The de Broglie wavelength of a particle with mass $m$ and velocity $v$ is given by:",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "is_preview": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "$\\lambda = \\frac{h}{mv}$"
+        },
+        {
+          "key": "b",
+          "text": "$\\lambda = \\frac{mv}{h}$"
+        },
+        {
+          "key": "c",
+          "text": "$\\lambda = hmv$"
+        },
+        {
+          "key": "d",
+          "text": "$\\lambda = \\frac{h}{mv^2}$"
+        }
+      ]
+    },
+    "A2": {
+      "group": "A",
+      "number": "A2",
+      "text": "According to Heisenberg's uncertainty principle, it is impossible to simultaneously determine the exact:",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Position and velocity of a macroscopic body"
+        },
+        {
+          "key": "b",
+          "text": "Position and momentum of an electron"
+        },
+        {
+          "key": "c",
+          "text": "Energy and time of a macroscopic body"
+        },
+        {
+          "key": "d",
+          "text": "Charge and mass of an electron"
+        }
+      ]
+    },
+    "A3": {
+      "group": "A",
+      "number": "A3",
+      "text": "Which of the following has the highest ionization energy?",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "Na"
+        },
+        {
+          "key": "b",
+          "text": "Mg"
+        },
+        {
+          "key": "c",
+          "text": "Al"
+        },
+        {
+          "key": "d",
+          "text": "Ne"
+        }
+      ]
+    },
+    "A4": {
+      "group": "A",
+      "number": "A4",
+      "text": "Doping silicon with boron produces:",
+      "marks": 1,
+      "co": "CO5",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "n-type semiconductor"
+        },
+        {
+          "key": "b",
+          "text": "p-type semiconductor"
+        },
+        {
+          "key": "c",
+          "text": "Intrinsic semiconductor"
+        },
+        {
+          "key": "d",
+          "text": "Insulator"
+        }
+      ]
+    },
+    "A5": {
+      "group": "A",
+      "number": "A5",
+      "text": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change is:",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$\\Delta G > 0$"
+        },
+        {
+          "key": "b",
+          "text": "$\\Delta G = 0$"
+        },
+        {
+          "key": "c",
+          "text": "$\\Delta G < 0$"
+        },
+        {
+          "key": "d",
+          "text": "$\\Delta G = 1$"
+        }
+      ]
+    },
+    "A6": {
+      "group": "A",
+      "number": "A6",
+      "text": "The efficiency of a Carnot heat engine operating between temperatures $T_1$ (hot) and $T_2$ (cold) is given by:",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "$\\eta = 1 - \\frac{T_1}{T_2}$"
+        },
+        {
+          "key": "b",
+          "text": "$\\eta = 1 - \\frac{T_2}{T_1}$"
+        },
+        {
+          "key": "c",
+          "text": "$\\eta = \\frac{T_1}{T_2}$"
+        },
+        {
+          "key": "d",
+          "text": "$\\eta = \\frac{T_2}{T_1}$"
+        }
+      ]
+    },
+    "A7": {
+      "group": "A",
+      "number": "A7",
+      "text": "In a lithium-ion battery, during discharging, lithium ions move from:",
+      "marks": 1,
+      "co": "CO2",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "Cathode to anode"
+        },
+        {
+          "key": "b",
+          "text": "Anode to cathode"
+        },
+        {
+          "key": "c",
+          "text": "Electrolyte to anode"
+        },
+        {
+          "key": "d",
+          "text": "Cathode to electrolyte"
+        }
+      ]
+    },
+    "A8": {
+      "group": "A",
+      "number": "A8",
+      "text": "Bakelite is an example of:",
+      "marks": 1,
+      "co": "CO1",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Thermoplastic polymer"
+        },
+        {
+          "key": "b",
+          "text": "Elastomer"
+        },
+        {
+          "key": "c",
+          "text": "Thermosetting polymer"
+        },
+        {
+          "key": "d",
+          "text": "Natural polymer"
+        }
+      ]
+    },
+    "A9": {
+      "group": "A",
+      "number": "A9",
+      "text": "Cathodic protection of iron is done by coating it with:",
+      "marks": 1,
+      "co": "CO4",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Copper"
+        },
+        {
+          "key": "b",
+          "text": "Silver"
+        },
+        {
+          "key": "c",
+          "text": "Zinc"
+        },
+        {
+          "key": "d",
+          "text": "Gold"
+        }
+      ]
+    },
+    "A10": {
+      "group": "A",
+      "number": "A10",
+      "text": "The addition of HBr to propene in the presence of peroxide follows:",
+      "marks": 1,
+      "co": "CO3",
+      "bl": "L2",
+      "options": [
+        {
+          "key": "a",
+          "text": "Markovnikov's rule"
+        },
+        {
+          "key": "b",
+          "text": "Anti-Markovnikov's rule"
+        },
+        {
+          "key": "c",
+          "text": "Saytzeff's rule"
+        },
+        {
+          "key": "d",
+          "text": "Hund's rule"
+        }
+      ]
+    },
+    "A11": {
+      "group": "A",
+      "number": "A11",
+      "text": "Lambert-Beer's law relates absorbance to:",
+      "marks": 1,
+      "co": "CO3",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Concentration and path length"
+        },
+        {
+          "key": "b",
+          "text": "Wavelength and temperature"
+        },
+        {
+          "key": "c",
+          "text": "Pressure and volume"
+        },
+        {
+          "key": "d",
+          "text": "Mass and velocity"
+        }
+      ]
+    },
+    "A12": {
+      "group": "A",
+      "number": "A12",
+      "text": "Octane number is a measure of the quality of:",
+      "marks": 1,
+      "co": "CO4",
+      "bl": "L1",
+      "options": [
+        {
+          "key": "a",
+          "text": "Diesel"
+        },
+        {
+          "key": "b",
+          "text": "Petrol (gasoline)"
+        },
+        {
+          "key": "c",
+          "text": "Kerosene"
+        },
+        {
+          "key": "d",
+          "text": "LPG"
+        }
+      ]
+    },
+    "B1": {
+      "group": "B",
+      "number": "B1",
+      "text": "(a) State Slater's rule for calculating effective nuclear charge. [2]\n(b) Calculate the effective nuclear charge ($Z_{\\text{eff}}$) experienced by a 3p electron in Chlorine ($Z = 17$). [3]",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L3",
+      "is_preview": true
+    },
+    "B2": {
+      "group": "B",
+      "number": "B2",
+      "text": "(a) Define entropy and state its physical significance. [2]\n(b) Derive the expression for entropy change of an ideal gas for an isothermal reversible process. [3]",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L2"
+    },
+    "B3": {
+      "group": "B",
+      "number": "B3",
+      "text": "(a) Write the Nernst equation and explain each term. [2]\n(b) Calculate the EMF of the cell: $\\text{Zn}(s) | \\text{Zn}^{2+}(0.01\\text{ M}) || \\text{Cu}^{2+}(1.0\\text{ M}) | \\text{Cu}(s)$ at 298 K. Given: $E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = -0.76\\text{ V}$, $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34\\text{ V}$. [3]",
+      "marks": 5,
+      "co": "CO2",
+      "bl": "L3"
+    },
+    "B4": {
+      "group": "B",
+      "number": "B4",
+      "text": "(a) Distinguish between addition polymerization and condensation polymerization with examples. [3]\n(b) What are biodegradable polymers? Give one example and its use. [2]",
+      "marks": 5,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "B5": {
+      "group": "B",
+      "number": "B5",
+      "text": "(a) What are chromophores and auxochromes? Give one example of each. [3]\n(b) State Lambert-Beer's law and write its mathematical expression. [2]",
+      "marks": 5,
+      "co": "CO3",
+      "bl": "L2"
+    },
+    "C1": {
+      "group": "C",
+      "number": "C1",
+      "text": "(a) State and explain Heisenberg's uncertainty principle. [3]\n(b) Define quantum numbers. Write the four quantum numbers and their significance. [5]\n(c) Write the sets of four quantum numbers for electrons residing in 2p, 3s, and 4d orbitals. [4]\n(d) Explain the variation of ionization energy across a period and down a group in the periodic table. [3]",
+      "marks": 15,
+      "co": "CO1",
+      "bl": "L2",
+      "is_preview": true
+    },
+    "C2": {
+      "group": "C",
+      "number": "C2",
+      "text": "(a) State the first and second laws of thermodynamics. [4]\n(b) Derive the efficiency of a Carnot heat engine. [6]\n(c) Define Gibbs free energy. State the criterion of spontaneity in terms of Gibbs free energy. [5]",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L2"
+    },
+    "C3": {
+      "group": "C",
+      "number": "C3",
+      "text": "(a) Write the cell notation for an electrochemical cell consisting of a Zinc anode and a Copper cathode. Explain each component. [3]\n(b) Derive the relationship between Gibbs free energy and EMF of a cell. [4]\n(c) Explain the working principle and applications of Lithium-ion batteries. [5]\n(d) Calculate the equilibrium constant ($K_c$) for the cell reaction of a Daniell cell at 298 K. Given: $E^\\circ_{\\text{cell}} = 1.10\\text{ V}$, $n = 2$. [3]",
+      "marks": 15,
+      "co": "CO2",
+      "bl": "L3"
+    },
+    "C4": {
+      "group": "C",
+      "number": "C4",
+      "text": "(a) Classify polymers based on their origin, chemical structure, and molecular forces. Give examples. [5]\n(b) Write the synthesis and applications of Bakelite and Nylon 6,6. [5]\n(c) What are conducting polymers? Classify them with examples and mention their applications. [5]",
+      "marks": 15,
+      "co": "CO1",
+      "bl": "L2"
+    },
+    "C5": {
+      "group": "C",
+      "number": "C5",
+      "text": "(a) Explain the electrochemical theory of corrosion with reference to rusting of iron. [5]\n(b) Discuss the factors affecting the rate of corrosion. [5]\n(c) Explain cathodic protection and anodic protection as methods of corrosion control. [5]",
+      "marks": 15,
+      "co": "CO4",
+      "bl": "L2"
+    }
+  },
+  "answers": {
+    "A1": {
+      "question_number": "A1",
+      "correct_option": "a",
+      "solution": "The de Broglie equation relates the wavelength of a particle to its momentum:\n\n$$\\lambda = \\frac{h}{mv} = \\frac{h}{p}$$\n\nwhere:\n- $h$ = Planck's constant ($6.626 \\times 10^{-34}$ J·s)\n- $m$ = mass of the particle\n- $v$ = velocity of the particle\n- $p = mv$ = momentum\n\nThis equation shows that every moving particle has wave-like properties, and the wavelength is **inversely proportional** to momentum.",
+      "key_points": [
+        "de Broglie wavelength: $\\lambda = h/mv$",
+        "Wavelength is inversely proportional to momentum",
+        "Applies to all matter — significant only for microscopic particles"
+      ]
+    },
+    "A2": {
+      "question_number": "A2",
+      "correct_option": "b",
+      "solution": "Heisenberg's uncertainty principle states that it is impossible to simultaneously determine the **exact position and exact momentum** (or velocity) of a microscopic particle like an electron.\n\nMathematically:\n\n$$\\Delta x \\cdot \\Delta p \\geq \\frac{h}{4\\pi}$$\n\nThis is significant for **electrons** (microscopic particles), not macroscopic bodies where the uncertainty is negligibly small.",
+      "key_points": [
+        "Cannot simultaneously know exact position and momentum of an electron",
+        "$\\Delta x \\cdot \\Delta p \\geq h/4\\pi$",
+        "Applies to microscopic particles, not macroscopic bodies"
+      ]
+    },
+    "A3": {
+      "question_number": "A3",
+      "correct_option": "d",
+      "solution": "Noble gases have the **highest ionization energies** in their respective periods because they have completely filled electron shells (very stable configuration).\n\nAmong the given options:\n- Na ($Z=11$): Group 1, low IE\n- Mg ($Z=12$): Group 2, moderate IE\n- Al ($Z=13$): Group 13, lower than Mg\n- **Ne ($Z=10$)**: Noble gas, highest IE\n\nNeon has a completely filled $2p^6$ configuration, making it extremely difficult to remove an electron.",
+      "key_points": [
+        "Noble gases have the highest ionization energy in their period",
+        "Neon has a stable $2p^6$ configuration",
+        "IE generally increases across a period (left to right)"
+      ]
+    },
+    "A4": {
+      "question_number": "A4",
+      "correct_option": "b",
+      "solution": "Boron is a **Group 13 element** with 3 valence electrons. When it replaces a silicon atom (4 valence electrons) in the crystal lattice, it creates a **hole** (electron deficiency).\n\nThis produces a **p-type (positive-type) semiconductor** because:\n- Boron acts as an **acceptor impurity**\n- It creates positive holes as majority charge carriers\n- Electrons are minority carriers\n\nDoping with Group 15 elements (e.g., P, As) produces n-type semiconductors.",
+      "key_points": [
+        "Boron (Group 13) creates holes → p-type semiconductor",
+        "Boron is an acceptor impurity",
+        "Majority carriers are holes in p-type semiconductors"
+      ]
+    },
+    "A5": {
+      "question_number": "A5",
+      "correct_option": "c",
+      "solution": "For a **spontaneous process** at constant temperature and pressure, the Gibbs free energy change must be **negative**:\n\n$$\\Delta G < 0 \\quad \\text{(spontaneous)}$$\n\nOther criteria:\n- $\\Delta G > 0$: Non-spontaneous\n- $\\Delta G = 0$: System at equilibrium\n\nThe relationship is: $\\Delta G = \\Delta H - T\\Delta S$",
+      "key_points": [
+        "$\\Delta G < 0$ for spontaneous process",
+        "$\\Delta G = 0$ at equilibrium",
+        "$\\Delta G = \\Delta H - T\\Delta S$"
+      ]
+    },
+    "A6": {
+      "question_number": "A6",
+      "correct_option": "b",
+      "solution": "The efficiency of a Carnot heat engine is:\n\n$$\\eta = 1 - \\frac{T_2}{T_1}$$\n\nwhere $T_1$ is the temperature of the **hot reservoir** (source) and $T_2$ is the temperature of the **cold reservoir** (sink), both in Kelvin.\n\nKey observations:\n- Efficiency is always less than 1 (100%)\n- Efficiency increases as $T_2$ decreases or $T_1$ increases\n- It depends only on the temperatures, not on the working substance",
+      "key_points": [
+        "Carnot efficiency: $\\eta = 1 - T_2/T_1$",
+        "$T_1$ = hot source, $T_2$ = cold sink (in Kelvin)",
+        "Always less than 100% efficiency"
+      ]
+    },
+    "A7": {
+      "question_number": "A7",
+      "correct_option": "b",
+      "solution": "In a **lithium-ion battery during discharging**:\n- **Lithium ions** ($\\text{Li}^+$) move from the **anode** (typically graphite) to the **cathode** (typically $\\text{LiCoO}_2$) through the electrolyte\n- **Electrons** flow from anode to cathode through the external circuit, generating electric current\n\nDuring **charging**, the process reverses — $\\text{Li}^+$ ions move from cathode back to anode.",
+      "key_points": [
+        "During discharge: Li⁺ moves from anode to cathode",
+        "During charge: Li⁺ moves from cathode to anode",
+        "Electrons flow through external circuit"
+      ]
+    },
+    "A8": {
+      "question_number": "A8",
+      "correct_option": "c",
+      "solution": "**Bakelite** (polyoxybenzylmethylenglycolanhydride) is a **thermosetting polymer** formed by the condensation reaction of phenol with formaldehyde.\n\nProperties of thermosetting polymers:\n- **Cross-linked** three-dimensional structure\n- **Cannot be reshaped** once set (irreversible)\n- Hard and rigid\n- High thermal stability\n\nExamples: Bakelite, melamine, epoxy resins.",
+      "key_points": [
+        "Bakelite = thermosetting polymer (phenol + formaldehyde)",
+        "Cross-linked structure, cannot be remolded",
+        "Hard, rigid, and thermally stable"
+      ]
+    },
+    "A9": {
+      "question_number": "A9",
+      "correct_option": "c",
+      "solution": "In **cathodic protection**, iron is coated with a **more electropositive** (more reactive) metal like **zinc**. This process is called **galvanization**.\n\nWhy zinc works:\n- Zinc ($E^\\circ = -0.76$ V) is more reactive than iron ($E^\\circ = -0.44$ V)\n- Zinc acts as a **sacrificial anode** — it corrodes preferentially\n- Iron becomes the **cathode** and is protected\n\nCopper, silver, and gold are less reactive than iron and would not provide cathodic protection.",
+      "key_points": [
+        "Zinc is used for cathodic protection (galvanization)",
+        "Zinc is more reactive than iron — acts as sacrificial anode",
+        "Iron becomes the cathode and is protected from corrosion"
+      ]
+    },
+    "A10": {
+      "question_number": "A10",
+      "correct_option": "b",
+      "solution": "In the presence of **peroxides** (e.g., benzoyl peroxide), the addition of HBr to propene follows **Anti-Markovnikov's rule** (also called the **Peroxide effect** or **Kharasch effect**).\n\n- Without peroxide: HBr adds following Markovnikov's rule (H to C with more H's)\n- **With peroxide**: Free radical mechanism → Anti-Markovnikov addition (Br adds to the less substituted carbon)\n\n**Note:** The peroxide effect is observed only with **HBr**, not with HCl or HI.",
+      "key_points": [
+        "Peroxide causes Anti-Markovnikov addition of HBr",
+        "Also called Kharasch effect or peroxide effect",
+        "Only works with HBr, not HCl or HI"
+      ]
+    },
+    "A11": {
+      "question_number": "A11",
+      "correct_option": "a",
+      "solution": "**Lambert-Beer's law** states that the absorbance of a solution is directly proportional to the **concentration** of the absorbing substance and the **path length** of the light through the solution.\n\n$$A = \\varepsilon \\cdot c \\cdot l$$\n\nwhere:\n- $A$ = Absorbance\n- $\\varepsilon$ = Molar absorptivity (L mol⁻¹ cm⁻¹)\n- $c$ = Concentration (mol/L)\n- $l$ = Path length (cm)",
+      "key_points": [
+        "Beer-Lambert law: $A = \\varepsilon \\cdot c \\cdot l$",
+        "Absorbance is proportional to concentration and path length",
+        "$\\varepsilon$ = molar absorptivity"
+      ]
+    },
+    "A12": {
+      "question_number": "A12",
+      "correct_option": "b",
+      "solution": "**Octane number** measures the quality (anti-knock property) of **petrol (gasoline)**.\n\n- It is the percentage of **iso-octane** ($\\text{C}_8\\text{H}_{18}$, 2,2,4-trimethylpentane) in a mixture with **n-heptane** ($\\text{C}_7\\text{H}_{16}$) that matches the fuel's knocking behaviour\n- Higher octane number = better quality petrol = less knocking\n\n**Cetane number** is the corresponding measure for **diesel** quality.",
+      "key_points": [
+        "Octane number measures quality of petrol/gasoline",
+        "Higher octane number = less knocking",
+        "Cetane number is for diesel quality"
+      ]
+    },
+    "B1": {
+      "question_number": "B1",
+      "solution": "**(a) Slater's Rule:**\n\nSlater's rule provides a method to calculate the **effective nuclear charge** ($Z_{\\text{eff}}$) experienced by an electron:\n\n$$Z_{\\text{eff}} = Z - \\sigma$$\n\nwhere $Z$ = atomic number and $\\sigma$ = **shielding (screening) constant**.\n\n**Rules for calculating $\\sigma$:**\n1. Write the electronic configuration in groups: (1s)(2s, 2p)(3s, 3p)(3d)(4s, 4p)...\n2. Electrons to the **right** of the electron of interest contribute **0** to $\\sigma$.\n3. Each other electron in the **same group** contributes **0.35** (except 1s, where it is 0.30).\n4. For s and p electrons: each electron in the $(n-1)$ shell contributes **0.85**, and each electron in $(n-2)$ or inner shells contributes **1.00**.\n5. For d and f electrons: each electron in all inner groups contributes **1.00**.\n\n**(b) Calculation for 3p electron of Chlorine ($Z = 17$):**\n\nElectronic configuration: $(1s^2)(2s^2 2p^6)(3s^2 3p^5)$\n\nFor a 3p electron:\n- Same group (3s, 3p): 6 other electrons × 0.35 = **2.10**\n- $(n-1)$ group (2s, 2p): 8 electrons × 0.85 = **6.80**\n- $(n-2)$ group (1s): 2 electrons × 1.00 = **2.00**\n\n$$\\sigma = 2.10 + 6.80 + 2.00 = 10.90$$\n\n$$Z_{\\text{eff}} = Z - \\sigma = 17 - 10.90 = 6.10$$\n\n**Result: $Z_{\\text{eff}} = 6.10$ for a 3p electron in Chlorine.**",
+      "key_points": [
+        "$Z_{\\text{eff}} = Z - \\sigma$ where $\\sigma$ = shielding constant",
+        "Same group electrons contribute 0.35, (n-1) shell 0.85, inner shells 1.00",
+        "$Z_{\\text{eff}}$ for 3p electron of Cl = 6.10"
+      ]
+    },
+    "B2": {
+      "question_number": "B2",
+      "solution": "**(a) Entropy and its Physical Significance:**\n\n**Entropy ($S$)** is a thermodynamic state function that measures the **degree of randomness or disorder** of a system.\n\nPhysical significance:\n- Entropy quantifies the **unavailable energy** in a system — energy that cannot be converted into useful work\n- It measures the number of **microstates** ($W$) available to a system: $S = k_B \\ln W$ (Boltzmann equation)\n- Nature tends towards **maximum entropy** (Second Law of Thermodynamics)\n\n**(b) Entropy change for isothermal reversible process (ideal gas):**\n\nFor an ideal gas undergoing an **isothermal reversible** expansion from volume $V_1$ to $V_2$:\n\nFrom the first law: $dU = \\delta q - \\delta w$\n\nFor an ideal gas at constant temperature: $dU = 0$, so $\\delta q_{\\text{rev}} = \\delta w = PdV$\n\nSince $PV = nRT$ and $P = nRT/V$:\n\n$$\\delta q_{\\text{rev}} = \\frac{nRT}{V} dV$$\n\nEntropy change:\n\n$$\\Delta S = \\int \\frac{\\delta q_{\\text{rev}}}{T} = \\int_{V_1}^{V_2} \\frac{nR}{V} dV$$\n\n$$\\Delta S = nR \\ln\\frac{V_2}{V_1}$$\n\nSince $P_1V_1 = P_2V_2$ at constant temperature:\n\n$$\\Delta S = nR \\ln\\frac{V_2}{V_1} = nR \\ln\\frac{P_1}{P_2}$$\n\n**For expansion** ($V_2 > V_1$): $\\Delta S > 0$ (entropy increases).",
+      "key_points": [
+        "Entropy measures randomness/disorder of a system",
+        "$\\Delta S = nR \\ln(V_2/V_1)$ for isothermal reversible process",
+        "Entropy increases during expansion of an ideal gas"
+      ]
+    },
+    "B3": {
+      "question_number": "B3",
+      "solution": "**(a) Nernst Equation:**\n\nThe Nernst equation relates the EMF of a cell to the standard electrode potential and the concentrations of the species involved:\n\n$$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{RT}{nF} \\ln Q$$\n\nAt 298 K, this simplifies to:\n\n$$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0592}{n} \\log Q$$\n\nwhere:\n- $E_{\\text{cell}}$ = cell EMF under non-standard conditions\n- $E^\\circ_{\\text{cell}}$ = standard cell EMF\n- $R$ = gas constant (8.314 J/mol·K)\n- $T$ = temperature in Kelvin\n- $n$ = number of electrons transferred\n- $F$ = Faraday's constant (96485 C/mol)\n- $Q$ = reaction quotient\n\n**(b) EMF Calculation:**\n\nCell: $\\text{Zn}(s) | \\text{Zn}^{2+}(0.01\\text{ M}) || \\text{Cu}^{2+}(1.0\\text{ M}) | \\text{Cu}(s)$\n\nStandard cell EMF:\n\n$$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = (+0.34) - (-0.76) = 1.10 \\text{ V}$$\n\nReaction: $\\text{Zn} + \\text{Cu}^{2+} \\rightarrow \\text{Zn}^{2+} + \\text{Cu}$, $n = 2$\n\nReaction quotient:\n\n$$Q = \\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = \\frac{0.01}{1.0} = 0.01$$\n\nApplying Nernst equation:\n\n$$E_{\\text{cell}} = 1.10 - \\frac{0.0592}{2} \\log(0.01)$$\n\n$$E_{\\text{cell}} = 1.10 - \\frac{0.0592}{2} \\times (-2) = 1.10 + 0.0592 = 1.1592 \\text{ V}$$\n\n**Result: $E_{\\text{cell}} = 1.16$ V (approx.)**",
+      "key_points": [
+        "Nernst equation: $E = E^\\circ - (0.0592/n) \\log Q$ at 298 K",
+        "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}$",
+        "Calculated EMF = 1.16 V"
+      ]
+    },
+    "B4": {
+      "question_number": "B4",
+      "solution": "**(a) Addition vs. Condensation Polymerization:**\n\n| Feature | Addition Polymerization | Condensation Polymerization |\n|---------|------------------------|----------------------------|\n| Mechanism | Monomers add without loss of atoms | Monomers join with elimination of small molecules (H₂O, HCl) |\n| Monomer type | Unsaturated monomers (C=C) | Bifunctional/polyfunctional monomers |\n| By-product | No by-product | Small molecule eliminated (e.g., water) |\n| Molecular weight | Very high | Relatively lower |\n| Example | Polyethylene (from ethylene) | Nylon 6,6 (from hexamethylenediamine + adipic acid) |\n\n**(b) Biodegradable Polymers:**\n\n**Biodegradable polymers** are polymers that can be **decomposed by microorganisms** (bacteria, fungi) into natural substances like water, carbon dioxide, and biomass.\n\n**Example:** Poly(lactic acid) — **PLA**\n- Derived from renewable resources (corn starch, sugarcane)\n- Uses: Food packaging, disposable cutlery, medical sutures, drug delivery systems\n- Degrades within months to years under composting conditions",
+      "key_points": [
+        "Addition: no by-product, unsaturated monomers (e.g., polyethylene)",
+        "Condensation: eliminates small molecules, bifunctional monomers (e.g., Nylon 6,6)",
+        "Biodegradable polymers decompose naturally — e.g., PLA from corn starch"
+      ]
+    },
+    "B5": {
+      "question_number": "B5",
+      "solution": "**(a) Chromophores and Auxochromes:**\n\n**Chromophore:** A functional group (covalently unsaturated) that is responsible for **absorption of UV-Visible radiation**. It causes electronic transitions ($\\pi \\to \\pi^*$, $n \\to \\pi^*$).\n- Example: $\\text{C=C}$ (ethylenic), $\\text{C=O}$ (carbonyl), $\\text{N=N}$ (azo), $\\text{NO}_2$ (nitro)\n\n**Auxochrome:** A functional group that **does not absorb UV-Visible light by itself**, but when attached to a chromophore, it **shifts the absorption to longer wavelength** (bathochromic shift / red shift) and **increases intensity**.\n- Example: $-\\text{OH}$ (hydroxyl), $-\\text{NH}_2$ (amino), $-\\text{OR}$ (alkoxy), $-\\text{Cl}$ (halogen)\n\nFor instance, benzene absorbs at 255 nm, but aniline ($\\text{C}_6\\text{H}_5\\text{NH}_2$) absorbs at 280 nm — the $-\\text{NH}_2$ auxochrome extends the absorption.\n\n**(b) Lambert-Beer's Law:**\n\n**Statement:** When a beam of monochromatic light passes through a homogeneous absorbing medium, the **absorbance** is directly proportional to the **concentration** of the absorbing species and the **path length** of the light.\n\nMathematical expression:\n\n$$A = \\varepsilon \\cdot c \\cdot l$$\n\nwhere $A$ = absorbance (optical density), $\\varepsilon$ = molar absorptivity (L mol⁻¹ cm⁻¹), $c$ = concentration (mol/L), and $l$ = path length (cm).\n\nAlternatively: $A = \\log(I_0/I)$, where $I_0$ = incident light intensity and $I$ = transmitted light intensity.",
+      "key_points": [
+        "Chromophore: absorbs UV-Vis light (e.g., C=O, C=C, N=N)",
+        "Auxochrome: enhances absorption when attached to chromophore (e.g., -OH, -NH₂)",
+        "Beer-Lambert law: $A = \\varepsilon \\cdot c \\cdot l$"
+      ]
+    },
+    "C1": {
+      "question_number": "C1",
+      "solution": "**(a) Heisenberg's Uncertainty Principle:**\n\n**Statement:** It is impossible to simultaneously determine the exact **position** and exact **momentum** of a microscopic particle (like an electron) with absolute certainty.\n\nMathematically:\n\n$$\\Delta x \\cdot \\Delta p \\geq \\frac{h}{4\\pi}$$\n\nwhere:\n- $\\Delta x$ = uncertainty in position\n- $\\Delta p$ = uncertainty in momentum ($= m \\cdot \\Delta v$)\n- $h$ = Planck's constant ($6.626 \\times 10^{-34}$ J·s)\n\n**Explanation:** The more precisely we know the position of an electron, the less precisely we can know its momentum, and vice versa. This is not a limitation of measurement instruments but a **fundamental property of nature** at the quantum scale. It arises because observing a particle (e.g., by shining light) inherently disturbs it.\n\n**(b) Quantum Numbers:**\n\nQuantum numbers are a set of **four numbers** that completely describe the state of an electron in an atom.\n\n**1. Principal Quantum Number ($n$):**\n- Values: 1, 2, 3, 4, ...\n- Significance: Determines the **main energy level** (shell) and the **size** of the orbital\n- Higher $n$ = larger orbital, higher energy\n\n**2. Azimuthal (Angular Momentum) Quantum Number ($l$):**\n- Values: 0 to $(n-1)$\n- Significance: Determines the **shape** of the orbital and the **subshell**\n- $l = 0$ (s), $l = 1$ (p), $l = 2$ (d), $l = 3$ (f)\n\n**3. Magnetic Quantum Number ($m_l$):**\n- Values: $-l$ to $+l$ (including 0)\n- Significance: Determines the **orientation** of the orbital in space\n- Number of orientations = $2l + 1$\n\n**4. Spin Quantum Number ($m_s$):**\n- Values: $+\\frac{1}{2}$ or $-\\frac{1}{2}$\n- Significance: Describes the **direction of spin** of the electron (clockwise or anticlockwise)\n\n**(c) Quantum Number Sets:**\n\n**For 2p electrons:**\n- $n = 2$, $l = 1$, $m_l = -1, 0, +1$, $m_s = \\pm\\frac{1}{2}$\n- Possible sets: $(2, 1, -1, +\\frac{1}{2})$, $(2, 1, -1, -\\frac{1}{2})$, $(2, 1, 0, +\\frac{1}{2})$, $(2, 1, 0, -\\frac{1}{2})$, $(2, 1, +1, +\\frac{1}{2})$, $(2, 1, +1, -\\frac{1}{2})$\n\n**For 3s electrons:**\n- $n = 3$, $l = 0$, $m_l = 0$, $m_s = \\pm\\frac{1}{2}$\n- Possible sets: $(3, 0, 0, +\\frac{1}{2})$, $(3, 0, 0, -\\frac{1}{2})$\n\n**For 4d electrons:**\n- $n = 4$, $l = 2$, $m_l = -2, -1, 0, +1, +2$, $m_s = \\pm\\frac{1}{2}$\n- Example sets: $(4, 2, -2, +\\frac{1}{2})$, $(4, 2, -1, +\\frac{1}{2})$, $(4, 2, 0, +\\frac{1}{2})$, etc.\n\n**(d) Variation of Ionization Energy:**\n\n**Across a period (left to right):**\n- Ionization energy generally **increases** across a period\n- Reason: Nuclear charge increases while shielding effect remains nearly constant → electrons are held more tightly\n- Exceptions: slight dip at Group 3 (e.g., B < Be) due to removal from higher-energy 2p orbital, and at Group 6 (e.g., O < N) due to electron pairing in 2p\n\n**Down a group (top to bottom):**\n- Ionization energy generally **decreases** down a group\n- Reason: Atomic size increases, outermost electron is farther from the nucleus → easier to remove\n- Increased shielding from inner electron shells also reduces effective nuclear charge on the valence electron",
+      "key_points": [
+        "Uncertainty principle: $\\Delta x \\cdot \\Delta p \\geq h/4\\pi$",
+        "Four quantum numbers: $n$ (shell), $l$ (shape), $m_l$ (orientation), $m_s$ (spin)",
+        "IE increases across period, decreases down a group",
+        "Quantum numbers fully describe the state of an electron"
+      ]
+    },
+    "C2": {
+      "question_number": "C2",
+      "solution": "**(a) Laws of Thermodynamics:**\n\n**First Law of Thermodynamics (Law of Conservation of Energy):**\nEnergy can neither be created nor destroyed; it can only be converted from one form to another. For a closed system:\n\n$$\\Delta U = q + w$$\n\nwhere $\\Delta U$ = change in internal energy, $q$ = heat absorbed by the system, and $w$ = work done on the system.\n\nFor an infinitesimal change: $dU = \\delta q + \\delta w$\n\n**Second Law of Thermodynamics:**\nSeveral equivalent statements:\n- **Kelvin-Planck statement:** It is impossible to construct a heat engine that converts all the heat absorbed from a source completely into work without any rejection of heat to a sink.\n- **Clausius statement:** Heat cannot flow spontaneously from a colder body to a hotter body without external work being done.\n- **Entropy statement:** The entropy of an isolated system always increases for spontaneous processes: $\\Delta S_{\\text{universe}} > 0$.\n\n**(b) Derivation — Efficiency of Carnot Heat Engine:**\n\nA Carnot engine operates between a hot reservoir at temperature $T_1$ and a cold reservoir at temperature $T_2$, using a reversible cycle consisting of four steps:\n\n**Step 1: Isothermal expansion** (A → B) at temperature $T_1$\n- Gas absorbs heat $Q_1$ from hot reservoir\n- Work done by gas: $W_1 = nRT_1 \\ln\\frac{V_B}{V_A}$\n- So $Q_1 = nRT_1 \\ln\\frac{V_B}{V_A}$\n\n**Step 2: Adiabatic expansion** (B → C) from $T_1$ to $T_2$\n- No heat exchange ($Q = 0$)\n- $T_1 V_B^{\\gamma-1} = T_2 V_C^{\\gamma-1}$ ... (i)\n\n**Step 3: Isothermal compression** (C → D) at temperature $T_2$\n- Gas rejects heat $Q_2$ to cold reservoir\n- $Q_2 = nRT_2 \\ln\\frac{V_C}{V_D}$\n\n**Step 4: Adiabatic compression** (D → A) from $T_2$ to $T_1$\n- No heat exchange ($Q = 0$)\n- $T_2 V_D^{\\gamma-1} = T_1 V_A^{\\gamma-1}$ ... (ii)\n\nDividing equation (i) by (ii):\n\n$$\\frac{V_B}{V_A} = \\frac{V_C}{V_D}$$\n\nNet work done by the engine:\n\n$$W = Q_1 - Q_2 = nR(T_1 - T_2) \\ln\\frac{V_B}{V_A}$$\n\n**Efficiency:**\n\n$$\\eta = \\frac{W}{Q_1} = \\frac{Q_1 - Q_2}{Q_1} = 1 - \\frac{Q_2}{Q_1}$$\n\n$$\\eta = 1 - \\frac{nRT_2 \\ln(V_C/V_D)}{nRT_1 \\ln(V_B/V_A)} = 1 - \\frac{T_2}{T_1}$$\n\n$$\\boxed{\\eta = 1 - \\frac{T_2}{T_1}}$$\n\n**(c) Gibbs Free Energy and Criterion of Spontaneity:**\n\n**Gibbs Free Energy ($G$):** It is a thermodynamic potential that measures the maximum amount of **useful (non-expansion) work** obtainable from a system at constant temperature and pressure.\n\n$$G = H - TS$$\n\nwhere $H$ = enthalpy, $T$ = temperature, and $S$ = entropy.\n\nFor a process at constant $T$ and $P$:\n\n$$\\Delta G = \\Delta H - T\\Delta S$$\n\n**Criterion of spontaneity:**\n\n| $\\Delta H$ | $\\Delta S$ | $\\Delta G$ | Spontaneity |\n|-----------|-----------|-----------|-------------|\n| Negative (−) | Positive (+) | Always negative | **Spontaneous at all temperatures** |\n| Negative (−) | Negative (−) | Negative at low T | Spontaneous at **low temperature** |\n| Positive (+) | Positive (+) | Negative at high T | Spontaneous at **high temperature** |\n| Positive (+) | Negative (−) | Always positive | **Non-spontaneous at all temperatures** |\n\n- $\\Delta G < 0$: Spontaneous (thermodynamically favorable)\n- $\\Delta G = 0$: System at equilibrium\n- $\\Delta G > 0$: Non-spontaneous (requires external energy)",
+      "key_points": [
+        "First law: $\\Delta U = q + w$ (energy conservation)",
+        "Second law: entropy of universe always increases for spontaneous processes",
+        "Carnot efficiency: $\\eta = 1 - T_2/T_1$",
+        "Gibbs free energy: $\\Delta G = \\Delta H - T\\Delta S$; $\\Delta G < 0$ for spontaneous process"
+      ]
+    },
+    "C3": {
+      "question_number": "C3",
+      "solution": "**(a) Cell Notation for Zn-Cu Cell:**\n\n$$\\text{Zn}(s) | \\text{Zn}^{2+}(aq) || \\text{Cu}^{2+}(aq) | \\text{Cu}(s)$$\n\n**Components explained:**\n- **Zn(s)**: Zinc electrode (anode — oxidation occurs here)\n- **Single vertical line** $|$: Phase boundary (solid/solution interface)\n- **Zn²⁺(aq)**: Zinc sulfate solution (anolyte)\n- **Double vertical line** $||$: Salt bridge (allows ion flow, maintains electrical neutrality)\n- **Cu²⁺(aq)**: Copper sulfate solution (catholyte)\n- **Cu(s)**: Copper electrode (cathode — reduction occurs here)\n\n**Convention:** Anode (oxidation) is written on the **left**, cathode (reduction) on the **right**.\n\n**(b) Relationship between Gibbs Free Energy and EMF:**\n\nThe electrical work done by a cell equals the decrease in Gibbs free energy:\n\n$$W_{\\text{electrical}} = nFE_{\\text{cell}}$$\n\nAt constant temperature and pressure, the maximum useful work equals $-\\Delta G$:\n\n$$-\\Delta G = nFE_{\\text{cell}}$$\n\n$$\\boxed{\\Delta G = -nFE_{\\text{cell}}}$$\n\nwhere:\n- $n$ = number of moles of electrons transferred\n- $F$ = Faraday's constant (96485 C/mol)\n- $E_{\\text{cell}}$ = EMF of the cell\n\nFor standard conditions: $\\Delta G^\\circ = -nFE^\\circ_{\\text{cell}}$\n\n**Implications:**\n- If $E_{\\text{cell}} > 0$, then $\\Delta G < 0$ → cell reaction is **spontaneous**\n- If $E_{\\text{cell}} < 0$, then $\\Delta G > 0$ → reaction is **non-spontaneous**\n\n**(c) Lithium-Ion Batteries:**\n\n**Working Principle:**\n\nLithium-ion batteries are **rechargeable electrochemical cells** that work on the principle of **intercalation** — lithium ions move between anode and cathode through the electrolyte.\n\n**Components:**\n- **Anode:** Graphite ($\\text{LiC}_6$) — stores lithium by intercalation\n- **Cathode:** Lithium metal oxide (e.g., $\\text{LiCoO}_2$, $\\text{LiMnO}_2$, $\\text{LiFePO}_4$)\n- **Electrolyte:** Lithium salt (e.g., $\\text{LiPF}_6$) in organic solvent\n- **Separator:** Porous membrane that prevents short circuit\n\n**During discharging:**\n- Anode: $\\text{LiC}_6 \\rightarrow \\text{Li}^+ + e^- + \\text{C}_6$ (oxidation)\n- Cathode: $\\text{Li}^+ + e^- + \\text{CoO}_2 \\rightarrow \\text{LiCoO}_2$ (reduction)\n- Li⁺ ions flow from anode to cathode through electrolyte\n\n**During charging:** The process reverses with external power supply.\n\n**Applications:**\n- Mobile phones and laptops\n- Electric vehicles (EVs)\n- Energy storage systems (solar/wind)\n- Medical devices (pacemakers)\n- Power tools\n\n**(d) Calculation of Equilibrium Constant ($K_c$):**\n\nGiven: $E^\\circ_{\\text{cell}} = 1.10$ V, $n = 2$, $T = 298$ K\n\nUsing the relationship:\n\n$$\\Delta G^\\circ = -nFE^\\circ_{\\text{cell}} = -RT \\ln K_c$$\n\n$$\\ln K_c = \\frac{nFE^\\circ_{\\text{cell}}}{RT}$$\n\nConverting to $\\log_{10}$:\n\n$$\\log K_c = \\frac{nE^\\circ_{\\text{cell}}}{0.0592} = \\frac{2 \\times 1.10}{0.0592} = \\frac{2.20}{0.0592} = 37.16$$\n\n$$K_c = 10^{37.16} \\approx 1.45 \\times 10^{37}$$\n\n**Result: $K_c \\approx 1.45 \\times 10^{37}$** — the very large value indicates the reaction strongly favors products at equilibrium.",
+      "key_points": [
+        "Cell notation: Anode (left) || Cathode (right)",
+        "$\\Delta G = -nFE_{\\text{cell}}$",
+        "Li-ion batteries work by intercalation of Li⁺ ions",
+        "$K_c \\approx 1.45 \\times 10^{37}$ for Daniell cell"
+      ]
+    },
+    "C4": {
+      "question_number": "C4",
+      "solution": "**(a) Classification of Polymers:**\n\n**1. Based on Origin:**\n\n| Type | Description | Example |\n|------|-------------|----------|\n| Natural | Occur in nature | Starch, cellulose, natural rubber, proteins |\n| Synthetic | Man-made in laboratories | Polyethylene, PVC, Nylon, Teflon |\n| Semi-synthetic | Chemical modification of natural polymers | Cellulose acetate (rayon), vulcanized rubber |\n\n**2. Based on Chemical Structure:**\n\n| Type | Description | Example |\n|------|-------------|----------|\n| Organic | Backbone of carbon atoms | Polyethylene, polystyrene |\n| Inorganic | Backbone of non-carbon atoms | Silicones (Si-O backbone), polyphosphazenes |\n\n**3. Based on Molecular Forces (Inter-molecular):**\n\n| Type | Forces | Properties | Example |\n|------|--------|------------|----------|\n| Elastomers | Weak van der Waals | Elastic, can stretch | Natural rubber, neoprene |\n| Fibres | Strong H-bonding | High tensile strength, crystalline | Nylon, polyester |\n| Thermoplastics | Moderate intermolecular | Soften on heating, remoldable | Polyethylene, PVC |\n| Thermosetting | Strong covalent (cross-linked) | Hard, cannot be remolded | Bakelite, epoxy |\n\n**(b) Synthesis and Applications:**\n\n**Bakelite (Phenol-Formaldehyde Resin):**\n\n*Synthesis:* Condensation polymerization of **phenol** ($\\text{C}_6\\text{H}_5\\text{OH}$) with **formaldehyde** ($\\text{HCHO}$) in the presence of an acid or base catalyst.\n\n$$n(\\text{C}_6\\text{H}_5\\text{OH}) + n(\\text{HCHO}) \\xrightarrow{\\text{catalyst}} \\text{Bakelite} + n(\\text{H}_2\\text{O})$$\n\nThe reaction proceeds through a **novolac** intermediate (linear) which on further heating with formaldehyde forms a **cross-linked** 3D network.\n\n*Applications:*\n- Electrical switches, plugs, and sockets (excellent insulator)\n- Kitchenware handles (heat resistant)\n- Automotive parts (brake pads, distributor caps)\n- Coatings for metals and wood\n\n**Nylon 6,6:**\n\n*Synthesis:* Condensation polymerization of **hexamethylenediamine** ($\\text{H}_2\\text{N}-(\\text{CH}_2)_6-\\text{NH}_2$) with **adipic acid** ($\\text{HOOC}-(\\text{CH}_2)_4-\\text{COOH}$) at high temperature.\n\n$$n(\\text{H}_2\\text{N}-(\\text{CH}_2)_6-\\text{NH}_2) + n(\\text{HOOC}-(\\text{CH}_2)_4-\\text{COOH}) \\rightarrow \\text{Nylon 6,6} + 2n(\\text{H}_2\\text{O})$$\n\nThe name \"6,6\" refers to **6 carbon atoms** in each monomer (diamine and diacid).\n\n*Applications:*\n- Textile fibres (clothing, stockings)\n- Ropes and tire cords\n- Gears and bearings\n- Parachute fabrics\n- Surgical sutures\n\n**(c) Conducting Polymers:**\n\n**Conducting polymers** are organic polymers that can conduct electricity. They have **conjugated double bonds** (alternating single and double bonds) along the backbone that allow electron delocalization.\n\n**Types:**\n\n| Type | Mechanism | Example |\n|------|-----------|----------|\n| Intrinsically conducting | Conjugated $\\pi$-electron system along backbone | Polyacetylene, polyaniline, polypyrrole |\n| Extrinsically conducting | Conducting fillers added to insulating polymer | Carbon-black-filled polyethylene |\n\n**Doping** is essential for high conductivity — adding oxidizing agents (p-doping, e.g., $\\text{I}_2$, $\\text{AsF}_5$) or reducing agents (n-doping, e.g., Na, K) dramatically increases conductivity.\n\n**Applications:**\n- **Rechargeable batteries** and supercapacitors\n- **Antistatic coatings** for electronic devices\n- **Light-emitting diodes (LEDs)** — organic LEDs (OLEDs)\n- **Solar cells** (organic photovoltaics)\n- **Electromagnetic shielding**\n- **Chemical sensors and biosensors**\n- **Corrosion protection** coatings",
+      "key_points": [
+        "Polymers classified by origin, chemical structure, and molecular forces",
+        "Bakelite: phenol + formaldehyde → thermosetting, cross-linked",
+        "Nylon 6,6: hexamethylenediamine + adipic acid → condensation polymer",
+        "Conducting polymers have conjugated π-systems; doping enhances conductivity"
+      ]
+    },
+    "C5": {
+      "question_number": "C5",
+      "solution": "**(a) Electrochemical Theory of Corrosion — Rusting of Iron:**\n\nCorrosion of iron (rusting) is an **electrochemical process** that occurs in the presence of moisture and oxygen. The metal surface acts as a short-circuited electrochemical cell with **anodic** and **cathodic** regions.\n\n**At the anodic region** (where corrosion occurs):\n\n$$\\text{Fe}(s) \\rightarrow \\text{Fe}^{2+}(aq) + 2e^- \\quad (E^\\circ = -0.44 \\text{ V})$$\n\nIron is oxidized and dissolves.\n\n**At the cathodic region** (in neutral/slightly acidic aerobic conditions):\n\n$$\\text{O}_2 + 2\\text{H}_2\\text{O} + 4e^- \\rightarrow 4\\text{OH}^- \\quad (E^\\circ = +0.40 \\text{ V})$$\n\n**Overall reaction:**\n\n$$2\\text{Fe} + \\text{O}_2 + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{Fe(OH)}_2$$\n\nFerrous hydroxide is further oxidized by atmospheric oxygen:\n\n$$4\\text{Fe(OH)}_2 + \\text{O}_2 \\rightarrow 2[\\text{Fe}_2\\text{O}_3 \\cdot 3\\text{H}_2\\text{O}]$$\n\nThis hydrated ferric oxide ($\\text{Fe}_2\\text{O}_3 \\cdot x\\text{H}_2\\text{O}$) is the **rust** — a reddish-brown, porous, and non-protective layer that flakes off, exposing fresh metal to further corrosion.\n\n**(b) Factors Affecting the Rate of Corrosion:**\n\n**Nature of Metal:**\n\n1. **Physical state:** Metals under stress, strained, or at grain boundaries corrode faster than annealed (stress-free) metals\n2. **Purity:** Impure metals corrode faster because impurities create local galvanic cells. Pure metals are more resistant\n3. **Position in galvanic series:** The farther apart two metals are in the galvanic series, the faster the more active (anodic) metal corrodes. Metals higher in the series (more active) corrode preferentially\n4. **Relative areas of anode and cathode:** A small anodic area with a large cathodic area leads to **intense, localized corrosion** (pitting). A large anode with small cathode gives slower, uniform corrosion\n\n**Nature of Environment:**\n\n1. **Moisture/humidity:** Higher humidity increases corrosion rate — water acts as the electrolyte\n2. **Temperature:** Higher temperature generally accelerates corrosion (increased reaction rates)\n3. **Presence of dissolved gases:** $\\text{O}_2$, $\\text{CO}_2$, $\\text{SO}_2$ in water increase corrosion. Dissolved oxygen is the primary cathodic depolarizer\n4. **pH:** Acidic environments accelerate corrosion; alkaline conditions can be protective for some metals\n5. **Presence of salts/electrolytes:** Dissolved salts increase conductivity of the electrolyte, accelerating corrosion (e.g., seawater corrodes faster than freshwater)\n\n**(c) Corrosion Control Methods:**\n\n**Cathodic Protection:**\n\nMaking the metal to be protected the **cathode** of an electrochemical cell.\n\n*Method 1: Sacrificial Anode Method*\n- A more **electropositive (active)** metal (e.g., Zn, Mg, Al) is connected to the structure\n- The sacrificial anode corrodes preferentially while the protected metal remains intact\n- Example: Zinc blocks attached to ship hulls, underground pipelines\n\n*Method 2: Impressed Current Method*\n- An external DC power source forces the protected metal to become the cathode\n- An inert anode (graphite, platinum) is used\n- Used for large structures like bridges, storage tanks, pipelines\n\n**Anodic Protection:**\n\nApplying a **controlled external potential** to the metal to form a thin, stable, passive **oxide layer** on its surface. This oxide film acts as a barrier and prevents further corrosion.\n\n- The metal is made the **anode** in an electrochemical cell\n- A small controlled current maintains the passive film\n- Effective for metals that form stable oxide layers (e.g., stainless steel, titanium)\n- Used for protecting storage tanks containing corrosive chemicals (sulfuric acid, phosphoric acid)\n\n**Inorganic Coatings:**\n\n1. **Galvanization:** Coating iron/steel with a layer of **zinc** by hot-dipping. Even if scratched, zinc corrodes preferentially (sacrificial protection)\n2. **Tinning:** Coating with **tin** — provides barrier protection. If scratched, iron corrodes faster (tin is cathodic to iron)\n3. **Phosphating:** Treating metal surface with phosphoric acid solution to form an insoluble iron/zinc phosphate layer — used as a base for paint\n4. **Chromate coating:** Immersion in chromate solution forms a thin protective chromium oxide film",
+      "key_points": [
+        "Rusting: Fe oxidized at anode, O₂ reduced at cathode → Fe₂O₃·xH₂O (rust)",
+        "Factors: purity, galvanic series position, moisture, O₂, pH, electrolytes",
+        "Cathodic protection: sacrificial anode or impressed current method",
+        "Anodic protection: controlled potential forms passive oxide layer",
+        "Inorganic coatings: galvanization, tinning, phosphating, chromating"
+      ]
+    }
+  }
+}
